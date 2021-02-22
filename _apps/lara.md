@@ -15,7 +15,7 @@ possible functions, the structural alignment of RNAs is an essential task, which
 resources and efficient algorithms. Some secondary structures contain overlapping interactions (called pseudoknots), 
 which add additional complexity to the problem and are often ignored in available software.
 
-**Tool Description**: LaRA (Lagrangian Relaxed structural Alignments) is a tool for computing pairwise 
+**Tool Description**: LaRA (**La**grangian **R**elaxed structural **A**lignments) is a tool for computing pairwise 
 sequence-structure alignments and can be extended with T-Coffee or MAFFT in order to compute structural alignments 
 of more than two structured RNA sequences. It is significantly faster than comparable software for accurate 
 structural alignments due to its efficient implementation that uses multi-threading and SIMD vectorization. 
