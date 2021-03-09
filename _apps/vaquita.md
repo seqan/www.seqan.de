@@ -18,12 +18,12 @@ and our understanding of SVs is substantially limited. In general, integration o
 split-read, read-pair, soft-clip, and read-depth yields the best result regarding accuracy. However, doing this step by
 step is usually cumbersome and computationally expensive.
 
-**Result**: We present Vaquita, an accurate and fast tool for the identification of structural vari- ations, which
+**Result**: We present Vaquita, an accurate and fast tool for the identification of structural variations, which
 leverages all four types of evidence in a single program. After merging SVs from split-reads and discordant read-pairs,
-Vaquita realigns the soft-clipped reads to the selected re- gions using a fast bit-vector algorithm. Furthermore, it
+Vaquita realigns the soft-clipped reads to the selected regions using a fast bit-vector algorithm. Furthermore, it
 also considers the discrepancy of depth distribution around breakpoints using Kullback-Leibler divergence. Finally,
 Vaquita provides an additional metric for candidate selection based on voting, and also provides robust prioritization
-based on rank aggregation. We show that Vaquita is robust in terms of sequencing coverage, in- sertion size of the
+based on rank aggregation. We show that Vaquita is robust in terms of sequencing coverage, insertion size of the
 library, and read length, and is comparable or even better for the identification of deletions, inversions,
 duplications, and translocations than state-of-the-art tools, using both simulated and real datasets. In addition,
 Vaquita is more than eight times faster than any other tools in comparison.
