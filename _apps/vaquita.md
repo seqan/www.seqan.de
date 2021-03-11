@@ -5,7 +5,7 @@ title: Vaquita, fast and Accurate Identification of Structural Variation Using C
 layout: app
 cite: fu_mi_publications2133
 contact: Jongkyu Kim
-categories: official
+category: official
 links:
   website: https://github.com/seqan/vaquita
   download: https://github.com/seqan/vaquita
