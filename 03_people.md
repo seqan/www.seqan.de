@@ -36,7 +36,11 @@ redirect_from:
         {% for app in site.apps %}
             <ul>
             {% if app.contact == person.name %}
-                <li><a href="{{ app.url }}">{{ app.title }}</a></li>
+                {%- if app.redirect_to -%}
+                    <li>&#8599;<a href="{{ app.url }}">{{ app.title }}</a></li>
+                {%- else -%}
+                    <li><a href="{{ app.url }}">{{ app.title }}</a></li>
+                {%- endif %} 
             {% endif %}
             </ul>
         {% endfor %}

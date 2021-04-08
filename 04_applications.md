@@ -35,7 +35,11 @@ in your academic work.
 {%- endif -%}
 {% for app in site.apps %}
 {%- if app.category == category %}
+{%- if app.redirect_to -%}
+* &#8599;[{{ app.title }}]({{ app.url | relative_url }})
+{%- else -%}
 * [{{ app.title }}]({{ app.url | relative_url }})
+{%- endif %} 
 {%- endif %}
 {% endfor %}
 {% endfor %}

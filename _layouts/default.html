@@ -10,7 +10,10 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        {{ content | replace: '<a href="http', '&#8599;<a rel="nofollow noopener noreferrer" 
+                                                          target="_blank" 
+                                                          title="This link leaves seqan.de" 
+                                                          href="http' }}
       </div>
       <div class="back-to-top-wrapper">
         <a href="#top" class="back-to-top-link" aria-label="Scroll to Top">˄</a>
