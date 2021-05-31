@@ -96,7 +96,14 @@ int main()
 
 ### Member functions in record types
 
-Our Records of I/O files have now member functions. We hope that this makes the documentation more clear () With this all our result ranges
+Our Records of I/O files have now member functions. We hope that this makes the [documentation of
+records](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html) more clear and this allow us in the
+future to add member functions that compute convenient data representation out of the existing data.
+
+One additional aspect is, that this change unifies all our result ranges to have member functions to access the data,
+e.g. [seqan3::alignment_result](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1alignment__result.html),
+[seqan3::search_result](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1search__result.html), and
+[seqan3::sequence_record](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html).
 
 ```cpp
 #include <seqan3/core/debug_stream.hpp>
@@ -115,29 +122,12 @@ int main()
 }
 ```
 
-### :trollface: Notable breaking changes (API)
+### Other important changes and additions
 
-  * Starting with 3.0.3, `seqan3::seqan3_version` is a number and equivalent to the `SEQAN3_VERSION` macro. Consequently, `seqan3::seqan3_version_cstring` is the C-String (`char const *`) which was named `seqan3::seqan3_version` in the previous release (and was a `std::string`).
-  * The meanings of `seqan3::alphabet_variant::{is_alternative, holds_alternative}` have been swapped.
+We put much effort into harmonising our sequence analysis library for the upcoming release 3.1.0. For that we renamed
+quite a lot of data structures to have a coherent naming scheme.
 
-### :hammer_and_wrench: Notable API changes
+For more details and changes please review our [changelog](https://docs.seqan.de/seqan/3.0.3/about_changelog.html)
+document. Thank you very much for subscribing and enjoy the new version SeqAn 3.0.3!
 
-  * Entities have been renamed, a short but incomplete excerpt
-    * `seqan3::phred68legacy` to `seqan3::phred68solexa`
-    * `seqan3::sam_dna16` to `seqan3::dna16sam`
-    * `seqan3::bitcompressed_vector` to `seqan3::bitpacked_sequence`
-    * `seqan3::alignment_file_*` to `seqan3::sam_file_*`
-    * multiple UPPER_CASE to lower_case names, mostly in enums
-  * Accessing an I/O file record by `seqan3::get`, e.g., `seqan3::get<seqan3::field::id>(record)`, has been deprecated in favour of the new member accessors, e.g., `record.id()`.
-
-### :bug: Notable bug fixes
-  * A couple of fixes in the argument parser.
-  * Fixed a nasty issue when combining `seqan3::views::kmer_hash` and `std::views::reverse`.
-  * Fixed an issue with compressing `.gz` files with the BGZF compression algorithm.
-  * Various fixes to our SAM/BAM file implementation.
-
-### :electric_plug: External dependencies
-
-* SeqAn 3.0.3 is known to compile with GCC 7.5, 8.4, 9.3, 10.3, and 11.1. Future versions (such as GCC 11.2 and 12) might work, but were not yet available at the time of this release.
-* We support ranges-v3 versions ≥ 0.11.0 and < 0.12.0.
-* We use doxygen 1.9.1 to build our documentation.
+Your SeqAn Team
