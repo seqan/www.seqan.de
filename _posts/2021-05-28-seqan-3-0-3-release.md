@@ -35,7 +35,7 @@ That means the next Release (3.1.0) will be the first stable one, exciting right
 
 ### :open_book: Module structure
 
-We now utilise the following module structure.
+We now utilise the following module structure:
 
 #### Sequence Analysis Modules
 
@@ -81,7 +81,7 @@ We implemented a new Phred Quality Score alphabet `seqan3::phred94` that represe
 
 ### `seqan3::literals` namespace
 
-`seqan3::literals` namespace allows you to import all available seqan3 literal operators at once to simplify code. Of course you can still import individual literal operators.
+The `seqan3::literals` namespace allows you to import all available seqan3 literal operators at once to simplify code. Of course you can still import individual literal operators.
 
 ```cpp
 #include <seqan3/alphabet/nucleotide/dna4.hpp>
@@ -96,12 +96,11 @@ int main()
 
 ### Member functions in record types
 
-Our records of I/O files have now member functions. We hope that this makes the [documentation of
-records](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html) more clear and allows us to add member functions  in the
-future that compute convenient data representation out of the existing data.
+Our records of I/O files now have member functions. We hope that this makes the [documentation of
+records](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html) more clear and allows us to add member functions that compute convenient data representation out of the existing data.
 
-One additional aspect is, that this change unifies all our result ranges to have member functions to access the data,
-e.g. [seqan3::alignment_result](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1alignment__result.html),
+One additional aspect is that this change unifies all our result ranges to have member functions for accessing the data,
+e.g., [seqan3::alignment_result](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1alignment__result.html),
 [seqan3::search_result](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1search__result.html), and
 [seqan3::sequence_record](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html).
 
@@ -124,10 +123,10 @@ int main()
 
 ### Other important changes and additions
 
-We put much effort into harmonising our sequence analysis library for the upcoming release 3.1.0. For that we renamed
+We put much effort into harmonising our Sequence Analysis Library for the upcoming 3.1.0 release. For that, we renamed
 quite a lot of data structures to have a coherent naming scheme.
 
 For more details and changes please review our [changelog](https://docs.seqan.de/seqan/3.0.3/about_changelog.html)
-document. Thank you very much for subscribing and enjoy the new version SeqAn 3.0.3!
+document. Thank you very much for subscribing. Enjoy the new version SeqAn 3.0.3!
 
 Your SeqAn Team
