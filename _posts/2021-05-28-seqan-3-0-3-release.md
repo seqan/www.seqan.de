@@ -77,11 +77,11 @@ We counted just two real breaking API changes that can be found in our [changelo
 
 ### PacBio Phred Score alphabet
 
-A new Phred Quality Score alphabet `seqan3::phred94` that represents the full Phred Score range (Sanger format) and is used for PacBio Phred scores of HiFi reads.
+We implemented a new Phred Quality Score alphabet `seqan3::phred94` that represents the full Phred Score range (Sanger format) and is used for PacBio Phred scores of HiFi reads.
 
 ### `seqan3::literals` namespace
 
-`seqan3::literals` namespace allows you to import all available seqan3 literal operator at once to simplify code. Of course you can still import individual literal operators.
+`seqan3::literals` namespace allows you to import all available seqan3 literal operators at once to simplify code. Of course you can still import individual literal operators.
 
 ```cpp
 #include <seqan3/alphabet/nucleotide/dna4.hpp>
@@ -96,9 +96,9 @@ int main()
 
 ### Member functions in record types
 
-Our Records of I/O files have now member functions. We hope that this makes the [documentation of
-records](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html) more clear and this allow us in the
-future to add member functions that compute convenient data representation out of the existing data.
+Our records of I/O files have now member functions. We hope that this makes the [documentation of
+records](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html) more clear and allows us to add member functions  in the
+future that compute convenient data representation out of the existing data.
 
 One additional aspect is, that this change unifies all our result ranges to have member functions to access the data,
 e.g. [seqan3::alignment_result](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1alignment__result.html),
