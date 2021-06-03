@@ -29,9 +29,9 @@ Note that 3.1.0 will be the first API stable release and interfaces in this rele
 
 For 3.0.3, we heavily focused on making the final push towards 3.1.0 and took our time to really define the scope of our Sequence Analysis Library.
 
-That means the next Release (3.1.0) will be the first stable one, exciting right? :partying_face:
+That means the next Release (3.1.0) will be the first stable one, exciting right? 🥳
 
-### :open_book: Module structure
+### 📖 Module structure
 
 We now utilise the following module structure:
 
@@ -63,9 +63,9 @@ All Sequence Analysis Modules will have strong [API Stability](https://docs.seqa
 
 All General Purpose Modules will have no [API Stability](https://docs.seqan.de/seqan/3.0.3/about_api.html#api_stability) guarantees.
 
-### :lock: API Stability
+### 🔒 API Stability
 
-We are especially thrilled to announce 3.0.3, because this release should be the first one that _just compiles_<sup>:tm:</sup> your app when upgrading from 3.0.2 to 3.0.3. Arguably, you will encounter scattered "deprecation" notices, but all of those messages should point you to an upgrade path. Unless you treat warnings as errors, your app will still compile even when encountering deprecation notices.
+We are especially thrilled to announce 3.0.3, because this release should be the first one that _just compiles_<sup>™️</sup> your app when upgrading from 3.0.2 to 3.0.3. Arguably, you will encounter scattered "deprecation" notices, but all of those messages should point you to an upgrade path. Unless you treat warnings as errors, your app will still compile even when encountering deprecation notices.
 
 Furthermore, we see this release as a test run of our way to handle API Stability in the upcoming era of stable releases. We are happy to hear your feedback, so please let us know whether it worked for you and if something could be improved. We believe we found a good system for hinting changes between releases to our users.
 
