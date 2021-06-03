@@ -3,8 +3,6 @@ layout: post
 title: "SeqAn 3.0.3 released"
 categories: release
 excerpt_separator: <!--more-->
-redirect_from:
-  - /seqan-3-0-3-release/
 ---
 
 Dear SeqAn users, supporters, and subscribers,
