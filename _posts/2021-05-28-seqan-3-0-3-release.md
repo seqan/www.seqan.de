@@ -9,7 +9,7 @@ redirect_from:
 
 Dear SeqAn users, supporters, and subscribers,
 
-we are proud to announce the last `3.0.x` Release of the SeqAn Library.
+we are proud to announce the last `3.0.x` release of the SeqAn Library.
 The following highlights are present in the current release.
 
 <!--more-->
