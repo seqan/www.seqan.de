@@ -1,5 +1,6 @@
 ---
-title: Journal String Tree (JST)
+title: JST
+subtitle: Journal string tree data structure and traverser
 layout: app
 seqan_version: 2
 cite: fu_mi_publications1448

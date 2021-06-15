@@ -1,5 +1,6 @@
 ---
 title: Gustaf
+subtitle: A generic multi-split detection method
 layout: app
 seqan_version: 2
 cite: fu_mi_publications1455

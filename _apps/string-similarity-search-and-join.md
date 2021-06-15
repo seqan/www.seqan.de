@@ -1,5 +1,6 @@
 ---
 title: String Similarity Search/Join
+subtitle: Optimal string similarity search and join
 layout: app
 seqan_version: 2
 cite: fu_mi_publications1225

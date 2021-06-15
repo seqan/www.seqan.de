@@ -1,5 +1,6 @@
 ---
-title: iGenVar - An SV, Indel, and SNP Caller using short and long reads
+title: iGenVar
+subtitle: An SV, indel, and SNP caller using short and long reads
 layout: app
 seqan_version: 3
 contact: Lydia Buntrock

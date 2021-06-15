@@ -1,5 +1,6 @@
 ---
 title: SeqAn::T-Coffee
+subtitle: A multiple sequence alignment program
 layout: app
 seqan_version: 2
 cite: fu_mi_publications391

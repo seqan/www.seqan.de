@@ -1,5 +1,6 @@
 ---
 title: ANISE and BASIL
+subtitle: Breakpoint detection for structural variants
 layout: app
 seqan_version: 2
 cite: fu_mi_publications1506

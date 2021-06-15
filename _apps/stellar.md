@@ -1,5 +1,6 @@
 ---
 title: Stellar
+subtitle: A local pairwise aligner
 layout: app
 seqan_version: 2
 cite: fu_mi_publications1092

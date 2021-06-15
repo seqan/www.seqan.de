@@ -1,5 +1,6 @@
 ---
 title: RazerS 3
+subtitle: A read mapping program with adjustable sensitivity
 layout: app
 seqan_version: 2
 cite: [fu_mi_publications1159,fu_mi_publications453]

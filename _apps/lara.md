@@ -1,5 +1,6 @@
 ---
-title: LaRA 2, efficient sequence-structure alignments of ncRNA
+title: LaRA 2
+subtitle: Efficient sequence-structure alignments of ncRNA
 layout: app
 contact: Jörg Winkler
 seqan_version: 2

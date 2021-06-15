@@ -1,5 +1,6 @@
 ---
 title: Mason
+subtitle: A read simulator software for Illumina, 454 and Sanger reads
 layout: app
 seqan_version: 2
 cite: fu_mi_publications962

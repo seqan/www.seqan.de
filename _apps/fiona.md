@@ -1,5 +1,6 @@
 ---
-title: Fiona, A parallel and automatic strategy for read error correction
+title: Fiona
+subtitle: A parallel and automatic strategy for read error correction
 layout: app
 seqan_version: 2
 cite: fu_mi_publications1451
