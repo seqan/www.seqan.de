@@ -8,6 +8,5 @@ social_links:
 ---
 
 Sven obtained M.Sc in Bioinformatics from Freie Universität Berlin.
-Currently he is working as a student assistant,
-while pursuing his PhD with a focus on approximate string matching and
+Currently he is pursuing his PhD with a focus on approximate string matching and
 applying it for read mapping.

@@ -1,7 +1,6 @@
 ---
 name: Christopher Pockrandt
 category: Alumni
-avatar: /assets/images/people/christopher_pockrandt.jpg
 social_links:
   email: pockrandt@jhu.du
   researchgate: Christopher-Pockrandt
