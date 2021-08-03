@@ -7,6 +7,6 @@ social_links:
   email: sven.boenigk@fu-berlin.de
 ---
 
-Sven obtained M.Sc in Bioinformatics from Freie Universität Berlin.
+Sven obtained M.Sc. in Bioinformatics from Freie Universität Berlin.
 Currently he is pursuing his PhD with a focus on approximate string matching and
 applying it for read mapping.
