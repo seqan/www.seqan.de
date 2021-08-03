@@ -5,7 +5,10 @@ position: Student Assistant
 avatar: /assets/images/people/simon_sasse.jpeg
 social_links:
   email: simon.sasse@fu-berlin.de
+  linkedin: simon-sasse-197616207
+  github: simonsasse
+  researchgate: Simon-Sasse
 ---
 
-Simon works as a student assistant at SeqAn. He achieved his bachelor in bioinformatics at the FU Berlin and continues
-his studies in the masters of computer science.
+Simon works as a student assistant at SeqAn. He achieved his BSc in bioinformatics at the Frei Universität Berlin and
+continues his studies in the MSc of Computer Science.
