@@ -8,5 +8,5 @@ social_links:
 ---
 
 Kerstin Neubert developed applications for the characterization of microbial species in environmental samples based on
-metagenomic and peptide profiling. She holds a B.Sc. and M.Sc. degree in Bioinformatics from the Freie Universität Berlin
-and currently works in the German Federal Institute for Risk Assessment.
+metagenomic and peptide profiling. She holds a B.Sc. and M.Sc. degree in Bioinformatics from the Freie Universität
+Berlin and currently works at the German Federal Institute for Risk Assessment.

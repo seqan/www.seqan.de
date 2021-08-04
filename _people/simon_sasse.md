@@ -10,5 +10,5 @@ social_links:
   researchgate: Simon-Sasse
 ---
 
-Simon works as a student assistant at SeqAn. He achieved his B.Sc. in bioinformatics at the Frei Universität Berlin and
+Simon works as a student assistant at SeqAn. He achieved his B.Sc. in bioinformatics at the Freie Universität Berlin and
 continues his studies in the M.Sc. of Computer Science.
