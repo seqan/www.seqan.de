@@ -7,6 +7,7 @@ social_links:
   researchgate: Wiep-Van-Der-Toorn
   linkedin: wiep-van-der-toorn-5b541082
 ---
+
 Wiep van der Toorn worked as a student assistant at SeqAn. She holds a B.Sc. degree in Life Science and Technology from
-the Technical University Delft and University Leiden, and a M.Sc. Bioinformatics from the
+the Technical University Delft and University Leiden, and an M.Sc. Bioinformatics from the
 Freie Universität Berlin. Currently, she is working as a researcher in Generative Chemistry at Novartis.

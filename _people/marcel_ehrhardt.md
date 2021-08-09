@@ -8,7 +8,7 @@ social_links:
   github: marehr
 ---
 
-Marcel is C++ senior developer, software architect and PhD student of SeqAn since 2015. His main interests are high
-performance computing, algorithms, (succinct) data structures, C++, software development and building infrastructures.
-He is currently employed by a project funded by de.NBI/CIBI and holds a master's degree in
-computer science with focus on theoretical computer science of the Freie Universität Berlin.
+Marcel is C++ senior developer, software architect, and PhD student of SeqAn since 2015. His main interests are high
+performance computing, algorithms, (succinct) data structures, C++, software development, and building infrastructures.
+He is currently employed in a project funded by de.NBI/CIBI and holds a master's degree from the Freie Universität
+Berlin in computer science with focus on theoretical computer science.
