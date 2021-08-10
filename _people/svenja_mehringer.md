@@ -1,7 +1,7 @@
 ---
 name: Svenja Mehringer
 category: Team
-position: Research Assistant & PhD Student
+position: Senior Developer & PhD Student
 avatar: /assets/images/people/svenja_mehringer.jpg
 social_links:
   email: svenja.mehringer@fu-berlin.de

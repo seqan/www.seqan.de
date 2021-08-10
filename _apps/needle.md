@@ -6,8 +6,8 @@ seqan_version: 3
 contact: Mitra Darvish
 category: wip
 links:
-  website: https://github.com/MitraDarja/needle
-  source: https://github.com/MitraDarja/needle
+  website: https://github.com/seqan/needle
+  source: https://github.com/seqan/needle
 ---
 
 

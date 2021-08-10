@@ -1,7 +1,7 @@
 ---
 name: Enrico Seiler
 category: Team
-position: Research Assistant & PhD Student
+position: Senior Developer & PhD Student
 avatar: /assets/images/people/enrico_seiler.jpg
 social_links:
   email: enrico.seiler@fu-berlin.de
