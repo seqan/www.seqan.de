@@ -4818,26 +4818,23 @@
     \ determined to be 0.25 ng/{\\ensuremath{\\mu}}L. The method has shown to be linear\
     \ for the selected concentration range of 0.25?3.0 ng/{\\ensuremath{\\mu}}L. The\
     \ uncertainty related to reproducibility of measurement procedure, excluding the\
-    \ extraction step, has shown to be 5.0 \\% (N\xE2\u20AC\u2030=\xE2\u20AC\u2030\
-    12). Finally, this method was successfully applied to the quantification of 30-mer\
-    \ toxic peptides from commercial wheat flour with an overall uncertainty under\
-    \ reproducibility conditions of 6.4 \\% including the extraction of the gliadin\
-    \ fraction. The results were always expressed as the average of the values from\
-    \ all standard concentrations. Subsequently, the final concentration of the 30-mer\
-    \ toxic peptide in the flour was calculated and expressed in milligrams per gram\
-    \ unit. The determined, calculated concentration of the 30-mer toxic peptide in\
-    \ the flour was found to be 1.29\xE2\u20AC\u2030{$\\pm$}\xE2\u20AC\u20300.37 {\\\
-    ensuremath{\\mu}}g/g in flour (N\xE2\u20AC\u2030=\xE2\u20AC\u203025, sy\xE2\u20AC\
-    \u2030=\xE2\u20AC\u2030545,075, f\xE2\u20AC\u2030=\xE2\u20AC\u203025\xE2\u20AC\
-    \u2030?\xE2\u20AC\u20302 (t\xE2\u20AC\u2030=\xE2\u20AC\u20302.069), P\xE2\u20AC\
-    \u2030=\xE2\u20AC\u203095 \\%, two-sided).},\n author = {B. Vatansever and A.\
-    \ Mu{\\~n}oz and C. L. Klein and K. Reinert},\n journal = {Analytical and Bioanalytical\
-    \ Chemistry},\n month = {February},\n number = {4},\n pages = {989--997},\n publisher\
-    \ = {Springer Berlin Heidelberg},\n title = {Development and optimisation of a\
-    \ generic micro LC-ESI-MS method for the qualitative and quantitative determination\
-    \ of 30-mer toxic gliadin peptides in wheat flour for food analysis},\n url =\
-    \ {http://publications.imp.fu-berlin.de/1976/},\n volume = {409},\n year = {2017}\n\
-    }\n\n"
+    \ extraction step, has shown to be 5.0 \\% (N\u2009=\u200912). Finally, this method\
+    \ was successfully applied to the quantification of 30-mer toxic peptides from\
+    \ commercial wheat flour with an overall uncertainty under reproducibility conditions\
+    \ of 6.4 \\% including the extraction of the gliadin fraction. The results were\
+    \ always expressed as the average of the values from all standard concentrations.\
+    \ Subsequently, the final concentration of the 30-mer toxic peptide in the flour\
+    \ was calculated and expressed in milligrams per gram unit. The determined, calculated\
+    \ concentration of the 30-mer toxic peptide in the flour was found to be 1.29\u2009\
+    {$\\pm$}\u20090.37 {\\ensuremath{\\mu}}g/g in flour (N\u2009=\u200925, sy\u2009\
+    =\u2009545,075, f\u2009=\u200925\u2009?\u20092 (t\u2009=\u20092.069), P\u2009\
+    =\u200995 \\%, two-sided).},\n author = {B. Vatansever and A. Mu{\\~n}oz and C.\
+    \ L. Klein and K. Reinert},\n journal = {Analytical and Bioanalytical Chemistry},\n\
+    \ month = {February},\n number = {4},\n pages = {989--997},\n publisher = {Springer\
+    \ Berlin Heidelberg},\n title = {Development and optimisation of a generic micro\
+    \ LC-ESI-MS method for the qualitative and quantitative determination of 30-mer\
+    \ toxic gliadin peptides in wheat flour for food analysis},\n url = {http://publications.imp.fu-berlin.de/1976/},\n\
+    \ volume = {409},\n year = {2017}\n}\n\n"
   creators:
   - name:
       family: Vatansever
@@ -7681,24 +7678,23 @@
     \ effect of high dietary zinc oxide on the pig intestinal microbiota composition\
     \ less is it yet known about changes in microbial functional properties or the\
     \ effect of organic zinc sources. Forty weaning piglets in four groups were fed\
-    \ diets supplemented with 40 or 110\xE2\u20AC\u2030ppm zinc as zinc oxide, 110\xE2\
-    \u20AC\u2030ppm as Zn-Lysinate, or 2500\xE2\u20AC\u2030ppm as zinc oxide. Host\
-    \ zinc homeostasis, intestinal zinc fractions, and ileal nutrient digestibility\
-    \ were determined as main nutritional and physiological factors putatively driving\
-    \ colon microbial ecology. Metagenomic sequencing of colon microbiota revealed\
-    \ only clear differences at genus level for the group receiving 2500\xE2\u20AC\
-    \u2030ppm zinc oxide. However, a clear group differentiation according to dietary\
-    \ zinc concentration and source was observed at species level. Functional analysis\
-    \ revealed significant differences in genes related to stress response, mineral,\
-    \ and carbohydrate metabolism. Taxonomic and functional gene differences were\
-    \ accompanied with clear effects in microbial metabolite concentration. Finally,\
-    \ a selection of certain antibiotic resistance genes by dietary zinc was observed.\
-    \ This study sheds further light onto the consequences of concentration and chemical\
-    \ form of dietary zinc on microbial ecology measures and the resistome in the\
-    \ porcine colon.},\n author = {Robert Pieper and Temesgen H. Dadi and Laura Pieper\
-    \ and Wilfried Vahjen and Andr{\\'e} Franke and Knut Reinert and J{\\\"u}rgen\
-    \ Zentek},\n journal = {The ISME Journal},\n month = {August},\n number = {11},\n\
-    \ pages = {2783--2793},\n publisher = {Nature Portfolio},\n title = {Concentration\
+    \ diets supplemented with 40 or 110\u2009ppm zinc as zinc oxide, 110\u2009ppm\
+    \ as Zn-Lysinate, or 2500\u2009ppm as zinc oxide. Host zinc homeostasis, intestinal\
+    \ zinc fractions, and ileal nutrient digestibility were determined as main nutritional\
+    \ and physiological factors putatively driving colon microbial ecology. Metagenomic\
+    \ sequencing of colon microbiota revealed only clear differences at genus level\
+    \ for the group receiving 2500\u2009ppm zinc oxide. However, a clear group differentiation\
+    \ according to dietary zinc concentration and source was observed at species level.\
+    \ Functional analysis revealed significant differences in genes related to stress\
+    \ response, mineral, and carbohydrate metabolism. Taxonomic and functional gene\
+    \ differences were accompanied with clear effects in microbial metabolite concentration.\
+    \ Finally, a selection of certain antibiotic resistance genes by dietary zinc\
+    \ was observed. This study sheds further light onto the consequences of concentration\
+    \ and chemical form of dietary zinc on microbial ecology measures and the resistome\
+    \ in the porcine colon.},\n author = {Robert Pieper and Temesgen H. Dadi and Laura\
+    \ Pieper and Wilfried Vahjen and Andr{\\'e} Franke and Knut Reinert and J{\\\"\
+    u}rgen Zentek},\n journal = {The ISME Journal},\n month = {August},\n number =\
+    \ {11},\n pages = {2783--2793},\n publisher = {Nature Portfolio},\n title = {Concentration\
     \ and chemical form of dietary zinc shape the porcine colon microbiome, its functional\
     \ capacity and antibiotic resistance gene repertoire},\n url = {http://publications.imp.fu-berlin.de/2512/},\n\
     \ volume = {14},\n year = {2020}\n}\n\n"
