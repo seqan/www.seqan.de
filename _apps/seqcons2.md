@@ -1,5 +1,5 @@
 ---
-title: SeqCons 2
+title: SeqCons2
 subtitle: Consensus computation program
 layout: app
 seqan_version: 2
@@ -13,5 +13,5 @@ redirect_from:
   - /projects/seqcons/
 ---
 
-Sequence consensus “./seqcons” is an open source consensus computation program for Linux and Windows. The algorithm can
+Sequence consensus 2 is an open source consensus computation program for Linux and Windows. The algorithm can
 be used for de novo and reference-guided sequence assembly.
