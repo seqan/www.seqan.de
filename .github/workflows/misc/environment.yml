@@ -1,0 +1,6 @@
+name: update_publication
+channels:
+  - conda-forge
+dependencies:
+  - bibtexparser
+  - pyyaml

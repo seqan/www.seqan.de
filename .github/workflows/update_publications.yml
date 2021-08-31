@@ -1,0 +1,53 @@
+name: Update Publications
+
+on:
+  # Every Tuesday and Friday
+  schedule:
+    - cron:  '0 0 * * 2,5'
+  # Enables a manual trigger, may run on any branch
+  workflow_dispatch:
+
+env:
+  TZ: Europe/Berlin
+
+defaults:
+  run:
+    shell: bash -le {0}
+
+jobs:
+  update_publications:
+    name: Update Publications
+    runs-on: ubuntu-20.04
+    timeout-minutes: 30
+    if: github.repository_owner == 'seqan'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get cached python environment
+        uses: actions/cache@v2
+        with:
+          path: ~/conda_pkgs_dir
+          key: ${{ runner.os }}-conda-${{ hashFiles('.github/workflows/misc/environment.yml') }}
+
+      - name: Setup python environment
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: update_publication
+          environment-file: .github/workflows/misc/environment.yml
+          use-only-tar-bz2: true
+
+      - name: Update publications
+        id: update-publications
+        run: |
+          python update_publications.py
+          echo "::set-output name=changed_files::$(git diff --quiet --exit-code; echo $?)"
+
+      - name: Push changes
+        if: steps.update-publications.outputs.changed_files == '1'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "[CRON] Update publications"
+          git push
+
