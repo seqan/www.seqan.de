@@ -1,0 +1,37 @@
+name: Update Publications
+on:
+  schedule:
+    - cron:  '0 0 * * 1'
+  # Enables a manual trigger, may run on any branch
+  workflow_dispatch:
+jobs:
+  Update_Publications:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'seqan'
+    env:
+      PUBLICATION_CHANGED: true
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2 # checkout the repository content to github runner
+
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.7.7'
+    - name: install packages
+      run: |
+        pip install bibtexparser pyyaml
+    - name: Run update_publications script
+      run: python ${{ github.workspace }}/update_publications.py
+    - name: commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "update publications" || PUBLICATION_CHANGED='false'
+    - name: push changes
+      uses: ad-m/github-push-action@v0.6.0
+      if: ${{env.PUBLICATION_CHANGED == 'true'}}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
