@@ -1,37 +1,53 @@
 name: Update Publications
+
 on:
+  # Every Tuesday and Friday
   schedule:
-    - cron:  '0 0 * * 1'
+    - cron:  '0 0 * * 2,5'
   # Enables a manual trigger, may run on any branch
   workflow_dispatch:
-jobs:
-  Update_Publications:
-    runs-on: ubuntu-latest
-    if: github.repository_owner == 'seqan'
-    env:
-      PUBLICATION_CHANGED: true
-    steps:
-    - name: checkout repo content
-      uses: actions/checkout@v2 # checkout the repository content to github runner
 
-    - name: setup python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.7.7'
-    - name: install packages
-      run: |
-        pip install bibtexparser pyyaml
-    - name: Run update_publications script
-      run: python ${{ github.workspace }}/update_publications.py
-    - name: commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git commit -m "update publications" || PUBLICATION_CHANGED='false'
-    - name: push changes
-      uses: ad-m/github-push-action@v0.6.0
-      if: ${{env.PUBLICATION_CHANGED == 'true'}}
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: master
+env:
+  TZ: Europe/Berlin
+
+defaults:
+  run:
+    shell: bash -le {0}
+
+jobs:
+  update_publications:
+    name: Update Publications
+    runs-on: ubuntu-20.04
+    timeout-minutes: 30
+    if: github.repository_owner == 'seqan'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get cached python environment
+        uses: actions/cache@v2
+        with:
+          path: ~/conda_pkgs_dir
+          key: ${{ runner.os }}-conda-${{ hashFiles('.github/workflows/misc/environment.yml') }}
+
+      - name: Setup python environment
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: update_publication
+          environment-file: .github/workflows/misc/environment.yml
+          use-only-tar-bz2: true
+
+      - name: Update publications
+        id: update-publications
+        run: |
+          python update_publications.py
+          echo "::set-output name=changed_files::$(git diff --quiet --exit-code; echo $?)"
+
+      - name: Push changes
+        if: steps.update-publications.outputs.changed_files == '1'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "[CRON] Update publications"
+          git push
+

@@ -8,8 +8,8 @@ json_filename = "_data/publications.json"
 yml_filename = "_data/publications.yml"
 bib_filename = "_data/publications.bib"
 
-bib_file_url = "http://publications.imp.fu-berlin.de/cgi/exportview/divisions/group=5Falgbioinf/BibTeX/group=5Falgbioinf.bib"
-json_file_url = "http://publications.imp.fu-berlin.de/cgi/exportview/divisions/group=5Falgbioinf/JSON/group=5Falgbioinf.js"
+bib_file_url = "https://publications.imp.fu-berlin.de/cgi/exportview/divisions/group=5Falgbioinf/BibTeX/group=5Falgbioinf.bib"
+json_file_url = "https://publications.imp.fu-berlin.de/cgi/exportview/divisions/group=5Falgbioinf/JSON/group=5Falgbioinf.js"
 
 # download the bibtex file
 bib_file_downlaoder = urllib.request.URLopener()
