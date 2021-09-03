@@ -19,6 +19,6 @@ output.
 The paper gives an explanation of the theory behind the benchmark methodology with an example evaluation.
 
 ## Additional Online Material
-* [Rabema online manual](./rabema/rabema-manual/)
+* [Rabema Online Manual](./rabema/rabema-manual/)
 * [Rabema Command Line Interface](./rabema/rabema-cli)
 * [Description of Rabema Reports](./rabema/rabema-reports)
