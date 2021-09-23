@@ -57,9 +57,9 @@ the results that are generated while you iterate over them.
 
 **Complement and translate a sequence without copying any data:**
 ```c++
-std::vector vec{"ACGTACGTACGTA"_dna5};
+seqan3::dna5_vector sequence{"ACGTACGTACGTA"_dna5};
 // pipe the vector through two view adaptors:
-auto v = vec | view::complement | view::translate_single;
+auto aminoacid_sequence = sequence | seqan3::view::complement | seqan3::view::translate_single;
 // v is a view of length 4, accessing the elements on-demand will return
 [C,M,H,A]
 ```
