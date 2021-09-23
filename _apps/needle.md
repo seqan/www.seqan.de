@@ -4,7 +4,7 @@ subtitle: A fast and space-efficient prefilter for estimating the quantification
 layout: app
 seqan_version: 3
 contact: Mitra Darvish
-category: wip
+category: official
 links:
   website: https://github.com/seqan/needle
   source: https://github.com/seqan/needle
@@ -21,4 +21,3 @@ of large sequencing data sets is possible.
 
 Needle is based on the Interleaved Bloom Filter (IBF) and its basic idea is to store multiple IBFs for different
 expression levels.
-
