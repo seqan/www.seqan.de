@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Started
+title: Documentation
 permalink: /getting-started/
 header:
   overlay_image: /assets/images/overlay/getting_started.jpg
@@ -10,7 +10,7 @@ headings:
     image: /assets/images/icons/new-user.svg
     excerpt: Step by step introduction to SeqAn
   - url: "https://docs.seqan.de/seqan3.html"
-    title: Already using SeqAn?
+    title: API Documentation
     image: /assets/images/icons/user-documentation.svg
     excerpt: See the latest API Documentation
   - url: "https://github.com/seqan"
