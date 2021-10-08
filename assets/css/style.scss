@@ -19,6 +19,7 @@ $news-entry-sep: 1.5em !default;
   top: 0px;
   background: $background-color;
   z-index: 99999;
+  border: 0px solid black;
 
   @include media-query($on-palm) {
     position: static;
