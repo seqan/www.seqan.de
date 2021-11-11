@@ -31,7 +31,7 @@ For 3.0.3, we heavily focused on making the final push towards 3.1.0 and took ou
 
 That means the next Release (3.1.0) will be the first stable one, exciting right? 🥳
 
-### 📖 Module structure
+### :open_book: Module structure
 
 We now utilise the following module structure:
 
@@ -63,7 +63,7 @@ All Sequence Analysis Modules will have strong [API Stability](https://docs.seqa
 
 All General Purpose Modules will have no [API Stability](https://docs.seqan.de/seqan/3.0.3/about_api.html#api_stability) guarantees.
 
-### 🔒 API Stability
+### :lock: API Stability
 
 We are especially thrilled to announce 3.0.3, because this release should be the first one that _just compiles_<sup>™️</sup> your app when upgrading from 3.0.2 to 3.0.3. Arguably, you will encounter scattered "deprecation" notices, but all of those messages should point you to an upgrade path. Unless you treat warnings as errors, your app will still compile even when encountering deprecation notices.
 
@@ -73,11 +73,13 @@ But how do we know that we did not miss anything? Our idea is simple: compile ou
 
 We counted just two real breaking API changes that can be found in our [changelog](https://docs.seqan.de/seqan/3.0.3/about_changelog.html).
 
-### PacBio Phred Score alphabet
+### :tada: Notable new features
+
+#### PacBio Phred Score alphabet
 
 We implemented a new Phred Quality Score alphabet `seqan3::phred94` that represents the full Phred Score range (Sanger format) and is used for PacBio Phred scores of HiFi reads.
 
-### `seqan3::literals` namespace
+#### `seqan3::literals` namespace
 
 The `seqan3::literals` namespace allows you to import all available seqan3 literal operators at once to simplify code. Of course you can still import individual literal operators.
 
@@ -92,7 +94,7 @@ int main()
 }
 ```
 
-### Member functions in record types
+#### Member functions in record types
 
 Our records of I/O files now have member functions. We hope that this makes the [documentation of
 records](https://docs.seqan.de/seqan/3.0.3/classseqan3_1_1sequence__record.html) more clear and allows us to add member functions that compute convenient data representation out of the existing data.
