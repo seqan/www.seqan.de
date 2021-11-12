@@ -19,7 +19,8 @@ SeqAn2.
 
 Note that 3.1.0 will be the first API stable release and interfaces in this release might still change.
 
-## 🎉 Notable new features
+## :tada: Notable new features
+
 * We added support for type erasing
 [semialphabets](http://docs.seqan.de/seqan/3.0.1/interfaceseqan3_1_1semialphabet.html) that allows you to manage
 semialphabets with the same alphabet size in one container. This can have a big effect on your compile-time, in
@@ -37,7 +38,8 @@ to convert a view into a container. We also added a `seqan3::dynamic_bitset` whi
 `std::bitset`.
 * Memory consumption of the (bidirectional) FM-Index for text collections was reduced by 10%.
 
-## Notable API changes
+## :trollface: Notable API changes
+
 As much as we’d like to reduce inconsistencies between releases, we are sometimes forced to change an interface either
 to improve usability or to follow changes made by the ISO C++ committee.
 
@@ -48,12 +50,13 @@ to improve usability or to follow changes made by the ISO C++ committee.
 * You can find a comprehensive list of the changes in our
 [changelog](http://docs.seqan.de/seqan/3.0.1/about_changelog.html#autotoc_md198).
 
-## 🐛 Notable bug fixes
+## :bug: Notable bug fixes
+
 * Copying and moving the `seqan3::fm_index` and `seqan3::bi_fm_index` now work properly.
 * The translation table for nucleotide to amino acid translation was corrected.
 * The amino acid score matrices were corrected.
 
-## 🔌 External dependencies
+## :electric_plug: External dependencies 
 * We now support ranges-v3 versions >= 0.10.0 and < 0.11.0, increasing the previous requirement of >= 0.5.0 and < 0.6.0.
 * We now support cereal version 1.3.0, increasing the previous requirement of 1.2.2
 

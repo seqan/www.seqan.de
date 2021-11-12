@@ -23,7 +23,7 @@ Get to know SeqAn3 with our [tutorials](https://docs.seqan.de/seqan/3.1.0/usergr
 * See the [porting guide](https://docs.seqan.de/seqan/3.1.0/howto_porting.html) for some help on porting from SeqAn2.
 * Check out our [SeqAn3 Cookbook](https://docs.seqan.de/seqan/3.1.0/cookbook.html). It contains a listing of code examples on how to perform particular tasks using the library.
 
-### 🔒 API Stability
+### :lock: API Stability
 
 With few exceptions, the [*Alphabet*](https://docs.seqan.de/seqan/3.1.0/group__alphabet.html) module of SeqAn3 is now stable. Additionally, the following entities are marked stable in this release:
 
@@ -34,14 +34,14 @@ With few exceptions, the [*Alphabet*](https://docs.seqan.de/seqan/3.1.0/group__a
 
 If you are upgrading from an older version than 3.0.3, we strongly recommend first upgrading to 3.0.3, and afterwards to 3.1.0. The version 3.0.3 contains deprecation notices that will help you to transition with ease.
 
-### Notable API changes
+### :hammer_and_wrench: Notable API changes
 
 There are no API changes upgrading from 3.0.3. [See the 3.0.3 release message](https://github.com/seqan/seqan3/releases/tag/3.0.3#api-stability) for an overview of previous changes.
 
-### Notable bug fixes
+### :bug: Notable bug fixes
 * The [`seqan3::fm_index`](https://docs.seqan.de/seqan/3.1.0/classseqan3_1_1fm__index.html)/[`seqan3::bi_fm_index`](https://docs.seqan.de/seqan/3.1.0/classseqan3_1_1bi__fm__index.html) correctly index large texts like the human genome.
 
-### External dependencies
+### :electric_plug: External dependencies
 
 * SeqAn 3.1.0 is known to compile with GCC 7.5, 8.4, 9.4, 10.3, and 11.2. Future versions might work, but were not yet available at the time of this release.
 * Other compilers, e.g. GCC 12 (currently in development), clang, and MSVC, are known to not be compatible with SeqAn 3.1.0.
