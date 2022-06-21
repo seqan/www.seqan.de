@@ -32,14 +32,16 @@ We added GCC 12 support!
   * The new view `seqan3::views::char_strictly_to` behaves like `seqan3::views::char_to`, but throws on invalid input.
 
 #### I/O
- * The new option `seqan3::sequence_file_option::fasta_ignore_blanks_before_id` lets you ignore blanks before IDs when reading FASTA files.
-   E.g., <code>>&nbsp;&nbsp;&nbsp;&nbsp;some_id</code> will only store `"some_id"` as ID.
+ * The new option `seqan3::sequence_file_option::fasta_ignore_blanks_before_id` lets you keep blanks before IDs when reading FASTA files.
+   This ensures a "perfekt roundtrip" when reading and writing FASTA files.
+   E.g., fasta_ignore_blanks_before_id = true (default): <code>>&nbsp;&nbsp;&nbsp;&nbsp;some_id</code> will only store `"some_id"` as ID.
+   E.g., fasta_ignore_blanks_before_id = false: <code>>&nbsp;&nbsp;&nbsp;&nbsp;some_id</code> will store <code>"&nbsp;&nbsp;&nbsp;&nbsp;some_id"</code> as ID.
 
 #### Search
   * Improved performance of `seqan3::counting_vector::operator+=` by 25%.
 
 #### Utility
-  * Added `seqan3::list_traits::repeat` ([\#2899](https://github.com/seqan/seqan3/pull/2899)).
+  * Added `seqan3::list_traits::repeat`.
 
 ### :hammer_and_wrench: Notable API changes
 
