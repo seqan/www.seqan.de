@@ -11,12 +11,13 @@ We are thrilled to announce the first **Sharg parser release: 1.0.0** with most 
 
 We have outsourced the SeqAn3 Argument Parser to its own light-weight, dependency-free repository: 
 The [**Sharg parser**](https://github.com/seqan/sharg-parser). 
+
+<!--more-->
+
 Most of the **API stayed similar**. We added a **new, flexible config design** for adding options and flags, improving readability 
 and maintainability. Not unexpectedly, we have some **changes in namespace and naming**: 
 
 The former <code>seqan3::argument_parser</code> is now the <code>sharg::parser</code>
-
-<!--more-->
 
 If you have any trouble porting your code from SeqAn3 to the Sharg parser, please don't hesitate to **reach out** to us on [GitHub](https://github.com/seqan/sharg-parser/discussions) or [![Gitter](https://badges.gitter.im/seqan/Lobby.svg)](https://gitter.im/seqan/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)!
 
