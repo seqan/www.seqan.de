@@ -86,10 +86,11 @@ We removed the `sharg::option_spec` as it is obsolete in the new API.
 #### Validators
 
 To avoid being dependent on the SeqAn3 I/O module, you now have to give a list of file extensions explicitly to `sharg::input_file_validator` and `sharg::output_file_validator`:
-
+{% raw %}
 ```cpp
-sharg::input_file_validator validator{std::vector<std::string>{{"exe"}, {"fasta"}}};`. 
+sharg::input_file_validator validator{std::vector<std::string>{{"exe"}, {"fasta"}}};
 ```
+{% endraw %}
 Please follow [the SeqAn3 issue](https://github.com/seqan/seqan3/issues/2927) to see how the file extensions can be extracted from SeqAn3 files.
 
 ### :electric_plug: Tooling
