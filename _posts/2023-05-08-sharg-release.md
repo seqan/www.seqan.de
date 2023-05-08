@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Dear SeqAn users, supporters, and subscribers,
 
 We have just released a new Version of our C++ command line parsing lib: Sharg 1.1.0
-Check it out on Github: https://github.com/seqan/sharg-parser
+Check it out on GitHub: https://github.com/seqan/sharg-parser
 
 It includes a few major bug fixes and Gitpod and CWL support! Best update your apps now.
 
@@ -23,11 +23,11 @@ It includes a few major bug fixes and Gitpod and CWL support! Best update your a
 
 ## Bug fixes
 
-* When using subcommand parsers, e.g. `git push`, typing `git puhs -h` will raise an exception that the user misspelled
+* When using subcommand parsers, e.g., `git push`, typing `git puhs -h` will raise an exception that the user misspelled
   the subcommand instead of printing the help page of `git` ([\#172](https://github.com/seqan/sharg-parser/pull/172)).
 * Fixed an issue that caused the validation of a directory via the `sharg::output_file_validator` to delete the
   directory's contents ([\#175](https://github.com/seqan/sharg-parser/pull/175)).
-* Segmentation fault when using `sharg::value_list_validator` in conjuction with a `std::filesystem::path` option
+* Segmentation fault when using `sharg::value_list_validator` in conjunction with a `std::filesystem::path` option
   ([\#179](https://github.com/seqan/sharg-parser/pull/179)).
 
 ## Dependency updates
