@@ -18,6 +18,7 @@ minima:
   social_links:
     twitter: SeqAnLib
     github:  seqan
+    gitter: seqan/Lobby
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
