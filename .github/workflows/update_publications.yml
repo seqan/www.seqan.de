@@ -12,14 +12,14 @@ env:
 
 defaults:
   run:
-    shell: bash -lEeuxo pipefail {0}
+    shell: bash -lEexo pipefail {0}
 
 jobs:
   update_publications:
     name: Update Publications
     runs-on: ubuntu-20.04
     timeout-minutes: 30
-    if: github.repository_owner == 'seqan'
+    if: github.repository_owner == 'seqan' || github.event_name == 'workflow_dispatch'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
