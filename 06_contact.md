@@ -20,5 +20,5 @@ Algorithmische Bioinformatik
 [Takustr. 9 14195 Berlin](https://www.openstreetmap.org/?mlat={{ page.header.openstreetmap.marker | split: "," | first }}&amp;mlon={{ page.header.openstreetmap.marker | split: "," | last }}#map=19/{{ page.header.openstreetmap.marker | split: "," | first }}/{{ page.header.openstreetmap.marker | split: "," | last }})
 
 * Phone: +49 (0)30 838-75237
-* Email: [seqan-dev@lists.fu-berlin.de](mailto:seqan-dev@lists.fu-berlin.de)
+* Email: [seqan-dev-owner@lists.fu-berlin.de](mailto:seqan-dev-owner@lists.fu-berlin.de)
 * Web: [www.seqan.de](https://www.seqan.de)
