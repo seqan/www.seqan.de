@@ -12,7 +12,7 @@ env:
 
 defaults:
   run:
-    shell: bash -Eeuxo pipefail {0}
+    shell: bash -lEeuxo pipefail {0}
 
 jobs:
   update_publications:
