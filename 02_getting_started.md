@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Using SeqAn
 permalink: /getting-started/
 header:
   overlay_image: /assets/images/overlay/getting_started.jpg
@@ -19,10 +19,9 @@ headings:
     excerpt: All our code is open source
 ---
 
-# Welcome to the SeqAn Library
-
 {% include headings.html %}
 
 # Do you have any specific question or issue?
 
-Contact us directly at [{{ site.author.email }}](mailto:{{ site.author.email }})
+You can contact us directly on [gitter](https://gitter.im/seqan/Lobby), [github](https://github.com/seqan/seqan3/issues)
+or write us an email: [{{ site.author.email }}](mailto:{{ site.author.email }}).
