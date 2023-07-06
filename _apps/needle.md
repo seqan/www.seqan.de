@@ -2,6 +2,7 @@
 title: Needle
 subtitle: A fast and space-efficient prefilter for estimating the quantification of very large collections of nucleotide sequences
 layout: app
+cite: fu_mi_publications2845
 seqan_version: 3
 contact: Mitra Darvish
 category: official
