@@ -1,7 +1,6 @@
 ---
 name: Marcel Ehrhardt
-category: Team
-position: Senior Developer & PhD Student
+category: Alumni
 avatar: /assets/images/people/marcel_ehrhardt.png
 social_links:
   email: marcel.ehrhardtXXXremoveMeXXX@fu-berlin.de

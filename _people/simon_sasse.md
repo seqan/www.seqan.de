@@ -1,7 +1,6 @@
 ---
 name: Simon Sasse
-category: Team
-position: Student Assistant
+category: Alumni
 avatar: /assets/images/people/simon_sasse.jpeg
 social_links:
   email: simon.sasse@fu-berlin.de

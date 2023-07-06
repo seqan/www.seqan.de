@@ -1,7 +1,6 @@
 ---
 name: Lydia Buntrock
-category: Team
-position: Research Assistant & PhD Student
+category: Alumni
 avatar: /assets/images/people/lydia_buntrock.jpg
 social_links:
   email: lydia.buntrock@fu-berlin.de
