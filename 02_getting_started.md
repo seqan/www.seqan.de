@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Started
+title: Using SeqAn
 permalink: /getting-started/
 header:
   overlay_image: /assets/images/overlay/getting_started.jpg
@@ -10,7 +10,7 @@ headings:
     image: /assets/images/icons/new-user.svg
     excerpt: Step by step introduction to SeqAn
   - url: "https://docs.seqan.de/seqan3.html"
-    title: Already using SeqAn?
+    title: API Documentation
     image: /assets/images/icons/user-documentation.svg
     excerpt: See the latest API Documentation
   - url: "https://github.com/seqan"
@@ -19,10 +19,9 @@ headings:
     excerpt: All our code is open source
 ---
 
-# Welcome to the SeqAn Library
-
 {% include headings.html %}
 
 # Do you have any specific question or issue?
 
-Contact us directly at [{{ site.author.email }}](mailto:{{ site.author.email }})
+You can contact us directly on [gitter](https://gitter.im/seqan/Lobby), [github](https://github.com/seqan/seqan3/issues)
+or write us an email: [{{ site.author.email }}](mailto:{{ site.author.email }}).
