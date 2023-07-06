@@ -18,9 +18,15 @@ layout: default
     <h2>Links</h2>
 
     <ul>
+      {% if page.links.website %}
       <li><a href="{{page.links.website}}">Official Website</a></li>
+      {% endif %}
+      {% if page.links.download %}
       <li>Download <a href="{{page.links.download}}">binaries</a></li>
+      {% endif %}
+      {% if page.links.source %}
       <li>View the source code and README on <a href="{{page.links.source}}">GitHub</a></li>
+      {% endif %}
     </ul>
 
     <!-- if no citation is given, the whole Block is skipped. -->
