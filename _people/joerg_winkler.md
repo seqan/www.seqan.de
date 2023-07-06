@@ -1,7 +1,6 @@
 ---
 name: Jörg Winkler
-category: Team
-position: Research Assistant & PhD Student
+category: Alumni
 avatar: /assets/images/people/joerg_winkler.png
 social_links:
   email: j.winkler@fu-berlin.de
@@ -14,7 +13,7 @@ As a PhD candidate at Freie Universität Berlin and member of the graduate schoo
 for Molecular Genetics I work on algorithms for the analysis of long non-coding RNA.
 I hold a Master of Science degree in Bioinformatics from University of Hamburg.
 
-I have developed the two applications [LaRA](/apps/lara.html) for rapid structural RNA alignment and 
+I have developed the two applications [LaRA](/apps/lara.html) for rapid structural RNA alignment and
 [MaRs](/apps/mars.html) for RNA motif search.
 Furthermore, I contribute to the C++ SeqAn library with focus on multiple sequence alignment and structure analysis,
 and I participate in the design and implementation of SeqAn's

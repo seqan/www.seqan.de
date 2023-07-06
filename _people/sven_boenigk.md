@@ -1,7 +1,6 @@
 ---
 name: Sven Bönigk
-category: Team
-position: Research Assistant & PhD Student
+category: Alumni
 avatar: /assets/images/people/sven_boenigk.jpg
 social_links:
   email: sven.boenigk@fu-berlin.de
