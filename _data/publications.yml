@@ -12905,40 +12905,42 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/2845
   userid: 132
   volume: 38
-- abstract: "Searching sequences in large, distributed databases is the most widely\
-    \ used bioinformatics analysis done. This basic task is in dire need for solutions\
-    \ that deal with the exponential growth of sequence repositories and perform approximate\
-    \ queries very fast.\r\n\r\nIn this paper, we present a novel data structure:\
+- abstract: "We present a novel data structure for searching sequences in large databases:\
     \ the Hierarchical Interleaved Bloom Filter (HIBF). It is extremely fast and space\
-    \ efficient, yet so general that it has the potential to serve as the underlying\
-    \ engine for many applications.\r\n\r\nWe show that the HIBF is superior in build\
-    \ time, index size and search time while achieving a comparable or better accuracy\
-    \ compared to other state-of-the art tools (Mantis and Bifrost). The HIBF builds\
-    \ an index up to 211 times faster, using up to 14 times less space and can answer\
-    \ approximate membership queries faster by a factor of up to 129. This can be\
-    \ considered a quantum leap that opens the door to indexing complete sequence\
-    \ archives like the European Nucleotide Archive or even larger metagenomics data\
-    \ sets."
-  bibtex: "@article{fu_mi_publications2846,\n abstract = {Searching sequences in large,\
-    \ distributed databases is the most widely used bioinformatics analysis done.\
-    \ This basic task is in dire need for solutions that deal with the exponential\
-    \ growth of sequence repositories and perform approximate queries very fast.\n\
-    \nIn this paper, we present a novel data structure: the Hierarchical Interleaved\
+    \ efficient, yet so general that it could serve as the underlying engine for many\
+    \ applications. We show that the HIBF is superior in build time, index size, and\
+    \ search time while achieving a comparable or better accuracy compared to other\
+    \ state-of-the-art tools. The HIBF builds an index up to 211 times faster, using\
+    \ up to 14 times less space, and can answer approximate membership queries faster\
+    \ by a factor of up to 129.\r\nWe show that the HIBF is superior in build time,\
+    \ index size and search time while achieving a comparable or better accuracy compared\
+    \ to other state-of-the art tools (Mantis and Bifrost). The HIBF builds an index\
+    \ up to 211 times faster, using up to 14 times less space and can answer approximate\
+    \ membership queries faster by a factor of up to 129. This can be considered a\
+    \ quantum leap that opens the door to indexing complete sequence archives like\
+    \ the European Nucleotide Archive or even larger metagenomics data sets."
+  bibtex: "@article{fu_mi_publications2846,\n abstract = {We present a novel data\
+    \ structure for searching sequences in large databases: the Hierarchical Interleaved\
     \ Bloom Filter (HIBF). It is extremely fast and space efficient, yet so general\
-    \ that it has the potential to serve as the underlying engine for many applications.\n\
-    \nWe show that the HIBF is superior in build time, index size and search time\
-    \ while achieving a comparable or better accuracy compared to other state-of-the\
-    \ art tools (Mantis and Bifrost). The HIBF builds an index up to 211 times faster,\
+    \ that it could serve as the underlying engine for many applications. We show\
+    \ that the HIBF is superior in build time, index size, and search time while achieving\
+    \ a comparable or better accuracy compared to other state-of-the-art tools. The\
+    \ HIBF builds an index up to 211 times faster, using up to 14 times less space,\
+    \ and can answer approximate membership queries faster by a factor of up to 129.\n\
+    We show that the HIBF is superior in build time, index size and search time while\
+    \ achieving a comparable or better accuracy compared to other state-of-the art\
+    \ tools (Mantis and Bifrost). The HIBF builds an index up to 211 times faster,\
     \ using up to 14 times less space and can answer approximate membership queries\
     \ faster by a factor of up to 129. This can be considered a quantum leap that\
     \ opens the door to indexing complete sequence archives like the European Nucleotide\
     \ Archive or even larger metagenomics data sets.},\n author = {Svenja Mehringer\
     \ and Enrico Seiler and Felix Droop and Mitra Darvish and Ren{\\'e} Rahn and Martin\
     \ Vingron and Knut Reinert},\n booktitle = {Hierarchical Interleaved Bloom Filter:\
-    \ Enabling ultrafast, approximate sequence queries},\n journal = {bioRxiv},\n\
-    \ month = {August},\n title = {Hierarchical Interleaved Bloom Filter: Enabling\
-    \ ultrafast, approximate sequence queries},\n url = {http://publications.imp.fu-berlin.de/2846/},\n\
-    \ year = {2022}\n}\n"
+    \ Enabling ultrafast, approximate sequence queries},\n journal = {Genome Biology},\n\
+    \ month = {May},\n number = {131},\n publisher = {BioMed Central},\n title = {Hierarchical\
+    \ Interleaved Bloom Filter: enabling ultrafast, approximate sequence queries},\n\
+    \ url = {http://publications.imp.fu-berlin.de/2846/},\n volume = {24},\n year\
+    \ = {2023}\n}\n"
   book_title: 'Hierarchical Interleaved Bloom Filter: Enabling ultrafast, approximate
     sequence queries'
   creators:
@@ -12977,7 +12979,7 @@
       given: Knut
       honourific: null
       lineage: null
-  date: '2022-08-01'
+  date: '2023-05-31'
   date_type: published
   datestamp: '2022-09-05 10:58:20'
   dir: disk0/00/00/28/46
@@ -12986,23 +12988,27 @@
   eprint_status: archive
   eprintid: 2846
   full_text_status: none
-  id_number: doi:10.1101/2022.08.01.502266
+  id_number: doi:10.1186/s13059-023-02971-4
   ispublished: pub
+  issn: 1474-760X
   key: fu_mi_publications2846
-  lastmod: '2022-09-05 10:58:20'
+  lastmod: '2023-07-10 13:06:46'
   metadata_visibility: show
-  official_url: https://doi.org/10.1101/2022.08.01.502266
-  publication: bioRxiv
-  refereed: 'FALSE'
-  rev_number: 5
-  status_changed: '2022-09-05 10:58:20'
+  number: 131
+  official_url: https://doi.org/10.1186/s13059-023-02971-4
+  publication: Genome Biology
+  publisher: BioMed Central
+  refereed: 'TRUE'
+  rev_number: 11
+  status_changed: '2023-07-10 13:06:46'
   subjects:
   - G400
-  title: 'Hierarchical Interleaved Bloom Filter: Enabling ultrafast, approximate sequence
+  title: 'Hierarchical Interleaved Bloom Filter: enabling ultrafast, approximate sequence
     queries'
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/2846
   userid: 132
+  volume: 24
 - abstract: "Protein-RNA interactions play an important role in all post-transcriptional\
     \ regulatory processes. High throughput detection of protein-RNA interactions\
     \ has been facilitated by the emerging CLIP-seq (crosslinking and immunoprecipitation\
