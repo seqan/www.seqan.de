@@ -1,7 +1,7 @@
 title: SeqAn
 author:
   name: SeqAn
-  email: seqan-dev-owner@lists.fu-berlin.de
+  email: support@seqan.de
 description: > # this means to ignore newlines until "show_excerpts:"
   SeqAn is an open source C++ library of efficient algorithms and data
   structures for the analysis of sequences with the focus on biological data.
