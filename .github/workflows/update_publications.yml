@@ -41,7 +41,7 @@ jobs:
           key: ${{ runner.os }}-conda-${{ hashFiles('.github/workflows/misc/environment.yml') }}
 
       - name: Setup python environment
-        uses: conda-incubator/setup-miniconda@v2
+        uses: conda-incubator/setup-miniconda@v3
         with:
           activate-environment: update_publication
           environment-file: .github/workflows/misc/environment.yml
