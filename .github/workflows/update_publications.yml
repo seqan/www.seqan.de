@@ -35,7 +35,7 @@ jobs:
           git_commit_gpgsign: true
 
       - name: Get cached python environment
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/conda_pkgs_dir
           key: ${{ runner.os }}-conda-${{ hashFiles('.github/workflows/misc/environment.yml') }}
