@@ -1,7 +1,6 @@
 ---
 name: Mitra Darvish
-category: Team
-position: Research Assistant & PhD Student
+category: Alumni
 avatar: /assets/images/people/mitra_darvish.jpeg
 social_links:
   email: mitra.darvish@fu-berlin.de
