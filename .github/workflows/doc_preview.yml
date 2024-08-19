@@ -43,7 +43,7 @@ jobs:
 
       - name: Build
         run: |
-          bundle install
+          bundle install --retry=20
           bundle exec jekyll build --baseurl preview/${{ github.event.pull_request.base.repo.full_name }}/${{ github.event.pull_request.number }}
 
       - name: Deploy Preview
