@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 
 Dear SeqAn users, supporters, and subscribers,
 
-we are glad to announce the [SeqAn 3.3.0 release](https://github.com/seqan/seqan3/releases/tag/3.3.0) that has a major compiler update:
+we are glad to announasdsadce the [SeqAn 3.3.0 release](https://github.com/seqan/seqan3/releases/tag/3.3.0) that has a major compiler update:
 <p style="text-align: center;">We <b>dropped</b> GCC 10 and we <b>added GCC 13 support</b>.</p>
 
 <!--more-->
