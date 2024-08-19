@@ -44,7 +44,7 @@ jobs:
       - name: Build
         run: |
           bundle install
-          bundle exec jekyll build
+          bundle exec jekyll build --baseurl preview/${{ github.event.pull_request.base.repo.full_name }}/${{ github.event.pull_request.number }}
 
       - name: Deploy Preview
         uses: seqan/actions/documentation_deploy_preview@main
