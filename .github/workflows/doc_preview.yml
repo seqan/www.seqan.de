@@ -1,0 +1,70 @@
+# SPDX-FileCopyrightText: 2006-2024 Knut Reinert & Freie Universität Berlin
+# SPDX-FileCopyrightText: 2016-2024 Knut Reinert & MPI für molekulare Genetik
+# SPDX-License-Identifier: CC0-1.0
+
+name: Preview
+
+on:
+  pull_request_target:
+  workflow_dispatch:
+
+concurrency:
+  group: documentation-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+env:
+  TZ: Europe/Berlin
+
+defaults:
+  run:
+    shell: bash -Eeuxo pipefail {0}
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    if: ( github.repository_owner == 'seqan' || github.event_name == 'workflow_dispatch' ) && github.event.action != 'closed'
+    container:
+      image: docker.io/debian:bookworm
+      volumes:
+        - /home/runner:/home/runner
+    steps:
+      - name: Install Dependencies
+        run: |
+          apt-get update
+          apt-get install --yes git gh wget curl ruby-full build-essential zlib1g-dev
+          gem install bundler
+
+      # pull_request_target does not checkout the merge commit by default
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
+
+      - name: Build
+        run: |
+          bundle install
+          bundle exec jekyll build
+
+      - name: Deploy Preview
+        uses: seqan/actions/documentation_deploy_preview@main
+        with:
+          deploy_host: ${{ secrets.DEPLOY_HOST }}
+          deploy_user: ${{ secrets.DEPLOY_USER }}
+          deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
+          deploy_base_path: ${{ secrets.DEPLOY_PREVIEW_BASE_PATH }}
+          source_path_user_doc: _site
+          token: ${{ secrets.SEQAN_ACTIONS_PAT }}
+
+  delete:
+      name: Delete Preview
+      runs-on: ubuntu-latest
+      if: github.repository_owner == 'seqan' && github.event.action == 'closed'
+      steps:
+      - name: Delete Preview
+        uses: seqan/actions/documentation_delete_preview@main
+        with:
+          deploy_host: ${{ secrets.DEPLOY_HOST }}
+          deploy_user: ${{ secrets.DEPLOY_USER }}
+          deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
+          deploy_base_path: ${{ secrets.DEPLOY_PREVIEW_BASE_PATH }}
