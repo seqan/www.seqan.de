@@ -13686,32 +13686,32 @@
   type: thesis
   uri: http://publications.imp.fu-berlin.de/id/eprint/2855
   userid: 132
-- abstract: "Motivation: \r\nDeep learning has moved to the forefront of tandem mass\
+- abstract: "Motivation \r\nDeep learning has moved to the forefront of tandem mass\
     \ spectrometry-driven proteomics and authentic prediction for peptide fragmentation\
     \ is more feasible than ever. Still, at this point spectral prediction is mainly\
-    \ used to validate database search results or used for confined search spaces.\
-    \ Fully predicted spectral libraries have not yet been efficiently adapted to\
-    \ large search space problems that often occur in metaproteomics or proteogenomics.\r\
-    \n\r\nResults: \r\nIn this study, we showcase a workflow that uses Prosit for\
-    \ spectral library predictions on two common metaproteomes and implement an indexing\
-    \ and search algorithm, Mistle, to efficiently identify experimental mass spectra\
+    \ used to validate database search results or for confined search spaces. Fully\
+    \ predicted spectral libraries have not yet been efficiently adapted to large\
+    \ search space problems that often occur in metaproteomics or proteogenomics.\r\
+    \n\r\nResults\r\nIn this study, we showcase a workflow that uses Prosit for spectral\
+    \ library predictions on two common metaproteomes and implement an indexing and\
+    \ search algorithm, Mistle, to efficiently identify experimental mass spectra\
     \ within the library. Hence, the workflow emulates a classic protein sequence\
     \ database search with protein digestion but builds a searchable index from spectral\
     \ predictions as an in-between step. We compare Mistle to popular search engines,\
     \ both on a spectral and database search level, and provide evidence that this\
     \ approach is more accurate than a database search using MSFragger. Mistle outperforms\
     \ other spectral library search engines in terms of run time and proves to be\
-    \ extremely memory efficient with an 8 to 22-fold decrease in RAM usage. This\
+    \ extremely memory efficient with a 4- to 22-fold decrease in RAM usage. This\
     \ makes Mistle universally applicable to large search spaces, e.g. covering comprehensive\
-    \ sequence databases of diverse microbiomes.\r\n\r\nAvailability: \r\nMistle is\
-    \ freely available on GitHub at https://github.com/BAMeScience/Mistle."
-  bibtex: "@article{fu_mi_publications2946,\n abstract = {Motivation: \nDeep learning\
+    \ sequence databases of diverse microbiomes.\r\n\r\nAvailability and implementation\r\
+    \nMistle is freely available on GitHub at https://github.com/BAMeScience/Mistle."
+  bibtex: "@article{fu_mi_publications2946,\n abstract = {Motivation \nDeep learning\
     \ has moved to the forefront of tandem mass spectrometry-driven proteomics and\
     \ authentic prediction for peptide fragmentation is more feasible than ever. Still,\
     \ at this point spectral prediction is mainly used to validate database search\
-    \ results or used for confined search spaces. Fully predicted spectral libraries\
-    \ have not yet been efficiently adapted to large search space problems that often\
-    \ occur in metaproteomics or proteogenomics.\n\nResults: \nIn this study, we showcase\
+    \ results or for confined search spaces. Fully predicted spectral libraries have\
+    \ not yet been efficiently adapted to large search space problems that often occur\
+    \ in metaproteomics or proteogenomics.\n\nResults\nIn this study, we showcase\
     \ a workflow that uses Prosit for spectral library predictions on two common metaproteomes\
     \ and implement an indexing and search algorithm, Mistle, to efficiently identify\
     \ experimental mass spectra within the library. Hence, the workflow emulates a\
@@ -13720,16 +13720,17 @@
     \ Mistle to popular search engines, both on a spectral and database search level,\
     \ and provide evidence that this approach is more accurate than a database search\
     \ using MSFragger. Mistle outperforms other spectral library search engines in\
-    \ terms of run time and proves to be extremely memory efficient with an 8 to 22-fold\
+    \ terms of run time and proves to be extremely memory efficient with a 4- to 22-fold\
     \ decrease in RAM usage. This makes Mistle universally applicable to large search\
     \ spaces, e.g. covering comprehensive sequence databases of diverse microbiomes.\n\
-    \nAvailability: \nMistle is freely available on GitHub at https://github.com/BAMeScience/Mistle.},\n\
+    \nAvailability and implementation\nMistle is freely available on GitHub at https://github.com/BAMeScience/Mistle.},\n\
     \ author = {Yannek Nowatzky and Philipp Benner and Knut Reinert and Thilo Muth},\n\
     \ booktitle = {Mistle: bringing spectral library predictions to metaproteomics\
-    \ with an efficient search index},\n journal = {bioRxiv},\n month = {September},\n\
-    \ title = {Mistle: bringing spectral library predictions to metaproteomics with\
-    \ an efficient search index},\n url = {http://publications.imp.fu-berlin.de/2946/},\n\
-    \ year = {2022}\n}\n"
+    \ with an efficient search index},\n journal = {Bioinformatics},\n month = {September},\n\
+    \ number = {6},\n publisher = {Oxford University Press},\n title = {Mistle: bringing\
+    \ spectral library predictions to metaproteomics with an efficient search index},\n\
+    \ url = {http://publications.imp.fu-berlin.de/2946/},\n volume = {39},\n year\
+    \ = {2023}\n}\n"
   book_title: 'Mistle: bringing spectral library predictions to metaproteomics with
     an efficient search index'
   creators:
@@ -13753,8 +13754,8 @@
       given: Thilo
       honourific: null
       lineage: null
-  date: '2022-09-12'
-  date_type: submitted
+  date: '2023-09-09'
+  date_type: published
   datestamp: '2023-04-19 12:51:18'
   dir: disk0/00/00/29/46
   divisions:
@@ -13762,16 +13763,19 @@
   eprint_status: archive
   eprintid: 2946
   full_text_status: none
-  id_number: doi:10.1101/2022.09.09.507252
+  id_number: doi:10.1093/bioinformatics/btad376
   ispublished: pub
+  issn: 1367-4811
   key: fu_mi_publications2946
-  lastmod: '2023-04-19 12:51:18'
+  lastmod: '2024-04-18 10:23:45'
   metadata_visibility: show
-  official_url: https://doi.org/10.1101/2022.09.09.507252
-  publication: bioRxiv
-  refereed: 'FALSE'
-  rev_number: 5
-  status_changed: '2023-04-19 12:51:18'
+  number: 6
+  official_url: https://doi.org/10.1093/bioinformatics/btad376
+  publication: Bioinformatics
+  publisher: Oxford University Press
+  refereed: 'TRUE'
+  rev_number: 8
+  status_changed: '2024-04-18 10:23:45'
   subjects:
   - G400
   title: 'Mistle: bringing spectral library predictions to metaproteomics with an
@@ -13779,6 +13783,7 @@
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/2946
   userid: 132
+  volume: 39
 - abstract: 'Alignment is the cornerstone of many long-read pipelines and plays an
     essential role in resolving structural variants (SVs). However, forced alignments
     of SVs embedded in long reads, inflexibility of integrating novel SVs models and
@@ -14087,6 +14092,610 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/2949
   userid: 132
   volume: 12
+- abstract: "Motivation\r\nThe minimizer concept is a data structure for sequence\
+    \ sketching. The standard canonical minimizer selects a subset of k-mers from\
+    \ the given DNA sequence by comparing the forward and reverse k-mers in a window\
+    \ simultaneously according to a predefined selection scheme. It is widely employed\
+    \ by sequence analysis such as read mapping and assembly. k-mer density, k-mer\
+    \ repetitiveness (e.g. k-mer bias), and computational efficiency are three critical\
+    \ measurements for minimizer selection schemes. However, there exist trade-offs\
+    \ between kinds of minimizer variants. Generic, effective, and efficient are always\
+    \ the requirements for high-performance minimizer algorithms.\r\n\r\nResults\r\
+    \nWe propose a simple minimizer operator as a refinement of the standard canonical\
+    \ minimizer. It takes only a few operations to compute. However, it can improve\
+    \ the k-mer repetitiveness, especially for the lexicographic order. It applies\
+    \ to other selection schemes of total orders (e.g. random orders). Moreover, it\
+    \ is computationally efficient and the density is close to that of the standard\
+    \ minimizer. The refined minimizer may benefit high-performance applications like\
+    \ binning and read mapping.\r\n\r\nAvailability and implementation\r\nThe source\
+    \ code of the benchmark in this work is available at the github repository https://github.com/xp3i4/mini_benchmark"
+  bibtex: "@article{fu_mi_publications3139,\n abstract = {Motivation\nThe minimizer\
+    \ concept is a data structure for sequence sketching. The standard canonical minimizer\
+    \ selects a subset of k-mers from the given DNA sequence by comparing the forward\
+    \ and reverse k-mers in a window simultaneously according to a predefined selection\
+    \ scheme. It is widely employed by sequence analysis such as read mapping and\
+    \ assembly. k-mer density, k-mer repetitiveness (e.g. k-mer bias), and computational\
+    \ efficiency are three critical measurements for minimizer selection schemes.\
+    \ However, there exist trade-offs between kinds of minimizer variants. Generic,\
+    \ effective, and efficient are always the requirements for high-performance minimizer\
+    \ algorithms.\n\nResults\nWe propose a simple minimizer operator as a refinement\
+    \ of the standard canonical minimizer. It takes only a few operations to compute.\
+    \ However, it can improve the k-mer repetitiveness, especially for the lexicographic\
+    \ order. It applies to other selection schemes of total orders (e.g. random orders).\
+    \ Moreover, it is computationally efficient and the density is close to that of\
+    \ the standard minimizer. The refined minimizer may benefit high-performance applications\
+    \ like binning and read mapping.\n\nAvailability and implementation\nThe source\
+    \ code of the benchmark in this work is available at the github repository https://github.com/xp3i4/mini\\\
+    _benchmark},\n author = {Chenxu Pan and Knut Reinert and Alfonso Valencia},\n\
+    \ journal = {Bioinformatics},\n month = {January},\n number = {2},\n publisher\
+    \ = {Oxford University Press},\n title = {A simple refined DNA minimizer operator\
+    \ enables 2-fold faster computation},\n url = {http://publications.imp.fu-berlin.de/3139/},\n\
+    \ volume = {40},\n year = {2024}\n}\n"
+  creators:
+  - name:
+      family: Pan
+      given: Chenxu
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  - name:
+      family: Valencia
+      given: Alfonso
+      honourific: null
+      lineage: null
+  date: '2024-01-25'
+  date_type: published
+  datestamp: '2024-04-18 10:31:29'
+  dir: disk0/00/00/31/39
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3139
+  full_text_status: none
+  id_number: doi:10.1093/bioinformatics/btae045
+  ispublished: pub
+  issn: 1367-4811
+  key: fu_mi_publications3139
+  lastmod: '2024-04-18 11:45:45'
+  metadata_visibility: show
+  number: 2
+  official_url: https://doi.org/10.1093/bioinformatics/btae045
+  publication: Bioinformatics
+  publisher: Oxford University Press
+  refereed: 'TRUE'
+  rev_number: 8
+  status_changed: '2024-04-18 11:45:45'
+  subjects:
+  - G400
+  title: A simple refined DNA minimizer operator enables 2-fold faster computation
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3139
+  userid: 132
+  volume: 40
+- abstract: Scientific communities are motivated to schedule their large-scale data
+    analysis workflows in heterogeneous cluster environments because of privacy and
+    financial issues. In such environments containing considerably diverse resources,
+    efficient resource allocation approaches are essential for reaching high performance.
+    Accordingly, this research addresses the scheduling problem of workflows with
+    bag-of-task form to minimize total runtime (makespan). To this aim, we develop
+    a mixed-integer linear programming model (MILP). The proposed model contains binary
+    decision variables determining which tasks should be assigned to which nodes.
+    Also, it contains linear constraints to fulfill the tasks requirements such as
+    memory and scheduling policy. Comparative results show that our approach outperforms
+    related approaches in most cases. As part of the post-optimality analysis, some
+    secondary preferences are imposed on the proposed model to obtain the most preferred
+    optimal solution. We analyze the relaxation of the makespan in the hope of significantly
+    reducing the number of consumed nodes.
+  bibtex: "@article{fu_mi_publications3140,\n abstract = {Scientific communities are\
+    \ motivated to schedule their large-scale data analysis workflows in heterogeneous\
+    \ cluster environments because of privacy and financial issues. In such environments\
+    \ containing considerably diverse resources, efficient resource allocation approaches\
+    \ are essential for reaching high performance. Accordingly, this research addresses\
+    \ the scheduling problem of workflows with bag-of-task form to minimize total\
+    \ runtime (makespan). To this aim, we develop a mixed-integer linear programming\
+    \ model (MILP). The proposed model contains binary decision variables determining\
+    \ which tasks should be assigned to which nodes. Also, it contains linear constraints\
+    \ to fulfill the tasks requirements such as memory and scheduling policy. Comparative\
+    \ results show that our approach outperforms related approaches in most cases.\
+    \ As part of the post-optimality analysis, some secondary preferences are imposed\
+    \ on the proposed model to obtain the most preferred optimal solution. We analyze\
+    \ the relaxation of the makespan in the hope of significantly reducing the number\
+    \ of consumed nodes.},\n author = {Somayeh Mohammadi and Latif PourKarimi and\
+    \ Felix Droop and Ninon De Mecquenem and Ulf Leser and Knut Reinert},\n journal\
+    \ = {The Journal of Supercomputing},\n month = {March},\n number = {17},\n pages\
+    \ = {19019--19048},\n publisher = {Springer},\n title = {A mathematical programming\
+    \ approach for resource allocation of data analysis workflows on heterogeneous\
+    \ clusters},\n url = {http://publications.imp.fu-berlin.de/3140/},\n volume =\
+    \ {79},\n year = {2023}\n}\n"
+  creators:
+  - name:
+      family: Mohammadi
+      given: Somayeh
+      honourific: null
+      lineage: null
+  - name:
+      family: PourKarimi
+      given: Latif
+      honourific: null
+      lineage: null
+  - name:
+      family: Droop
+      given: Felix
+      honourific: null
+      lineage: null
+  - name:
+      family: De Mecquenem
+      given: Ninon
+      honourific: null
+      lineage: null
+  - name:
+      family: Leser
+      given: Ulf
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2023-03-23'
+  date_type: published
+  datestamp: '2024-04-18 10:36:11'
+  dir: disk0/00/00/31/40
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3140
+  full_text_status: none
+  id_number: doi:10.1007/s11227-023-05325-w
+  ispublished: pub
+  issn: 0920-8542
+  key: fu_mi_publications3140
+  lastmod: '2024-04-18 10:36:11'
+  metadata_visibility: show
+  number: 17
+  official_url: https://doi.org/10.1007/s11227-023-05325-w
+  pagerange: 19019-19048
+  publication: The Journal of Supercomputing
+  publisher: Springer
+  refereed: 'TRUE'
+  rev_number: 5
+  status_changed: '2024-04-18 10:36:11'
+  subjects:
+  - G400
+  title: A mathematical programming approach for resource allocation of data analysis
+    workflows on heterogeneous clusters
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3140
+  userid: 132
+  volume: 79
+- abstract: Circular extrachromosomal DNA (ecDNA) is a form of oncogene amplification
+    found across cancer types and associated with poor outcome in patients. ecDNA
+    can be structurally complex and contain rearranged DNA sequences derived from
+    multiple chromosome locations. As the structure of ecDNA can impact oncogene regulation
+    and may indicate mechanisms of its formation, disentangling it at high resolution
+    from sequencing data is essential. Even though methods have been developed to
+    identify and reconstruct ecDNA in cancer genome sequencing, it remains challenging
+    to resolve complex ecDNA structures, in particular amplicons with shared genomic
+    footprints. We here introduce Decoil, a computational method which combines a
+    breakpoint-graph approach with LASSO regression to reconstruct complex ecDNA and
+    deconvolve co-occurring ecDNA elements with overlapping genomic footprints from
+    long-read nanopore sequencing. Decoil outperforms de-novo assembly methods in
+    simulated long-read sequencing data for both, simple and complex ecDNAs. Applying
+    Decoil on whole genome sequencing data uncovered different ecDNA topologies and
+    explored ecDNA structure heterogeneity in neuroblastoma tumors and cell lines,
+    indicating that this method may improve ecDNA structural analyzes in cancer.
+  bibtex: "@article{fu_mi_publications3141,\n abstract = {Circular extrachromosomal\
+    \ DNA (ecDNA) is a form of oncogene amplification found across cancer types and\
+    \ associated with poor outcome in patients. ecDNA can be structurally complex\
+    \ and contain rearranged DNA sequences derived from multiple chromosome locations.\
+    \ As the structure of ecDNA can impact oncogene regulation and may indicate mechanisms\
+    \ of its formation, disentangling it at high resolution from sequencing data is\
+    \ essential. Even though methods have been developed to identify and reconstruct\
+    \ ecDNA in cancer genome sequencing, it remains challenging to resolve complex\
+    \ ecDNA structures, in particular amplicons with shared genomic footprints. We\
+    \ here introduce Decoil, a computational method which combines a breakpoint-graph\
+    \ approach with LASSO regression to reconstruct complex ecDNA and deconvolve co-occurring\
+    \ ecDNA elements with overlapping genomic footprints from long-read nanopore sequencing.\
+    \ Decoil outperforms de-novo assembly methods in simulated long-read sequencing\
+    \ data for both, simple and complex ecDNAs. Applying Decoil on whole genome sequencing\
+    \ data uncovered different ecDNA topologies and explored ecDNA structure heterogeneity\
+    \ in neuroblastoma tumors and cell lines, indicating that this method may improve\
+    \ ecDNA structural analyzes in cancer.},\n author = {M{\\u a}d{\\u a}lina Giurgiu\
+    \ and Nadine Wittstruck and Elias Rodriguez-Fos and Roc{\\'i}o Chamorro Gonz{\\\
+    'a}lez and Lotte Br{\\\"u}ckner and Annabell Krienelke-Szymansky and Konstantin\
+    \ Helmsauer and Anne Hartebrodt and Richard P. Koche and Kerstin Haase and Knut\
+    \ Reinert and Anton G. Henssen},\n booktitle = {Decoil: Reconstructing extrachromosomal\
+    \ DNA structural heterogeneity from long-read sequencing data},\n journal = {bioRxiv\
+    \ - The Preprint Server for Biology},\n month = {November},\n title = {Decoil:\
+    \ Reconstructing extrachromosomal DNA structural heterogeneity from long-read\
+    \ sequencing data},\n url = {http://publications.imp.fu-berlin.de/3141/},\n year\
+    \ = {2023}\n}\n"
+  book_title: 'Decoil: Reconstructing extrachromosomal DNA structural heterogeneity
+    from long-read sequencing data'
+  creators:
+  - name:
+      family: Giurgiu
+      given: "M\u0103d\u0103lina"
+      honourific: null
+      lineage: null
+  - name:
+      family: Wittstruck
+      given: Nadine
+      honourific: null
+      lineage: null
+  - name:
+      family: Rodriguez-Fos
+      given: Elias
+      honourific: null
+      lineage: null
+  - name:
+      family: "Chamorro Gonz\xE1lez"
+      given: "Roc\xEDo"
+      honourific: null
+      lineage: null
+  - name:
+      family: "Br\xFCckner"
+      given: Lotte
+      honourific: null
+      lineage: null
+  - name:
+      family: Krienelke-Szymansky
+      given: Annabell
+      honourific: null
+      lineage: null
+  - name:
+      family: Helmsauer
+      given: Konstantin
+      honourific: null
+      lineage: null
+  - name:
+      family: Hartebrodt
+      given: Anne
+      honourific: null
+      lineage: null
+  - name:
+      family: Koche
+      given: Richard P.
+      honourific: null
+      lineage: null
+  - name:
+      family: Haase
+      given: Kerstin
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  - name:
+      family: Henssen
+      given: Anton G.
+      honourific: null
+      lineage: null
+  date: '2023-11-17'
+  datestamp: '2024-04-18 10:45:00'
+  dir: disk0/00/00/31/41
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3141
+  full_text_status: none
+  id_number: doi:10.1101/2023.11.15.567169
+  ispublished: pub
+  key: fu_mi_publications3141
+  lastmod: '2024-04-18 10:45:00'
+  metadata_visibility: show
+  official_url: https://doi.org/10.1101/2023.11.15.567169
+  publication: bioRxiv - The Preprint Server for Biology
+  refereed: 'FALSE'
+  rev_number: 5
+  status_changed: '2024-04-18 10:45:00'
+  subjects:
+  - G400
+  title: 'Decoil: Reconstructing extrachromosomal DNA structural heterogeneity from
+    long-read sequencing data'
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3141
+  userid: 132
+- abstract: "The fast growth of public repositories of sequences greatly contributes\
+    \ to the success of metagenomics applications. However, they are growing at a\
+    \ much faster pace than the resources to use them properly. This challenges current\
+    \ methods, which struggle to take full advantage of the massive and fast data\
+    \ generation. We propose a generational leap in performance and usability with\
+    \ ganon2, a sequence classification method that performs taxonomic binning and\
+    \ profiling for metagenomics analysis. It indexes large datasets with a small\
+    \ memory footprint, maintaining fast, sensitive, and precise classification results.\
+    \ This is possible with the Hierarchical Interleaved Bloom Filter data structure\
+    \ paired with minimizers and several other improvements and optimizations. Based\
+    \ on the full NCBI RefSeq and its sub-sets, ganon2 indices are on average 50%\
+    \ smaller than state-of-the-art methods, providing a great compression rate for\
+    \ large and diverse genomic reference sets. Using 16 simulated samples from various\
+    \ studies, including the CAMI 1+2 challenge, ganon2 achieved up to 0.17 higher\
+    \ median F1-Score in taxonomic binning. In profiling, improvements in the F1-Score\
+    \ median are up to 0.32 keeping a balanced L1-norm error in the abundance estimation.\
+    \ ganon2\r\nis one of the fastest tools evaluated and enables the use of larger,\
+    \ more diverse and up-to-date reference sets in daily microbiome analysis, improving\
+    \ the resolution of results. The code is open-source and available with documentation\
+    \ at\r\nhttps://github.com/pirovc/ganon"
+  bibtex: "@article{fu_mi_publications3142,\n abstract = {The fast growth of public\
+    \ repositories of sequences greatly contributes to the success of metagenomics\
+    \ applications. However, they are growing at a much faster pace than the resources\
+    \ to use them properly. This challenges current methods, which struggle to take\
+    \ full advantage of the massive and fast data generation. We propose a generational\
+    \ leap in performance and usability with ganon2, a sequence classification method\
+    \ that performs taxonomic binning and profiling for metagenomics analysis. It\
+    \ indexes large datasets with a small memory footprint, maintaining fast, sensitive,\
+    \ and precise classification results. This is possible with the Hierarchical Interleaved\
+    \ Bloom Filter data structure paired with minimizers and several other improvements\
+    \ and optimizations. Based on the full NCBI RefSeq and its sub-sets, ganon2 indices\
+    \ are on average 50\\% smaller than state-of-the-art methods, providing a great\
+    \ compression rate for large and diverse genomic reference sets. Using 16 simulated\
+    \ samples from various studies, including the CAMI 1+2 challenge, ganon2 achieved\
+    \ up to 0.17 higher median F1-Score in taxonomic binning. In profiling, improvements\
+    \ in the F1-Score median are up to 0.32 keeping a balanced L1-norm error in the\
+    \ abundance estimation. ganon2\nis one of the fastest tools evaluated and enables\
+    \ the use of larger, more diverse and up-to-date reference sets in daily microbiome\
+    \ analysis, improving the resolution of results. The code is open-source and available\
+    \ with documentation at\nhttps://github.com/pirovc/ganon},\n author = {Vitor C.\
+    \ Piro and Knut Reinert},\n booktitle = {ganon2: up-to-date and scalable metagenomics\
+    \ analysis},\n journal = {bioRxiv preprint},\n month = {December},\n title = {ganon2:\
+    \ up-to-date and scalable metagenomics\nanalysis},\n url = {http://publications.imp.fu-berlin.de/3142/},\n\
+    \ year = {2023}\n}\n"
+  book_title: 'ganon2: up-to-date and scalable metagenomics analysis'
+  creators:
+  - name:
+      family: Piro
+      given: Vitor C.
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2023-12-08'
+  datestamp: '2024-04-18 10:54:02'
+  dir: disk0/00/00/31/42
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3142
+  full_text_status: none
+  id_number: doi:10.1101/2023.12.07.570547
+  ispublished: pub
+  key: fu_mi_publications3142
+  lastmod: '2024-04-18 10:54:02'
+  metadata_visibility: show
+  official_url: https://doi.org/10.1101/2023.12.07.570547
+  publication: bioRxiv preprint
+  refereed: 'FALSE'
+  rev_number: 5
+  status_changed: '2024-04-18 10:54:02'
+  subjects:
+  - G400
+  title: "ganon2: up-to-date and scalable metagenomics\r\nanalysis"
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3142
+  userid: 132
+- abstract: "Motivation\r\nLocal alignments of query sequences in large databases\
+    \ represent a core part of metagenomic studies and facilitate homology search.\
+    \ Following the development of NCBI Blast, many applications aimed to provide\
+    \ faster and equally sensitive local alignment frameworks. Most applications focus\
+    \ on protein alignments, while only few also facilitate DNA-based searches. None\
+    \ of the established programs allow searching DNA sequences from bisulfite sequencing\
+    \ experiments commonly used for DNA methylation profiling, for which specific\
+    \ alignment strategies need to be implemented.\r\n\r\nResults\r\nHere, we introduce\
+    \ Lambda3, a new version of the local alignment application Lambda. Lambda3 is\
+    \ the first solution that enables the search of protein, nucleotide as well as\
+    \ bisulfite-converted nucleotide query sequences. Its protein mode achieves comparable\
+    \ performance to that of the highly optimized protein alignment application Diamond,\
+    \ while the nucleotide mode consistently outperforms established local nucleotide\
+    \ aligners. Combined, Lambda3 presents a universal local alignment framework that\
+    \ enables fast and sensitive homology searches for a wide range of use-cases.\r\
+    \n\r\nAvailability and implementation\r\nLambda3 is free and open-source software\
+    \ publicly available at https://github.com/seqan/lambda/."
+  bibtex: "@article{fu_mi_publications3143,\n abstract = {Motivation\nLocal alignments\
+    \ of query sequences in large databases represent a core part of metagenomic studies\
+    \ and facilitate homology search. Following the development of NCBI Blast, many\
+    \ applications aimed to provide faster and equally sensitive local alignment frameworks.\
+    \ Most applications focus on protein alignments, while only few also facilitate\
+    \ DNA-based searches. None of the established programs allow searching DNA sequences\
+    \ from bisulfite sequencing experiments commonly used for DNA methylation profiling,\
+    \ for which specific alignment strategies need to be implemented.\n\nResults\n\
+    Here, we introduce Lambda3, a new version of the local alignment application Lambda.\
+    \ Lambda3 is the first solution that enables the search of protein, nucleotide\
+    \ as well as bisulfite-converted nucleotide query sequences. Its protein mode\
+    \ achieves comparable performance to that of the highly optimized protein alignment\
+    \ application Diamond, while the nucleotide mode consistently outperforms established\
+    \ local nucleotide aligners. Combined, Lambda3 presents a universal local alignment\
+    \ framework that enables fast and sensitive homology searches for a wide range\
+    \ of use-cases.\n\nAvailability and implementation\nLambda3 is free and open-source\
+    \ software publicly available at https://github.com/seqan/lambda/.},\n author\
+    \ = {Hannes Hauswedell and Sara Hetzel and Simon G Gottlieb and Helene Kretzmer\
+    \ and Alexander Meissner and Knut Reinert and Lenore Cowen},\n journal = {Bioinformatics},\n\
+    \ month = {March},\n number = {3},\n publisher = {Oxford University Press},\n\
+    \ title = {Lambda3: homology search for protein, nucleotide, and bisulfite-converted\
+    \ sequences},\n url = {http://publications.imp.fu-berlin.de/3143/},\n volume =\
+    \ {40},\n year = {2024}\n}\n"
+  creators:
+  - name:
+      family: Hauswedell
+      given: Hannes
+      honourific: null
+      lineage: null
+  - name:
+      family: Hetzel
+      given: Sara
+      honourific: null
+      lineage: null
+  - name:
+      family: Gottlieb
+      given: Simon G
+      honourific: null
+      lineage: null
+  - name:
+      family: Kretzmer
+      given: Helene
+      honourific: null
+      lineage: null
+  - name:
+      family: Meissner
+      given: Alexander
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  - name:
+      family: Cowen
+      given: Lenore
+      honourific: null
+      lineage: null
+  date: '2024-03-14'
+  date_type: published
+  datestamp: '2024-04-18 11:00:25'
+  dir: disk0/00/00/31/43
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3143
+  full_text_status: none
+  id_number: doi:10.1093/bioinformatics/btae097
+  ispublished: pub
+  issn: 1367-4811
+  key: fu_mi_publications3143
+  lastmod: '2024-04-18 11:44:50'
+  metadata_visibility: show
+  number: 3
+  official_url: https://doi.org/10.1093/bioinformatics/btae097
+  publication: Bioinformatics
+  publisher: Oxford University Press
+  refereed: 'TRUE'
+  rev_number: 8
+  status_changed: '2024-04-18 11:44:50'
+  subjects:
+  - G400
+  title: 'Lambda3: homology search for protein, nucleotide, and bisulfite-converted
+    sequences'
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3143
+  userid: 132
+  volume: 40
+- abstract: "Data analysis workflows are popular for sequencing activities in large-scale\
+    \ and complex scientific processes. Scheduling approaches attempt to find an appropriate\
+    \ assignment of workflow tasks to the computing nodes for minimizing the makespan\
+    \ in heterogeneous cluster infrastructures. A common feature of these approaches\
+    \ is that they already know the structure of the workflow. However, for many workflows,\
+    \ a high degree of parallelization can be achieved by splitting the large input\
+    \ data of a single task into chunks and processing them independently. We call\
+    \ this problem task granularity, which involves finding an assignment of tasks\
+    \ to computing nodes\r\nand simultaneously optimizing the structure of a bag of\
+    \ tasks. Accordingly, this paper addresses the problem of task granularity for\
+    \ metagenomic workflows. To this end, we first formulated the problem as a mathematical\
+    \ model. We then solved the proposed model using the genetic algorithm. To overcome\
+    \ the challenge of not knowing the number of tasks, we adjusted the number of\
+    \ tasks as a factor of the number of computing nodes. The procedure of increasing\
+    \ the number of tasks is performed interactively and evolutionarily. Experimental\
+    \ results showed that a desirable makespan value can be achieved after a few steps\
+    \ of the increase."
+  bibtex: "@inproceedings{fu_mi_publications3144,\n abstract = {Data analysis workflows\
+    \ are popular for sequencing activities in large-scale and complex scientific\
+    \ processes. Scheduling approaches attempt to find an appropriate assignment of\
+    \ workflow tasks to the computing nodes for minimizing the makespan in heterogeneous\
+    \ cluster infrastructures. A common feature of these approaches is that they already\
+    \ know the structure of the workflow. However, for many workflows, a high degree\
+    \ of parallelization can be achieved by splitting the large input data of a single\
+    \ task into chunks and processing them independently. We call this problem task\
+    \ granularity, which involves finding an assignment of tasks to computing nodes\n\
+    and simultaneously optimizing the structure of a bag of tasks. Accordingly, this\
+    \ paper addresses the problem of task granularity for metagenomic workflows. To\
+    \ this end, we first formulated the problem as a mathematical model. We then solved\
+    \ the proposed model using the genetic algorithm. To overcome the challenge of\
+    \ not knowing the number of tasks, we adjusted the number of tasks as a factor\
+    \ of the number of computing nodes. The procedure of increasing the number of\
+    \ tasks is performed interactively and evolutionarily. Experimental results showed\
+    \ that a desirable makespan value can be achieved after a few steps of the increase.},\n\
+    \ author = {Somayeh Mohammadi and Latif PourKarimi and Manuel Zsch{\\\"a}bitz\
+    \ and Tristan Aretz and Ninon De Mecquenem and Ulf Leser and Knut Reinert},\n\
+    \ booktitle = {EDBT/ICDT 2024 Joint Conference: 8th International workshop on\
+    \ Data Analytics solutions for Real-LIfe APplications (DARLI-AP)},\n month = {March},\n\
+    \ title = {Optimizing Job/Task Granularity for Metagenomic Workflows in\nHeterogeneous\
+    \ Cluster Infrastructures},\n url = {http://publications.imp.fu-berlin.de/3144/},\n\
+    \ year = {2024}\n}\n"
+  creators:
+  - name:
+      family: Mohammadi
+      given: Somayeh
+      honourific: null
+      lineage: null
+  - name:
+      family: PourKarimi
+      given: Latif
+      honourific: null
+      lineage: null
+  - name:
+      family: "Zsch\xE4bitz"
+      given: Manuel
+      honourific: null
+      lineage: null
+  - name:
+      family: Aretz
+      given: Tristan
+      honourific: null
+      lineage: null
+  - name:
+      family: De Mecquenem
+      given: Ninon
+      honourific: null
+      lineage: null
+  - name:
+      family: Leser
+      given: Ulf
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2024-03-25'
+  date_type: published
+  datestamp: '2024-04-18 11:34:05'
+  dir: disk0/00/00/31/44
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3144
+  event_title: 'EDBT/ICDT 2024 Joint Conference: 8th International workshop on Data
+    Analytics solutions for Real-LIfe APplications (DARLI-AP)'
+  event_type: workshop
+  full_text_status: none
+  ispublished: pub
+  key: fu_mi_publications3144
+  lastmod: '2024-04-18 11:34:05'
+  metadata_visibility: show
+  official_url: https://ceur-ws.org/Vol-3651/DARLI-AP-15.pdf
+  pres_type: paper
+  refereed: 'FALSE'
+  related_url:
+  - url: https://ceur-ws.org/Vol-3651/
+  rev_number: 7
+  status_changed: '2024-04-18 11:34:05'
+  subjects:
+  - G400
+  title: "Optimizing Job/Task Granularity for Metagenomic Workflows in\r\nHeterogeneous\
+    \ Cluster Infrastructures"
+  type: conference_item
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3144
+  userid: 132
 - bibtex: "@article{fu_mi_publications324,\n journal = {Science},\n keywords = {ASSEMBLY},\n\
     \ number = {5461},\n pages = {2185--2195},\n title = {The Genome Sequence of Drosophila\
     \ melanogaster},\n url = {http://publications.imp.fu-berlin.de/324/},\n volume\
