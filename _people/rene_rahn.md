@@ -1,6 +1,6 @@
 ---
 name: René Rahn
-category: Team
+category: Alumni
 position: Senior Developer & PhD Student
 avatar: /assets/images/people/rene_rahn.jpg
 social_links:
