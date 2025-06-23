@@ -13767,15 +13767,15 @@
   ispublished: pub
   issn: 1367-4811
   key: fu_mi_publications2946
-  lastmod: '2024-04-18 10:23:45'
+  lastmod: '2025-01-29 13:47:46'
   metadata_visibility: show
   number: 6
   official_url: https://doi.org/10.1093/bioinformatics/btad376
   publication: Bioinformatics
   publisher: Oxford University Press
   refereed: 'TRUE'
-  rev_number: 8
-  status_changed: '2024-04-18 10:23:45'
+  rev_number: 10
+  status_changed: '2025-01-29 13:47:46'
   subjects:
   - G400
   title: 'Mistle: bringing spectral library predictions to metaproteomics with an
@@ -14274,7 +14274,7 @@
   userid: 132
   volume: 79
 - abstract: Circular extrachromosomal DNA (ecDNA) is a form of oncogene amplification
-    found across cancer types and associated with poor outcome in patients. ecDNA
+    found across cancer types and associated with poor outcome in patients. EcDNA
     can be structurally complex and contain rearranged DNA sequences derived from
     multiple chromosome locations. As the structure of ecDNA can impact oncogene regulation
     and may indicate mechanisms of its formation, disentangling it at high resolution
@@ -14284,14 +14284,14 @@
     footprints. We here introduce Decoil, a computational method which combines a
     breakpoint-graph approach with LASSO regression to reconstruct complex ecDNA and
     deconvolve co-occurring ecDNA elements with overlapping genomic footprints from
-    long-read nanopore sequencing. Decoil outperforms de-novo assembly methods in
-    simulated long-read sequencing data for both, simple and complex ecDNAs. Applying
-    Decoil on whole genome sequencing data uncovered different ecDNA topologies and
-    explored ecDNA structure heterogeneity in neuroblastoma tumors and cell lines,
+    long-read nanopore sequencing. Decoil outperforms de-novo assembly and alignment-based
+    methods in simulated long-read sequencing data for both simple and complex ecDNAs.
+    Applying Decoil on whole genome sequencing data uncovered different ecDNA topologies
+    and explored ecDNA structure heterogeneity in neuroblastoma tumors and cell lines,
     indicating that this method may improve ecDNA structural analyzes in cancer.
   bibtex: "@article{fu_mi_publications3141,\n abstract = {Circular extrachromosomal\
     \ DNA (ecDNA) is a form of oncogene amplification found across cancer types and\
-    \ associated with poor outcome in patients. ecDNA can be structurally complex\
+    \ associated with poor outcome in patients. EcDNA can be structurally complex\
     \ and contain rearranged DNA sequences derived from multiple chromosome locations.\
     \ As the structure of ecDNA can impact oncogene regulation and may indicate mechanisms\
     \ of its formation, disentangling it at high resolution from sequencing data is\
@@ -14301,20 +14301,21 @@
     \ here introduce Decoil, a computational method which combines a breakpoint-graph\
     \ approach with LASSO regression to reconstruct complex ecDNA and deconvolve co-occurring\
     \ ecDNA elements with overlapping genomic footprints from long-read nanopore sequencing.\
-    \ Decoil outperforms de-novo assembly methods in simulated long-read sequencing\
-    \ data for both, simple and complex ecDNAs. Applying Decoil on whole genome sequencing\
-    \ data uncovered different ecDNA topologies and explored ecDNA structure heterogeneity\
-    \ in neuroblastoma tumors and cell lines, indicating that this method may improve\
-    \ ecDNA structural analyzes in cancer.},\n author = {M{\\u a}d{\\u a}lina Giurgiu\
-    \ and Nadine Wittstruck and Elias Rodriguez-Fos and Roc{\\'i}o Chamorro Gonz{\\\
-    'a}lez and Lotte Br{\\\"u}ckner and Annabell Krienelke-Szymansky and Konstantin\
-    \ Helmsauer and Anne Hartebrodt and Richard P. Koche and Kerstin Haase and Knut\
-    \ Reinert and Anton G. Henssen},\n booktitle = {Decoil: Reconstructing extrachromosomal\
-    \ DNA structural heterogeneity from long-read sequencing data},\n journal = {bioRxiv\
-    \ - The Preprint Server for Biology},\n month = {November},\n title = {Decoil:\
-    \ Reconstructing extrachromosomal DNA structural heterogeneity from long-read\
-    \ sequencing data},\n url = {http://publications.imp.fu-berlin.de/3141/},\n year\
-    \ = {2023}\n}\n"
+    \ Decoil outperforms de-novo assembly and alignment-based methods in simulated\
+    \ long-read sequencing data for both simple and complex ecDNAs. Applying Decoil\
+    \ on whole genome sequencing data uncovered different ecDNA topologies and explored\
+    \ ecDNA structure heterogeneity in neuroblastoma tumors and cell lines, indicating\
+    \ that this method may improve ecDNA structural analyzes in cancer.},\n author\
+    \ = {M{\\u a}d{\\u a}lina Giurgiu and Nadine Wittstruck and Elias Rodriguez-Fos\
+    \ and Roc{\\'i}o Chamorro Gonz{\\'a}lez and Lotte Br{\\\"u}ckner and Annabell\
+    \ Krienelke-Szymansky and Konstantin Helmsauer and Anne Hartebrodt and Philipp\
+    \ Euskirchen and Richard P. Koche and Kerstin Haase and Knut Reinert and Anton\
+    \ G. Henssen},\n booktitle = {Decoil: Reconstructing extrachromosomal DNA structural\
+    \ heterogeneity from long-read sequencing data},\n journal = {Research in Computational\
+    \ Molecular Biology (RECOMB 2024)},\n month = {May},\n pages = {406--411},\n publisher\
+    \ = {Springer, Cham},\n title = {Decoil: Reconstructing Extrachromosomal DNA Structural\
+    \ Heterogeneity from Long-Read Sequencing Data},\n url = {http://publications.imp.fu-berlin.de/3141/},\n\
+    \ year = {2024}\n}\n"
   book_title: 'Decoil: Reconstructing extrachromosomal DNA structural heterogeneity
     from long-read sequencing data'
   creators:
@@ -14359,6 +14360,11 @@
       honourific: null
       lineage: null
   - name:
+      family: Euskirchen
+      given: Philipp
+      honourific: null
+      lineage: null
+  - name:
       family: Koche
       given: Richard P.
       honourific: null
@@ -14378,7 +14384,8 @@
       given: Anton G.
       honourific: null
       lineage: null
-  date: '2023-11-17'
+  date: '2024-05-17'
+  date_type: published
   datestamp: '2024-04-18 10:45:00'
   dir: disk0/00/00/31/41
   divisions:
@@ -14386,20 +14393,23 @@
   eprint_status: archive
   eprintid: 3141
   full_text_status: none
-  id_number: doi:10.1101/2023.11.15.567169
+  id_number: https://doi.org/10.1007/978-1-0716-3989-4_41
   ispublished: pub
+  issn: 'ISBN(elektronisch): 978-1-0716-3989-4'
   key: fu_mi_publications3141
-  lastmod: '2024-04-18 10:45:00'
+  lastmod: '2025-01-29 14:25:04'
   metadata_visibility: show
-  official_url: https://doi.org/10.1101/2023.11.15.567169
-  publication: bioRxiv - The Preprint Server for Biology
+  official_url: https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_41
+  pagerange: 406-411
+  publication: Research in Computational Molecular Biology (RECOMB 2024)
+  publisher: Springer, Cham
   refereed: 'FALSE'
-  rev_number: 5
-  status_changed: '2024-04-18 10:45:00'
+  rev_number: 14
+  status_changed: '2025-01-29 14:25:04'
   subjects:
   - G400
-  title: 'Decoil: Reconstructing extrachromosomal DNA structural heterogeneity from
-    long-read sequencing data'
+  title: 'Decoil: Reconstructing Extrachromosomal DNA Structural Heterogeneity from
+    Long-Read Sequencing Data'
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/3141
   userid: 132
@@ -14727,6 +14737,531 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/324
   userid: 1
   volume: 287
+- abstract: Scientific workflows have gained popularity for large-scale data analysis
+    due to their potential to improve the reproducibility, scalability and documentation
+    of complex multistep scientific analysis pipelines. However, their reusability
+    is currently limited in practice, as a workflow is typically developed for a specific
+    infrastructure. This is reflected in the choice of tools (e.g. less/more memory
+    requirements), their configuration (e.g. number of threads) and the workflow topology
+    (e.g. data parallel scatter/gather). Re-running such a workflow requires access
+    to the same, or at least a highly similar, computing environment, effectively
+    reducing its use by other groups. To address this challenge, we present CuttleFlow,
+    a novel method for adapting and rewriting scientific workflows given a description
+    of an infrastructure and its inputs. CuttleFlow starts from an abstract workflow
+    description and compiles it into an infrastructure-specific logical workflow using
+    three types of rewriting operations, namely tool replacement, tool reconfiguration,
+    and data scattering/gathering for task parallelization. We implement a prototype
+    based on NextFlow and evaluate it for two important bioinformatics data analysis
+    problems, namely RNAseq and metagenomics, on a distributed infrastructure. We
+    demonstrate the large impact that the rewriting of CuttleFlow can have on runtime,
+    achieving a reduction in makespan of up to 71%. We also demonstrate a significant
+    reduction in resource usage through our rewriting approach.
+  bibtex: "@inproceedings{fu_mi_publications3243,\n abstract = {Scientific workflows\
+    \ have gained popularity for large-scale data analysis due to their potential\
+    \ to improve the reproducibility, scalability and documentation of complex multistep\
+    \ scientific analysis pipelines. However, their reusability is currently limited\
+    \ in practice, as a workflow is typically developed for a specific infrastructure.\
+    \ This is reflected in the choice of tools (e.g. less/more memory requirements),\
+    \ their configuration (e.g. number of threads) and the workflow topology (e.g.\
+    \ data parallel scatter/gather). Re-running such a workflow requires access to\
+    \ the same, or at least a highly similar, computing environment, effectively reducing\
+    \ its use by other groups. To address this challenge, we present CuttleFlow, a\
+    \ novel method for adapting and rewriting scientific workflows given a description\
+    \ of an infrastructure and its inputs. CuttleFlow starts from an abstract workflow\
+    \ description and compiles it into an infrastructure-specific logical workflow\
+    \ using three types of rewriting operations, namely tool replacement, tool reconfiguration,\
+    \ and data scattering/gathering for task parallelization. We implement a prototype\
+    \ based on NextFlow and evaluate it for two important bioinformatics data analysis\
+    \ problems, namely RNAseq and metagenomics, on a distributed infrastructure. We\
+    \ demonstrate the large impact that the rewriting of CuttleFlow can have on runtime,\
+    \ achieving a reduction in makespan of up to 71\\%. We also demonstrate a significant\
+    \ reduction in resource usage through our rewriting approach.},\n author = {Ninon\
+    \ De Mecquenem and Simon Bosse and Vasilis Bountris and Somayeh Mohammadi and\
+    \ Knut Reinert and Ulf Leser},\n booktitle = {2024 IEEE 20th International Conference\
+    \ on e-Science (e-Science)},\n month = {September},\n pages = {1--10},\n title\
+    \ = {CuttleFlow: Infrastructure-Specific Workflow Adaption for Improved Reusability},\n\
+    \ url = {http://publications.imp.fu-berlin.de/3243/},\n year = {2024}\n}\n"
+  book_title: 2024 IEEE 20th International Conference on e-Science (e-Science)
+  creators:
+  - name:
+      family: Mecquenem
+      given: Ninon De
+      honourific: null
+      lineage: null
+  - name:
+      family: Bosse
+      given: Simon
+      honourific: null
+      lineage: null
+  - name:
+      family: Bountris
+      given: Vasilis
+      honourific: null
+      lineage: null
+  - name:
+      family: Mohammadi
+      given: Somayeh
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  - name:
+      family: Leser
+      given: Ulf
+      honourific: null
+      lineage: null
+  date: '2024-09-20'
+  date_type: published
+  datestamp: '2025-01-29 15:26:31'
+  dir: disk0/00/00/32/43
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3243
+  event_dates: 16-20 September 2024
+  event_location: Osaka, Japan
+  event_title: 2024 IEEE 20th International Conference on e-Science (e-Science)
+  event_type: conference
+  full_text_status: none
+  id_number: doi:10.1109/e-Science62913.2024.10678732
+  ispublished: pub
+  key: fu_mi_publications3243
+  lastmod: '2025-01-29 15:26:31'
+  metadata_visibility: show
+  official_url: https://doi.org/10.1109/e-Science62913.2024.10678732
+  pagerange: 1-10
+  pres_type: paper
+  refereed: 'FALSE'
+  related_url:
+  - url: https://ieeexplore.ieee.org/document/10678732
+  rev_number: 5
+  status_changed: '2025-01-29 15:26:31'
+  subjects:
+  - G400
+  title: 'CuttleFlow: Infrastructure-Specific Workflow Adaption for Improved Reusability'
+  type: conference_item
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3243
+  userid: 132
+- abstract: Circular extrachromosomal DNA (ecDNA) is a form of oncogene amplification
+    found across cancer types and associated with poor outcome in patients. ecDNA
+    can be structurally complex and can contain rearranged DNA sequences derived from
+    multiple chromosome locations. As the structure of ecDNA can impact oncogene regulation
+    and may indicate mechanisms of its formation, disentangling it at high resolution
+    from sequencing data is essential. Even though methods have been developed to
+    identify and reconstruct ecDNA in cancer genome sequencing, it remains challenging
+    to resolve complex ecDNA structures, in particular amplicons with shared genomic
+    footprints. We here introduce Decoil, a computational method that combines a breakpoint-graph
+    approach with LASSO regression to reconstruct complex ecDNA and deconvolve co-occurring
+    ecDNA elements with overlapping genomic footprints from long-read nanopore sequencing.
+    Decoil outperforms de novo assembly and alignment-based methods in simulated long-read
+    sequencing data for both simple and complex ecDNAs. Applying Decoil on whole-genome
+    sequencing data uncovered different ecDNA topologies and explored ecDNA structure
+    heterogeneity in neuroblastoma tumors and cell lines, indicating that this method
+    may improve ecDNA structural analyses in cancer.
+  bibtex: "@article{fu_mi_publications3244,\n abstract = {Circular extrachromosomal\
+    \ DNA (ecDNA) is a form of oncogene amplification found across cancer types and\
+    \ associated with poor outcome in patients. ecDNA can be structurally complex\
+    \ and can contain rearranged DNA sequences derived from multiple chromosome locations.\
+    \ As the structure of ecDNA can impact oncogene regulation and may indicate mechanisms\
+    \ of its formation, disentangling it at high resolution from sequencing data is\
+    \ essential. Even though methods have been developed to identify and reconstruct\
+    \ ecDNA in cancer genome sequencing, it remains challenging to resolve complex\
+    \ ecDNA structures, in particular amplicons with shared genomic footprints. We\
+    \ here introduce Decoil, a computational method that combines a breakpoint-graph\
+    \ approach with LASSO regression to reconstruct complex ecDNA and deconvolve co-occurring\
+    \ ecDNA elements with overlapping genomic footprints from long-read nanopore sequencing.\
+    \ Decoil outperforms de novo assembly and alignment-based methods in simulated\
+    \ long-read sequencing data for both simple and complex ecDNAs. Applying Decoil\
+    \ on whole-genome sequencing data uncovered different ecDNA topologies and explored\
+    \ ecDNA structure heterogeneity in neuroblastoma tumors and cell lines, indicating\
+    \ that this method may improve ecDNA structural analyses in cancer.},\n author\
+    \ = {M{\\u a}d{\\u a}lina Giurgiu and Nadine Wittstruck and Elias Rodriguez-Fos\
+    \ and Roc{\\'i}o Chamorro Gonz{\\'a}lez and Lotte Br{\\\"u}ckner and Annabell\
+    \ Krienelke-Szymansky and Konstantin Helmsauer and Anne Hartebrodt and Philipp\
+    \ Euskirchen and Richard P. Koche and Kerstin Haase and Knut Reinert and Anton\
+    \ G. Henssen},\n journal = {Genome Research},\n month = {August},\n number = {9},\n\
+    \ pages = {1355--1364},\n publisher = {Cold Spring Harbor Laboratory Press},\n\
+    \ title = {Reconstructing extrachromosomal DNA structural heterogeneity from long-read\
+    \ sequencing data using Decoil},\n url = {http://publications.imp.fu-berlin.de/3244/},\n\
+    \ volume = {34},\n year = {2024}\n}\n"
+  creators:
+  - name:
+      family: Giurgiu
+      given: "M\u0103d\u0103lina"
+      honourific: null
+      lineage: null
+  - name:
+      family: Wittstruck
+      given: Nadine
+      honourific: null
+      lineage: null
+  - name:
+      family: Rodriguez-Fos
+      given: Elias
+      honourific: null
+      lineage: null
+  - name:
+      family: "Chamorro Gonz\xE1lez"
+      given: "Roc\xEDo"
+      honourific: null
+      lineage: null
+  - name:
+      family: "Br\xFCckner"
+      given: Lotte
+      honourific: null
+      lineage: null
+  - name:
+      family: Krienelke-Szymansky
+      given: Annabell
+      honourific: null
+      lineage: null
+  - name:
+      family: Helmsauer
+      given: Konstantin
+      honourific: null
+      lineage: null
+  - name:
+      family: Hartebrodt
+      given: Anne
+      honourific: null
+      lineage: null
+  - name:
+      family: Euskirchen
+      given: Philipp
+      honourific: null
+      lineage: null
+  - name:
+      family: Koche
+      given: Richard P.
+      honourific: null
+      lineage: null
+  - name:
+      family: Haase
+      given: Kerstin
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  - name:
+      family: Henssen
+      given: Anton G.
+      honourific: null
+      lineage: null
+  date: '2024-08-07'
+  date_type: published
+  datestamp: '2025-01-29 15:31:54'
+  dir: disk0/00/00/32/44
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3244
+  full_text_status: none
+  id_number: doi:10.1101/gr.279123.124
+  ispublished: pub
+  issn: 1088-9051
+  key: fu_mi_publications3244
+  lastmod: '2025-01-29 15:31:54'
+  metadata_visibility: show
+  number: 9
+  official_url: https://doi.org/10.1101/gr.279123.124
+  pagerange: 1355-1364
+  publication: Genome Research
+  publisher: Cold Spring Harbor Laboratory Press
+  refereed: 'TRUE'
+  rev_number: 5
+  status_changed: '2025-01-29 15:31:54'
+  subjects:
+  - G400
+  title: Reconstructing extrachromosomal DNA structural heterogeneity from long-read
+    sequencing data using Decoil
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3244
+  userid: 132
+  volume: 34
+- abstract: Advances in sequencing technology have facilitated population-scale long-read
+    structural variant (SV) detection. Arguably, one of the main challenges in population-scale
+    analysis is developing effective computational pipelines. Here, we present a new
+    filter-based pipeline for population-scale long-read SV detection. It better captures
+    SV signals at an early stage than conventional assembly-based or alignment-based
+    pipelines. Assessments in this work suggest that the filter-based pipeline helps
+    better resolve intra-read rearrangements. Moreover, it is also more computationally
+    efficient than conventional pipelines and thus may facilitate population-scale
+    long-read applications.
+  bibtex: "@article{fu_mi_publications3245,\n abstract = {Advances in sequencing technology\
+    \ have facilitated population-scale long-read structural variant (SV) detection.\
+    \ Arguably, one of the main challenges in population-scale analysis is developing\
+    \ effective computational pipelines. Here, we present a new filter-based pipeline\
+    \ for population-scale long-read SV detection. It better captures SV signals at\
+    \ an early stage than conventional assembly-based or alignment-based pipelines.\
+    \ Assessments in this work suggest that the filter-based pipeline helps better\
+    \ resolve intra-read rearrangements. Moreover, it is also more computationally\
+    \ efficient than conventional pipelines and thus may facilitate population-scale\
+    \ long-read applications.},\n author = {Chenxu Pan and Knut Reinert},\n journal\
+    \ = {Genome Biology},\n month = {June},\n number = {1},\n pages = {Artikel 155\
+    \ --(18 Seiten)},\n publisher = {BioMed Central},\n title = {Leaf: an ultrafast\
+    \ filter for population-scale long-read SV detection},\n url = {http://publications.imp.fu-berlin.de/3245/},\n\
+    \ volume = {25},\n year = {2024}\n}\n"
+  creators:
+  - name:
+      family: Pan
+      given: Chenxu
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2024-06-13'
+  date_type: published
+  datestamp: '2025-01-29 15:41:29'
+  dir: disk0/00/00/32/45
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3245
+  full_text_status: none
+  id_number: doi:10.1186/s13059-024-03297-5
+  ispublished: pub
+  issn: 1474-760X
+  key: fu_mi_publications3245
+  lastmod: '2025-01-29 15:41:29'
+  metadata_visibility: show
+  number: 1
+  official_url: https://doi.org/10.1186/s13059-024-03297-5
+  pagerange: Artikel 155 -(18 Seiten)
+  publication: Genome Biology
+  publisher: BioMed Central
+  refereed: 'TRUE'
+  rev_number: 5
+  status_changed: '2025-01-29 15:41:29'
+  subjects:
+  - G400
+  title: 'Leaf: an ultrafast filter for population-scale long-read SV detection'
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3245
+  userid: 132
+  volume: 25
+- abstract: Non-targeted metabolomics holds great promise for advancing precision
+    medicine and facilitating the discovery of novel biomarkers. However, the identification
+    of compounds from tandem mass spectra remains a non-trivial task due to the incomplete
+    nature of spectral reference libraries. Augmenting these libraries with simulated
+    mass spectra can provide the necessary reference to resolve unmatched mass spectra,
+    but remains a difficult undertaking to this day. In this study, we introduce Fiora,
+    an innovative open-source algorithm using graph neural networks to simulate tandem
+    mass spectra in silico. Our objective is to improve fragment intensity prediction
+    with an intricate graph model architecture that facilitates edge prediction, thereby
+    modeling fragment ions as the result of singular bond breaks and their local molecular
+    neighborhood. We evaluate the performance on test data from NIST (2017) and the
+    curated MS-Dial spectral library, as well as compounds from the 2016 and 2022
+    CASMI challenges. Fiora not only surpasses state-of-the-art fragmentation algorithms,
+    ICEBERG and CFM-ID, in terms of prediction quality, but also predicts additional
+    features, such as retention time and collision cross section. In addition, Fiora
+    demonstrates significant speed improvements through the use of GPUs. This enables
+    rapid (re)scoring of putative compound identifications in non-targeted experiments
+    and facilitates large-scale expansion of spectral reference libraries with accurate
+    spectral predictions.
+  bibtex: "@article{fu_mi_publications3246,\n abstract = {Non-targeted metabolomics\
+    \ holds great promise for advancing precision medicine and facilitating the discovery\
+    \ of novel biomarkers. However, the identification of compounds from tandem mass\
+    \ spectra remains a non-trivial task due to the incomplete nature of spectral\
+    \ reference libraries. Augmenting these libraries with simulated mass spectra\
+    \ can provide the necessary reference to resolve unmatched mass spectra, but remains\
+    \ a difficult undertaking to this day. In this study, we introduce Fiora, an innovative\
+    \ open-source algorithm using graph neural networks to simulate tandem mass spectra\
+    \ in silico. Our objective is to improve fragment intensity prediction with an\
+    \ intricate graph model architecture that facilitates edge prediction, thereby\
+    \ modeling fragment ions as the result of singular bond breaks and their local\
+    \ molecular neighborhood. We evaluate the performance on test data from NIST (2017)\
+    \ and the curated MS-Dial spectral library, as well as compounds from the 2016\
+    \ and 2022 CASMI challenges. Fiora not only surpasses state-of-the-art fragmentation\
+    \ algorithms, ICEBERG and CFM-ID, in terms of prediction quality, but also predicts\
+    \ additional features, such as retention time and collision cross section. In\
+    \ addition, Fiora demonstrates significant speed improvements through the use\
+    \ of GPUs. This enables rapid (re)scoring of putative compound identifications\
+    \ in non-targeted experiments and facilitates large-scale expansion of spectral\
+    \ reference libraries with accurate spectral predictions.},\n author = {Yannek\
+    \ Nowatzky and Francesco Russo and Jan Lisec and Alexander Kister and Knut Reinert\
+    \ and Thilo Muth and Philipp Benner},\n booktitle = {Fiora: Local neighborhood-based\
+    \ prediction of compound mass spectra from single fragmentation events},\n journal\
+    \ = {bioRxiv (preprint)},\n month = {April},\n publisher = {Cold Spring Harbor\
+    \ Laboratory},\n title = {Fiora: Local neighborhood-based prediction of compound\
+    \ mass spectra from single fragmentation events},\n url = {http://publications.imp.fu-berlin.de/3246/},\n\
+    \ year = {2024}\n}\n"
+  book_title: 'Fiora: Local neighborhood-based prediction of compound mass spectra
+    from single fragmentation events'
+  creators:
+  - name:
+      family: Nowatzky
+      given: Yannek
+      honourific: null
+      lineage: null
+  - name:
+      family: Russo
+      given: Francesco
+      honourific: null
+      lineage: null
+  - name:
+      family: Lisec
+      given: Jan
+      honourific: null
+      lineage: null
+  - name:
+      family: Kister
+      given: Alexander
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  - name:
+      family: Muth
+      given: Thilo
+      honourific: null
+      lineage: null
+  - name:
+      family: Benner
+      given: Philipp
+      honourific: null
+      lineage: null
+  date: '2024-04-26'
+  date_type: submitted
+  datestamp: '2025-01-29 15:47:55'
+  dir: disk0/00/00/32/46
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3246
+  full_text_status: none
+  id_number: doi:10.1101/2024.04.22.590551
+  ispublished: pub
+  key: fu_mi_publications3246
+  lastmod: '2025-01-29 15:47:55'
+  metadata_visibility: show
+  official_url: https://doi.org/10.1101/2024.04.22.590551
+  publication: bioRxiv (preprint)
+  publisher: Cold Spring Harbor Laboratory
+  refereed: 'FALSE'
+  rev_number: 5
+  status_changed: '2025-01-29 15:47:55'
+  subjects:
+  - G400
+  title: 'Fiora: Local neighborhood-based prediction of compound mass spectra from
+    single fragmentation events'
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3246
+  userid: 132
+- abstract: Within the body, every cell contains the same genetic blueprint, the DNA,
+    which is wrapped around histones and densely packed in the nucleus. Given the
+    same genome, the identity of each cell is in part defined by modifications to
+    the histones but also the genomic sequence itself, such as DNA methylation, that
+    define active and inactive parts of the DNA. In somatic cells, DNA methylation
+    levels are largely bimodal, with a high genome-wide methylation average that predominantly
+    excludes CpG islands (CGIs), features often found near gene promoters that remain
+    free of methylation. These patterns change across the majority of human cancer
+    types, which exhibit global loss of methylation accompanied by a gain of methylation
+    at select CGIs. To date, bisulfite sequencing represents the gold-standard method
+    to profile DNA methylation at single-base resolution and has been widely used
+    to characterize and understand DNA methylation landscapes in healthy and tumor
+    cells. This thesis presents advancements in the computational analysis of bisulfite
+    sequencing data sets, as well as applications to large-scale studies of DNA methylation
+    in cancer. It showcases the adaptation of a local alignment tool to enable homology
+    search for bisulfite-converted sequences, which outperforms established semi-global
+    alignment tools when applied to the search of metagenomic data sets. Additionally,
+    this thesis describes the development of a new application that provides fast
+    and simplified extraction of DNA methylation heterogeneity metrics from single
+    reads of bisulfite sequencing data. The importance of such metrics is demonstrated
+    in the context of two studies that focus on DNA methylation changes within primary
+    tumors and cancer cell lines. Single-read metrics and single-cell methylome profiling
+    show that primary tumors are mainly characterized by heterogeneous, intermediate
+    global and CGI DNA methylation that is intrinsic to the underlying single tumor
+    cells. In contrast, cancer cell lines mostly assume one of two different states,
+    where global DNA methylation levels are either drastically decreased or comparable
+    to healthy tissues, while CGIs become almost fully methylated in both scenarios.
+    Although rarely seen in solid tumors, extremely high genome-wide methylation levels
+    can also be observed in an exceptional primary tumor type, acute lymphoblastic
+    leukemia, where this landscape is influenced by specific epigenetic regulators.
+    Together, the findings of this thesis advance our ability to analyze bisulfite
+    sequencing data sets as well as to apply these more nuanced measurements to understand
+    DNA methylation changes during tumorigenesis and in culture.
+  bibtex: "@phdthesis{fu_mi_publications3249,\n abstract = {Within the body, every\
+    \ cell contains the same genetic blueprint, the DNA, which is wrapped around histones\
+    \ and densely packed in the nucleus. Given the same genome, the identity of each\
+    \ cell is in part defined by modifications to the histones but also the genomic\
+    \ sequence itself, such as DNA methylation, that define active and inactive parts\
+    \ of the DNA. In somatic cells, DNA methylation levels are largely bimodal, with\
+    \ a high genome-wide methylation average that predominantly excludes CpG islands\
+    \ (CGIs), features often found near gene promoters that remain free of methylation.\
+    \ These patterns change across the majority of human cancer types, which exhibit\
+    \ global loss of methylation accompanied by a gain of methylation at select CGIs.\
+    \ To date, bisulfite sequencing represents the gold-standard method to profile\
+    \ DNA methylation at single-base resolution and has been widely used to characterize\
+    \ and understand DNA methylation landscapes in healthy and tumor cells. This thesis\
+    \ presents advancements in the computational analysis of bisulfite sequencing\
+    \ data sets, as well as applications to large-scale studies of DNA methylation\
+    \ in cancer. It showcases the adaptation of a local alignment tool to enable homology\
+    \ search for bisulfite-converted sequences, which outperforms established semi-global\
+    \ alignment tools when applied to the search of metagenomic data sets. Additionally,\
+    \ this thesis describes the development of a new application that provides fast\
+    \ and simplified extraction of DNA methylation heterogeneity metrics from single\
+    \ reads of bisulfite sequencing data. The importance of such metrics is demonstrated\
+    \ in the context of two studies that focus on DNA methylation changes within primary\
+    \ tumors and cancer cell lines. Single-read metrics and single-cell methylome\
+    \ profiling show that primary tumors are mainly characterized by heterogeneous,\
+    \ intermediate global and CGI DNA methylation that is intrinsic to the underlying\
+    \ single tumor cells. In contrast, cancer cell lines mostly assume one of two\
+    \ different states, where global DNA methylation levels are either drastically\
+    \ decreased or comparable to healthy tissues, while CGIs become almost fully methylated\
+    \ in both scenarios. Although rarely seen in solid tumors, extremely high genome-wide\
+    \ methylation levels can also be observed in an exceptional primary tumor type,\
+    \ acute lymphoblastic leukemia, where this landscape is influenced by specific\
+    \ epigenetic regulators. Together, the findings of this thesis advance our ability\
+    \ to analyze bisulfite sequencing data sets as well as to apply these more nuanced\
+    \ measurements to understand DNA methylation changes during tumorigenesis and\
+    \ in culture.},\n author = {Sara Hetzel},\n school = {Freie Universit{\\\"a}t\
+    \ Berlin},\n title = {Investigation of DNA methylation heterogeneity in cancer},\n\
+    \ url = {http://publications.imp.fu-berlin.de/3249/},\n year = {2023}\n}\n"
+  creators:
+  - name:
+      family: Hetzel
+      given: Sara
+      honourific: null
+      lineage: null
+  date: 2023
+  date_type: published
+  datestamp: '2025-02-06 12:42:14'
+  department: FB Mathematik und Informatik
+  dir: disk0/00/00/32/49
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3249
+  full_text_status: none
+  institution: "Freie Universit\xE4t Berlin"
+  ispublished: pub
+  key: fu_mi_publications3249
+  lastmod: '2025-02-06 12:55:17'
+  metadata_visibility: show
+  official_url: http://dx.doi.org/10.17169/refubium-41590
+  related_url:
+  - url: https://refubium.fu-berlin.de/handle/fub188/41869
+  rev_number: 9
+  status_changed: '2025-02-06 12:55:17'
+  subjects:
+  - G400
+  thesis_type: phd
+  title: Investigation of DNA methylation heterogeneity in cancer
+  type: thesis
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3249
+  userid: 132
 - bibtex: "@article{fu_mi_publications325,\n author = {E. Althaus and A. Caprara and\
     \ H.-P. Lenhof and K. Reinert},\n journal = {Mathematical Programming},\n number\
     \ = {105},\n pages = {387--425},\n title = {A Branch-and-Cut Algorithm for Multiple\
@@ -14778,6 +15313,361 @@
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/325
   userid: 1
+- abstract: "The function of non-coding RNA sequences is largely determined by their\
+    \ spatial conformation. This is the secondary structure of the molecule, which\
+    \ is formed by Watson\u2013Crick interactions between nucleotides. Hence, modern\
+    \ RNA alignment algorithms routinely take structural information into account.\
+    \ Essential tasks for discovering yet unknown RNA families and inferring their\
+    \ possible functions are the structural alignment of RNAs and the subsequent search\
+    \ of the derived structural motifs. These tasks demand a lot of computational\
+    \ resources, especially for aligning many long sequences, and it therefore requires\
+    \ efficient algorithms that utilize modern hardware when available. A subset of\
+    \ the secondary structures contains pseudoknots, which are overlapping interactions\
+    \ that add additional complexity to the analysis and are often ignored in available\
+    \ software.\r\n\r\nIn this thesis, I present LaRA 2 and MaRs, two SeqAn-based\
+    \ software tools that implement algorithms for finding sequence-structure motifs\
+    \ in genomic sequences. In contrast to other programs, my tools can handle arbitrary\
+    \ pseudoknots. They use multithreading for parallel execution and are implemented\
+    \ in modern C++ code for maximal longevity and performance.\r\n\r\nLaRA2 is significantly\
+    \ faster than comparable software for accurate pairwise and multiple alignments\
+    \ of structured RNA sequences. It uses a new heuristic for computing a lower boundary\
+    \ to the solution and employs vectorization techniques for speeding up the time-critical\
+    \ parts of the algorithm.\r\n\r\nMaRs can be applied in a workflow right after\
+    \ LaRA2 and derives sequence-structure motifs from the structural alignments.\
+    \ The motifs are descriptors of the RNA sequences\u2019 properties and drive the\
+    \ search for homologs in genomic sequences. MaRs employs a bidirectional index\
+    \ on the genomic sequences and an optimized multithreaded search strategy for\
+    \ finding the matches really fast. The use of a thread pool, effective pruning\
+    \ strategies, and a low memory footprint ensure that MaRs is capable of processing\
+    \ extremely large data sets."
+  bibtex: "@phdthesis{fu_mi_publications3250,\n abstract = {The function of non-coding\
+    \ RNA sequences is largely determined by their spatial conformation. This is the\
+    \ secondary structure of the molecule, which is formed by Watson?Crick interactions\
+    \ between nucleotides. Hence, modern RNA alignment algorithms routinely take structural\
+    \ information into account. Essential tasks for discovering yet unknown RNA families\
+    \ and inferring their possible functions are the structural alignment of RNAs\
+    \ and the subsequent search of the derived structural motifs. These tasks demand\
+    \ a lot of computational resources, especially for aligning many long sequences,\
+    \ and it therefore requires efficient algorithms that utilize modern hardware\
+    \ when available. A subset of the secondary structures contains pseudoknots, which\
+    \ are overlapping interactions that add additional complexity to the analysis\
+    \ and are often ignored in available software.\n\nIn this thesis, I present LaRA\
+    \ 2 and MaRs, two SeqAn-based software tools that implement algorithms for finding\
+    \ sequence-structure motifs in genomic sequences. In contrast to other programs,\
+    \ my tools can handle arbitrary pseudoknots. They use multithreading for parallel\
+    \ execution and are implemented in modern C++ code for maximal longevity and performance.\n\
+    \nLaRA2 is significantly faster than comparable software for accurate pairwise\
+    \ and multiple alignments of structured RNA sequences. It uses a new heuristic\
+    \ for computing a lower boundary to the solution and employs vectorization techniques\
+    \ for speeding up the time-critical parts of the algorithm.\n\nMaRs can be applied\
+    \ in a workflow right after LaRA2 and derives sequence-structure motifs from the\
+    \ structural alignments. The motifs are descriptors of the RNA sequences? properties\
+    \ and drive the search for homologs in genomic sequences. MaRs employs a bidirectional\
+    \ index on the genomic sequences and an optimized multithreaded search strategy\
+    \ for finding the matches really fast. The use of a thread pool, effective pruning\
+    \ strategies, and a low memory footprint ensure that MaRs is capable of processing\
+    \ extremely large data sets.},\n author = {J{\\\"o}rg Winkler},\n school = {Freie\
+    \ Universit{\\\"a}t Berlin},\n title = {Algorithms for finding RNA sequence-structure\
+    \ motifs},\n url = {http://publications.imp.fu-berlin.de/3250/},\n year = {2023}\n\
+    }\n"
+  creators:
+  - name:
+      family: Winkler
+      given: "J\xF6rg"
+      honourific: null
+      lineage: null
+  date: 2023
+  date_type: published
+  datestamp: '2025-02-06 12:46:29'
+  department: FB Mathematik und Informatik
+  dir: disk0/00/00/32/50
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3250
+  full_text_status: none
+  institution: "Freie Universit\xE4t Berlin"
+  ispublished: pub
+  key: fu_mi_publications3250
+  lastmod: '2025-02-06 12:54:09'
+  metadata_visibility: show
+  official_url: http://dx.doi.org/10.17169/refubium-40588
+  related_url:
+  - url: https://refubium.fu-berlin.de/handle/fub188/40867
+  rev_number: 9
+  status_changed: '2025-02-06 12:54:09'
+  subjects:
+  - G400
+  thesis_type: phd
+  title: Algorithms for finding RNA sequence-structure motifs
+  type: thesis
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3250
+  userid: 132
+- abstract: "A number of technological advancements in high-throughput genome sequencing\
+    \ have led to the generation of exabyte-scale sequencing data worldwide in recent\
+    \ years. These developments have facilitated large-scale resequencing projects\
+    \ like the 1000 Genomes Project, which aim to catalog the genetic diversity of\
+    \ organisms and speci\uFB01c populations. In the context of medical research,\
+    \ incorporating population data, is of particular interest. However, existing\
+    \ applications are often optimised for analysing a few sequences, and the methods\
+    \ used cannot be easily transferred to these vast datasets without exceeding system\
+    \ resources or producing results within a suitable time frame. Simultaneously,\
+    \ the execution model of processors has evolved from sequential to highly parallel\
+    \ process execution, thanks to the addition of processor cores, vector processing\
+    \ units, and advances in superscalar processor designs. This ongoing development\
+    \ in high-performance computing requires applications and algorithms to scale\
+    \ with the growing levels of parallelism. However, highly optimised algorithms\
+    \ are often embedded within applications, making them practically inaccessible\
+    \ to the scienti\uFB01c community. In this dissertation, we \uFB01rst investigate\
+    \ a generic approach to parallelise and vectorise pairwise sequence alignments\
+    \ using a dynamically scalable concurrency model. We explore various techniques\
+    \ and code-level optimisations to effectively utilise the available parallelisms\
+    \ on modern high-performance CPUs. The results demonstrate that the dynamically\
+    \ accelerated pairwise sequence alignment scales proportionally with the number\
+    \ of cores and provides speed-ups of up to a factor of 2500 compared to the sequential\
+    \ reference implementation on modern hardware. Second, we propose a general solution\
+    \ for data-compressed acceleration of pattern matching algorithms by compressing\
+    \ a large collection of related DNA sequences and providing a set of composable\
+    \ algorithms to re\uFB01ne and optimise the applicable operations. Our research\
+    \ on data-compressed acceleration shows hundred-fold speed-ups for online searching\
+    \ over a pangenome comprising over 5000 reference sequences compared to the naive\
+    \ approach of individually searching all sequences. These speed-ups are achieved\
+    \ while utilising only a fraction of the main memory. Moreover, we implemented\
+    \ these features in dedicated modules of the open-source software library SeqAn\
+    \ (https://www.seqan.de/), making them accessible and adoptable by the entire\
+    \ research community. While doing so, we strived for a user-friendly API design\
+    \ so that these methods can be easily customised and extended, making them applicable\
+    \ to a wide range of applications in the domain of computational sequence analysis."
+  bibtex: "@phdthesis{fu_mi_publications3251,\n abstract = {A number of technological\
+    \ advancements in high-throughput genome sequencing have led to the generation\
+    \ of exabyte-scale sequencing data worldwide in recent years. These developments\
+    \ have facilitated large-scale resequencing projects like the 1000 Genomes Project,\
+    \ which aim to catalog the genetic diversity of organisms and speci?c populations.\
+    \ In the context of medical research, incorporating population data, is of particular\
+    \ interest. However, existing applications are often optimised for analysing a\
+    \ few sequences, and the methods used cannot be easily transferred to these vast\
+    \ datasets without exceeding system resources or producing results within a suitable\
+    \ time frame. Simultaneously, the execution model of processors has evolved from\
+    \ sequential to highly parallel process execution, thanks to the addition of processor\
+    \ cores, vector processing units, and advances in superscalar processor designs.\
+    \ This ongoing development in high-performance computing requires applications\
+    \ and algorithms to scale with the growing levels of parallelism. However, highly\
+    \ optimised algorithms are often embedded within applications, making them practically\
+    \ inaccessible to the scienti?c community. In this dissertation, we ?rst investigate\
+    \ a generic approach to parallelise and vectorise pairwise sequence alignments\
+    \ using a dynamically scalable concurrency model. We explore various techniques\
+    \ and code-level optimisations to effectively utilise the available parallelisms\
+    \ on modern high-performance CPUs. The results demonstrate that the dynamically\
+    \ accelerated pairwise sequence alignment scales proportionally with the number\
+    \ of cores and provides speed-ups of up to a factor of 2500 compared to the sequential\
+    \ reference implementation on modern hardware. Second, we propose a general solution\
+    \ for data-compressed acceleration of pattern matching algorithms by compressing\
+    \ a large collection of related DNA sequences and providing a set of composable\
+    \ algorithms to re?ne and optimise the applicable operations. Our research on\
+    \ data-compressed acceleration shows hundred-fold speed-ups for online searching\
+    \ over a pangenome comprising over 5000 reference sequences compared to the naive\
+    \ approach of individually searching all sequences. These speed-ups are achieved\
+    \ while utilising only a fraction of the main memory. Moreover, we implemented\
+    \ these features in dedicated modules of the open-source software library SeqAn\
+    \ (https://www.seqan.de/), making them accessible and adoptable by the entire\
+    \ research community. While doing so, we strived for a user-friendly API design\
+    \ so that these methods can be easily customised and extended, making them applicable\
+    \ to a wide range of applications in the domain of computational sequence analysis.},\n\
+    \ author = {Ren{\\'e} Rahn},\n school = {Freie Universit{\\\"a}t Berlin},\n title\
+    \ = {Performance-Driven Algorithm Engineering},\n url = {http://publications.imp.fu-berlin.de/3251/},\n\
+    \ year = {2023}\n}\n"
+  creators:
+  - name:
+      family: Rahn
+      given: "Ren\xE9"
+      honourific: null
+      lineage: null
+  date: 2023
+  date_type: published
+  datestamp: '2025-02-06 12:50:01'
+  department: FB Mathematik und Informatik
+  dir: disk0/00/00/32/51
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3251
+  full_text_status: none
+  institution: "Freie Universit\xE4t Berlin"
+  ispublished: pub
+  key: fu_mi_publications3251
+  lastmod: '2025-02-06 12:52:42'
+  metadata_visibility: show
+  official_url: http://dx.doi.org/10.17169/refubium-41699
+  related_url:
+  - url: https://refubium.fu-berlin.de/handle/fub188/41976
+  rev_number: 9
+  status_changed: '2025-02-06 12:52:42'
+  subjects:
+  - G400
+  thesis_type: phd
+  title: Performance-Driven Algorithm Engineering
+  type: thesis
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3251
+  userid: 132
+- abstract: Due to advances in sequencing technologies, the amount of sequencing data
+    is continuously increasing and has reached an amount that calls for new data management
+    methods, to actually utilize the sequencing data. In the last years, a number
+    of different indices haven been developed to simplify the data, thereby reducing
+    the amount of space needed and enabling analysis on large collections of sequencing
+    data. In this thesis, the index Needle will be introduced, which allows (semi-)quantitative
+    analyses on large data sets and outperforms other existing solutions with regards
+    to both space and speed. Needle, like other indices, is based on alignment-free
+    methods because in this way the costly step of classical sequence analyses, the
+    alignment, can be omitted. Alignment-free methods are based on short subsequences
+    of the actual sequence data. There are multiple different methods to determine
+    these subsequences and this thesis provides a detailed analysis and comparison
+    to determine the best method for such indices. Moreover, the benchmarking application
+    minions is introduced, which will make comparisons between these methods easier
+    as adding future new methods is simple. Needle is capable of utilizing large collections
+    of sequencing data and determining their gene expressions. Three analyses are
+    performed, which act as a proof of concept for how Needle can be utilized for
+    large collections of sequencing data. Therefore, Needle is applied in this thesis
+    to find cancer signatures, a newly annotated mouse transcript and tissue specific
+    differentially expressed genes for different large data sets. In summary, indices
+    like Needle are needed to actually take advantage of the data wealth currently
+    present in the biological and medical research field.
+  bibtex: "@phdthesis{fu_mi_publications3252,\n abstract = {Due to advances in sequencing\
+    \ technologies, the amount of sequencing data is continuously increasing and has\
+    \ reached an amount that calls for new data management methods, to actually utilize\
+    \ the sequencing data. In the last years, a number of different indices haven\
+    \ been developed to simplify the data, thereby reducing the amount of space needed\
+    \ and enabling analysis on large collections of sequencing data. In this thesis,\
+    \ the index Needle will be introduced, which allows (semi-)quantitative analyses\
+    \ on large data sets and outperforms other existing solutions with regards to\
+    \ both space and speed. Needle, like other indices, is based on alignment-free\
+    \ methods because in this way the costly step of classical sequence analyses,\
+    \ the alignment, can be omitted. Alignment-free methods are based on short subsequences\
+    \ of the actual sequence data. There are multiple different methods to determine\
+    \ these subsequences and this thesis provides a detailed analysis and comparison\
+    \ to determine the best method for such indices. Moreover, the benchmarking application\
+    \ minions is introduced, which will make comparisons between these methods easier\
+    \ as adding future new methods is simple. Needle is capable of utilizing large\
+    \ collections of sequencing data and determining their gene expressions. Three\
+    \ analyses are performed, which act as a proof of concept for how Needle can be\
+    \ utilized for large collections of sequencing data. Therefore, Needle is applied\
+    \ in this thesis to find cancer signatures, a newly annotated mouse transcript\
+    \ and tissue specific differentially expressed genes for different large data\
+    \ sets. In summary, indices like Needle are needed to actually take advantage\
+    \ of the data wealth currently present in the biological and medical research\
+    \ field.},\n author = {Mitra Darvish},\n school = {Freie Universit{\\\"a}t Berlin},\n\
+    \ title = {Utilizing alignment-free methods to enable quantitative gene expression\
+    \ analysis of large collections of sequencing data},\n url = {http://publications.imp.fu-berlin.de/3252/},\n\
+    \ year = {2023}\n}\n"
+  creators:
+  - name:
+      family: Darvish
+      given: Mitra
+      honourific: null
+      lineage: null
+  date: 2023
+  date_type: published
+  datestamp: '2025-02-06 13:00:25'
+  department: FB Mathematik und Informatik
+  dir: disk0/00/00/32/52
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3252
+  full_text_status: none
+  institution: "Freie Universit\xE4t Berlin"
+  ispublished: pub
+  key: fu_mi_publications3252
+  lastmod: '2025-02-06 13:00:25'
+  metadata_visibility: show
+  official_url: http://dx.doi.org/10.17169/refubium-42059
+  related_url:
+  - url: https://refubium.fu-berlin.de/handle/fub188/42334
+  rev_number: 6
+  status_changed: '2025-02-06 13:00:25'
+  subjects:
+  - G400
+  thesis_type: phd
+  title: Utilizing alignment-free methods to enable quantitative gene expression analysis
+    of large collections of sequencing data
+  type: thesis
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3252
+  userid: 132
+- abstract: 'The goal of this work is to deploy a primer search tool (PriSeT) suitable
+    for taxonomically broad, sparse, and uncurated datasets of reference sequences.
+    I discuss the theoretical and practical challenges when sequence datasets are
+    large. Uncurated online reference databases are often the only source available
+    when designing new primer sequences, studying the effectiveness, and for species
+    identification. As a case study, two different identification methods for planktonic
+    microorganisms from freshwater samples are presented: identification via light
+    microscopy and DNA sequencing. The sequencing approach will replace the manual
+    method to a large extent, but still needs to be improved and requires many costly
+    trial-and-error iterations. The robust primer search tool PriSeT is here developed
+    and designed to shorten the optimization time and to facilitate new types of in
+    silico analyses. I evaluate PriSeT on 18S rRNA genes from all major plankton clades
+    and on whole RNA genomes. The resulting primer sequences are compared to published
+    primer pairs. Finally, the workflow of an academic research group planning and
+    conducting metabarcoding experiments is critically reviewed. I present a database
+    schema designed to summarize key information and enable researchers to be more
+    productive in less time. The scheme also alleviates new types of meta-analysis
+    that are not possible when data are scattered, such as quantitative and qualitative
+    comparisons between different studies.'
+  bibtex: "@phdthesis{fu_mi_publications3253,\n abstract = {The goal of this work\
+    \ is to deploy a primer search tool (PriSeT) suitable for taxonomically broad,\
+    \ sparse, and uncurated datasets of reference sequences. I discuss the theoretical\
+    \ and practical challenges when sequence datasets are large. Uncurated online\
+    \ reference databases are often the only source available when designing new primer\
+    \ sequences, studying the effectiveness, and for species identification. As a\
+    \ case study, two different identification methods for planktonic microorganisms\
+    \ from freshwater samples are presented: identification via light microscopy and\
+    \ DNA sequencing. The sequencing approach will replace the manual method to a\
+    \ large extent, but still needs to be improved and requires many costly trial-and-error\
+    \ iterations. The robust primer search tool PriSeT is here developed and designed\
+    \ to shorten the optimization time and to facilitate new types of in silico analyses.\
+    \ I evaluate PriSeT on 18S rRNA genes from all major plankton clades and on whole\
+    \ RNA genomes. The resulting primer sequences are compared to published primer\
+    \ pairs. Finally, the workflow of an academic research group planning and conducting\
+    \ metabarcoding experiments is critically reviewed. I present a database schema\
+    \ designed to summarize key information and enable researchers to be more productive\
+    \ in less time. The scheme also alleviates new types of meta-analysis that are\
+    \ not possible when data are scattered, such as quantitative and qualitative comparisons\
+    \ between different studies.},\n author = {Marie Hoffmann},\n school = {Freie\
+    \ Universit{\\\"a}t Berlin},\n title = {What is in my Sample? Challenges and Approaches\
+    \ for Unveiling the Hidden Diversity in Plankton Samples},\n url = {http://publications.imp.fu-berlin.de/3253/},\n\
+    \ year = {2022}\n}\n"
+  creators:
+  - name:
+      family: Hoffmann
+      given: Marie
+      honourific: null
+      lineage: null
+  date: 2022
+  date_type: published
+  datestamp: '2025-02-06 13:03:06'
+  department: FB Mathematik und Informatik
+  dir: disk0/00/00/32/53
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3253
+  full_text_status: none
+  institution: "Freie Universit\xE4t Berlin"
+  ispublished: pub
+  key: fu_mi_publications3253
+  lastmod: '2025-02-06 13:03:06'
+  metadata_visibility: show
+  official_url: http://dx.doi.org/10.17169/refubium-36186
+  related_url:
+  - url: https://refubium.fu-berlin.de/handle/fub188/36473
+  rev_number: 6
+  status_changed: '2025-02-06 13:03:06'
+  subjects:
+  - G400
+  thesis_type: phd
+  title: What is in my Sample? Challenges and Approaches for Unveiling the Hidden
+    Diversity in Plankton Samples
+  type: thesis
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3253
+  userid: 132
 - bibtex: "@inproceedings{fu_mi_publications326,\n author = {E. Althaus and A. Caprara\
     \ and H.-P. Lenhof and K. Reinert},\n booktitle = {Proceedings of the 1st European\
     \ Conference on Computational Biology (ECCB 2002)},\n pages = {4--16},\n title\
