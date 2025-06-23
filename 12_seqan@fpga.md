@@ -41,7 +41,7 @@ Finally, we will use these implementations to implement, as an example of a typi
 mapper that uses both FPGA-based implementations and compare its performance and power consumption with the
 corresponding CPU-based solution.
 
-<img src="/assets/images/overlay/SeqAn@FPGA.svg" style="display: flex; margin-left: auto; margin-right: auto; width: 50%">
+<img src="{{ 'assets/images/overlay/SeqAn@FPGA.svg' | relative_url }}" style="display: flex; margin-left: auto; margin-right: auto; width: 50%">
 
 ## See also
 
@@ -62,4 +62,4 @@ corresponding CPU-based solution.
 # Publications
 --------------
 
-<img src="/assets/images/icons/BMBF.svg" style="display: flex; margin-left: auto; margin-right: auto; width: 20%;">
+<img src="{{ 'assets/images/icons/BMBF.svg' | relative_url }}" style="display: flex; margin-left: auto; margin-right: auto; width: 20%;">

@@ -1,0 +1,123 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.two_columns {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+#dialog_loading {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #80808080;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dialog_loading > div {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+}
+#dialog_loading .loader {
+  width: fit-content;
+  clip-path: inset(0 3ch 0 0);
+  animation: l4 1s steps(4) infinite;
+}
+#dialog_loading .loader:before {
+  content:"Loading ..."
+}
+@keyframes l4 {to{clip-path: inset(0 -1ch 0 0)}}
+
+#settings {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#generator, #inputfield, #visualization, #stats {
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#inputfield > textarea {
+    flex-grow: 1;
+}
+
+#stats input[readonly] {
+    background-color: #CCCCCC;
+}
+
+#stats input.failed {
+    background-color: #ff8080;
+}
+#stats input {
+    width: 4em;
+}
+
+svg circle {
+    z-index: 1;
+}
+svg line {
+    z-index: 0;
+}
+svg circle[data-hovered="true"] {
+    fill: green;
+    filter: url(#glow);
+}
+svg line[data-hovered="true"] {
+    stroke: green;
+}
+
+svg circle[data-selected="true"] {
+    fill: green;
+}
+svg line[data-selected="true"] {
+    stroke: green;
+}
+
+.int {
+    width: 3em;
+}
+#canvas {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#canvas > svg {
+    border: 1px solid black;
+    border-radius: 15px;
+    max-height: 33vh;
+    margin: 5px 5px;
+    padding: 10px;
+}
+#footer {
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+    flex-direction: column;
+}

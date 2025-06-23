@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Search Scheme Analysis</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1, interactive-widget=resizes-content" name="viewport" />
+        <link href="style.css" rel="stylesheet" />
+        <script defer src="jszip.min.js" type="text/javascript" ></script>
+        <script defer src="search_schemes.js.js" type="text/javascript" ></script>
+        <script defer src="js.js" type="text/javascript" ></script>
+    </head>
+    <body>
+        <div id="dialog_loading">
+           <div>
+                <span class="loader"></span>
+            </div>
+        </div>
+        <div id="settings">
+            <form id="generator">
+                <h2>Generate search scheme</h2>
+                <div class="two_columns">
+                    <span>generator:</span> <select id="generator_list"></select>
+                    <span>errors:</span><span><input id="generator_min_errors" type="number" class="int" value="0"/>-<input id="generator_max_errors" type="number" class="int" value="1"/></span>
+                    <div id="generator_error"></div>
+                </div>
+                <div id="footer"><span><a href="https://github.com/SGSSGene/web_search_schemes">github</a> - v1.1.1</span></div>
+            </form>
+            <div id="inputfield">
+                <h2>Search scheme</h2>
+                <textarea spellcheck="false" rows="6" cols="40" id="schemeinput" ></textarea>
+                <div id="errorfield"></div>
+            </div>
+            <form id="visualization">
+                <h2>Visualization</h2>
+                <div class="two_columns">
+                    <span>parts:</span><input id="vis_parts" type="number" class="int" value="8">
+                    <span>alphabet:</span><input id="vis_alphabet" type="number" class="int" value="2">
+                    <span>edit distance:</span><input id="vis_editdistance" type="checkbox" value="false">
+                    <span><span>format:</span> <select id="format_list"><option value="svg">svg</option><option value="tikz">tikz</option></select></span>
+                    <button id="download">export</button>
+
+                </div>
+            </form>
+            <form id="stats">
+                <h2>Statistics</h2>
+                <div class="two_columns">
+                    <span>valid:</span><input id="vis_valid" type="boolean" readonly value="false">
+                    <span>complete:</span><input id="vis_complete" type="boolean" readonly value="false">
+                    <span>not-redundant:</span><input id="vis_nonredundant" type="boolean" readonly value="false">
+                    <span>node-count:</span><input id="vis_nodecount" type=number" readonly value="0">
+                    <span>weighted-node-count:</span><input id="vis_weightednodecount" type="number" readonly value="0">
+                </div>
+            </form>
+        </div>
+        <div id="canvas"></div>
+    </body>
+</html>
