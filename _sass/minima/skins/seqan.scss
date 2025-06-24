@@ -9,14 +9,17 @@ $site-footer-link-visited-color: $site-footer-link-base-color !default;
 $site-footer-link-hover-color: lighten($site-footer-link-base-color, 40%) !default;
 $site-footer-background-color: #363839 !default;
 
+
 //----------------------------------------------------------------------------
 
 $brand-color:           #828282 !default;
 $brand-color-light:     lighten($brand-color, 40%) !default;
+$brand-color-dimmed:    darken($brand-color, 11%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
 $site-title-color:      $brand-color-dark !default;
 
+$heading-color:         #111111 !default;
 $text-color:            #111111 !default;
 $background-color:      #fdfdfd !default;
 $code-background-color: #eeeeff !default;

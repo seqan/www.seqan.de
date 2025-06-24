@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 ---
 
 <div class="news">
@@ -35,7 +35,7 @@ layout: default
           <div class="news-title">{{ post.title | escape }}</div>
 
           <div class="news-text">
-          {%- if site.show_excerpts -%}
+          {%- if site.minima.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
           </div>

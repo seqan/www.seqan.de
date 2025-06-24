@@ -17,7 +17,7 @@ redirect_from:
         {% if person.avatar %}
         <img class="person-avatar" src="{{person.avatar | relative_url}}">
         {% else %}
-        <img class="person-avatar" src="/assets/images/people/avatar_dummy.svg">
+        <img class="person-avatar" src="{{'assets/images/people/avatar_dummy.svg' | relative_url}}">
         {% endif %}
         <span class="person-name-position">
             <span class="person-name">{{ person.name }}</span>
