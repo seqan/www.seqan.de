@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 ---
 <article class="app">
 
@@ -47,14 +47,14 @@ layout: default
       {% if author.avatar %}
         <img class="person-avatar" src="{{author.avatar | relative_url}}">
       {% else %}
-        <img class="person-avatar" src="/assets/images/people/avatar_dummy.svg">
+        <img class="person-avatar" src="{{'assets/images/people/avatar_dummy.svg' | relative_url}}">
       {% endif %}
       <span class="person-name-position">
           <span class="person-name">{{ author.name }}</span>
           <small class="person-position"><a href="mailto:{{author.social_links.email}}">{{author.social_links.email}}</a></small>
       </span>
     {% else %} <!-- if author is not present, just print the name and the dummy avatar. -->
-      <img class="person-avatar" src="/assets/images/people/avatar_dummy.svg">
+      <img class="person-avatar" src="{{'assets/images/people/avatar_dummy.svg' | relative_url}}">
       <span class="person-name-position">
         <span class="person-name">{{ page.contact }}</span>
       </span>

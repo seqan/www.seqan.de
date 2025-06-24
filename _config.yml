@@ -1,73 +1,103 @@
+# Site-wide settings
+# ------------------
+#
 title: SeqAn
+#
 author:
   name: SeqAn
   email: support@seqan.de
-description: > # this means to ignore newlines until "show_excerpts:"
+#
+# The `>` after `description:` means to ignore line-breaks until next key. If
+#   you wish to omit the line-break after the end of text, use `>-` instead.
+description: >
   SeqAn is an open source C++ library of efficient algorithms and data
   structures for the analysis of sequences with the focus on biological data.
 
-show_excerpts: true # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  skin: "seqan"
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    twitter: SeqAnLib
-    github:  seqan
-    gitter: seqan/Lobby
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-collections:
-  people:
-  apps:
-    output: true
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-- 01_news.md
-- 02_getting_started.md
-- 03_people.md
-- 04_applications.md
-- 05_publications.md
-- 06_contact.md
 
 # Build settings
-theme: minima
-
+# --------------
+#
+# If you wish to use the gem-version of Minima with or without a Gemfile, use
+#   the following setting:
+# theme: minima
+#
+# **OR** if you wish to use the theme directly from the GitHub repository by
+#   bypassing a Gemfile, use the following setting instead.
+#   It is best that you lock to a particular commit and update if uptream changes
+#   do not affect your site adversely.
+remote_theme: jekyll/minima@0b7ca6b
+#
+# Minima requires the following plugins:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-redirect-from
  - jemoji
+#
+# Uncomment the following setting if you wish to disable deprecation warnings
+#   from newer versions of sass converter. Adapt as required.
+sass:
+  quiet_deps: true
+  silence_deprecations: [import, global-builtin, color-functions]
+
+
+# Minima-specific settings (applicable to Minima v3 and above only)
+# -----------------------------------------------------------------
+#
+#  *All described config keys below should be nested under the top-level
+#   `minima` key.*
+#
+minima:
+#   Minima skin selection. Available skins are:
+#     * classic            Default, light color scheme.
+#     * dark               Dark variant of the classic skin.
+#     * auto               Adaptive skin based on the classic and dark skins.
+#     * solarized-light    Light variant of solarized color scheme.
+#     * solarized-dark     Dark variant of solarized color scheme.
+#     * solarized          Adaptive skin for solarized color scheme skins.
+  skin: seqan
+#
+#   Specific pages for site navigation.
+#     If you wish to link only specific pages in the site-navigation, use this
+#     and list the `path` property (as represented via Liquid) of the pages in
+#     the order they should be rendered.
+  nav_pages:
+    - 01_news.md
+    - 02_getting_started.md
+    - 03_people.md
+    - 04_applications.md
+    - 05_publications.md
+    - 06_contact.md
+#
+#   Set to `true` to show excerpts on the homepage.
+  show_excerpts: true
+#
+#   Minima date format.
+#     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
+#     Refer to https://shopify.github.io/liquid/filters/date/ for valid values
+  date_format: "%b %-d, %Y"
+#
+#   Social Media Links.
+#     Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
+#     entries. Valid entry keys:
+#       * title    Tooltip rendered on hovering over icon.
+#       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+#       * url      Full URL of social profile.
+  social_links:
+    - icon: github
+      url: "https://github.com/seqan"
+    - icon: twitter
+      url: "https://x.com/SeqAnLib"
+    - icon: element
+      url: "https://gitter.im/seqan/Lobby"
+#
+#   Hide syndication feed subscription link.
+#     RSS / Atom feed link is always rendered as the last item of social-links
+#     list. Set below key to `true` to not have the link to feed rendered as
+#     part of social-links list.
+#   hide_site_feed_link: false
+
+collections:
+  people:
+  apps:
+    output: true
