@@ -14413,50 +14413,44 @@
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/3141
   userid: 132
-- abstract: "The fast growth of public repositories of sequences greatly contributes\
-    \ to the success of metagenomics applications. However, they are growing at a\
-    \ much faster pace than the resources to use them properly. This challenges current\
-    \ methods, which struggle to take full advantage of the massive and fast data\
-    \ generation. We propose a generational leap in performance and usability with\
-    \ ganon2, a sequence classification method that performs taxonomic binning and\
-    \ profiling for metagenomics analysis. It indexes large datasets with a small\
-    \ memory footprint, maintaining fast, sensitive, and precise classification results.\
-    \ This is possible with the Hierarchical Interleaved Bloom Filter data structure\
-    \ paired with minimizers and several other improvements and optimizations. Based\
-    \ on the full NCBI RefSeq and its sub-sets, ganon2 indices are on average 50%\
-    \ smaller than state-of-the-art methods, providing a great compression rate for\
-    \ large and diverse genomic reference sets. Using 16 simulated samples from various\
-    \ studies, including the CAMI 1+2 challenge, ganon2 achieved up to 0.17 higher\
-    \ median F1-Score in taxonomic binning. In profiling, improvements in the F1-Score\
-    \ median are up to 0.32 keeping a balanced L1-norm error in the abundance estimation.\
-    \ ganon2\r\nis one of the fastest tools evaluated and enables the use of larger,\
-    \ more diverse and up-to-date reference sets in daily microbiome analysis, improving\
-    \ the resolution of results. The code is open-source and available with documentation\
-    \ at\r\nhttps://github.com/pirovc/ganon"
+- abstract: The fast growth of public genomic sequence repositories greatly contributes
+    to the success of metagenomics. However, they are growing at a faster pace than
+    the computational resources to use them. This challenges current methods, which
+    struggle to take full advantage of massive and fast data generation. We propose
+    a generational leap in performance and usability with ganon2, a sequence classification
+    method that performs taxonomic binning and profiling for metagenomics analysis.
+    It indexes large datasets with a small memory footprint, maintaining fast, sensitive,
+    and precise classification results. Based on the full NCBI RefSeq and its subsets,
+    ganon2 indices are on average 50% smaller than state-of-the-art methods. Using
+    16 simulated samples from various studies, including the CAMI 1+2 challenge, ganon2
+    achieved up to 0.15 higher median F1-score in taxonomic binning. In profiling,
+    improvements in the F1-score median are up to 0.35, keeping a balanced L1-norm
+    error in the abundance estimation. ganon2 is one of the fastest tools evaluated
+    and enables the use of larger, more diverse, and up-to-date reference sets in
+    daily microbiome analysis, improving the resolution of results. The code is open-source
+    and available with documentation at https://github.com/pirovc/ganon.
   bibtex: "@article{fu_mi_publications3142,\n abstract = {The fast growth of public\
-    \ repositories of sequences greatly contributes to the success of metagenomics\
-    \ applications. However, they are growing at a much faster pace than the resources\
-    \ to use them properly. This challenges current methods, which struggle to take\
-    \ full advantage of the massive and fast data generation. We propose a generational\
-    \ leap in performance and usability with ganon2, a sequence classification method\
-    \ that performs taxonomic binning and profiling for metagenomics analysis. It\
-    \ indexes large datasets with a small memory footprint, maintaining fast, sensitive,\
-    \ and precise classification results. This is possible with the Hierarchical Interleaved\
-    \ Bloom Filter data structure paired with minimizers and several other improvements\
-    \ and optimizations. Based on the full NCBI RefSeq and its sub-sets, ganon2 indices\
-    \ are on average 50\\% smaller than state-of-the-art methods, providing a great\
-    \ compression rate for large and diverse genomic reference sets. Using 16 simulated\
-    \ samples from various studies, including the CAMI 1+2 challenge, ganon2 achieved\
-    \ up to 0.17 higher median F1-Score in taxonomic binning. In profiling, improvements\
-    \ in the F1-Score median are up to 0.32 keeping a balanced L1-norm error in the\
-    \ abundance estimation. ganon2\nis one of the fastest tools evaluated and enables\
-    \ the use of larger, more diverse and up-to-date reference sets in daily microbiome\
+    \ genomic sequence repositories greatly contributes to the success of metagenomics.\
+    \ However, they are growing at a faster pace than the computational resources\
+    \ to use them. This challenges current methods, which struggle to take full advantage\
+    \ of massive and fast data generation. We propose a generational leap in performance\
+    \ and usability with ganon2, a sequence classification method that performs taxonomic\
+    \ binning and profiling for metagenomics analysis. It indexes large datasets with\
+    \ a small memory footprint, maintaining fast, sensitive, and precise classification\
+    \ results. Based on the full NCBI RefSeq and its subsets, ganon2 indices are on\
+    \ average 50\\% smaller than state-of-the-art methods. Using 16 simulated samples\
+    \ from various studies, including the CAMI 1+2 challenge, ganon2 achieved up to\
+    \ 0.15 higher median F1-score in taxonomic binning. In profiling, improvements\
+    \ in the F1-score median are up to 0.35, keeping a balanced L1-norm error in the\
+    \ abundance estimation. ganon2 is one of the fastest tools evaluated and enables\
+    \ the use of larger, more diverse, and up-to-date reference sets in daily microbiome\
     \ analysis, improving the resolution of results. The code is open-source and available\
-    \ with documentation at\nhttps://github.com/pirovc/ganon},\n author = {Vitor C.\
+    \ with documentation at https://github.com/pirovc/ganon.},\n author = {Vitor C.\
     \ Piro and Knut Reinert},\n booktitle = {ganon2: up-to-date and scalable metagenomics\
-    \ analysis},\n journal = {bioRxiv preprint},\n month = {December},\n title = {ganon2:\
-    \ up-to-date and scalable metagenomics\nanalysis},\n url = {http://publications.imp.fu-berlin.de/3142/},\n\
-    \ year = {2023}\n}\n"
+    \ analysis},\n journal = {NAR Genomics and Bioinformatics},\n month = {July},\n\
+    \ number = {3},\n publisher = {Oxford University Press},\n title = {ganon2: up-to-date\
+    \ and scalable metagenomics\nanalysis},\n url = {http://publications.imp.fu-berlin.de/3142/},\n\
+    \ volume = {7},\n year = {2025}\n}\n"
   book_title: 'ganon2: up-to-date and scalable metagenomics analysis'
   creators:
   - name:
@@ -14469,7 +14463,8 @@
       given: Knut
       honourific: null
       lineage: null
-  date: '2023-12-08'
+  date: '2025-07-17'
+  date_type: published
   datestamp: '2024-04-18 10:54:02'
   dir: disk0/00/00/31/42
   divisions:
@@ -14477,22 +14472,25 @@
   eprint_status: archive
   eprintid: 3142
   full_text_status: none
-  id_number: doi:10.1101/2023.12.07.570547
+  id_number: doi:10.1093/nargab/lqaf094
   ispublished: pub
   key: fu_mi_publications3142
-  lastmod: '2024-04-18 10:54:02'
+  lastmod: '2025-09-15 15:08:26'
   metadata_visibility: show
-  official_url: https://doi.org/10.1101/2023.12.07.570547
-  publication: bioRxiv preprint
-  refereed: 'FALSE'
-  rev_number: 5
-  status_changed: '2024-04-18 10:54:02'
+  number: 3
+  official_url: https://academic.oup.com/nargab/article/doi/10.1093/nargab/lqaf094/8204051
+  publication: NAR Genomics and Bioinformatics
+  publisher: Oxford University Press
+  refereed: 'TRUE'
+  rev_number: 8
+  status_changed: '2025-09-15 15:08:26'
   subjects:
   - G400
   title: "ganon2: up-to-date and scalable metagenomics\r\nanalysis"
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/3142
   userid: 132
+  volume: 7
 - abstract: "Motivation\r\nLocal alignments of query sequences in large databases\
     \ represent a core part of metagenomic studies and facilitate homology search.\
     \ Following the development of NCBI Blast, many applications aimed to provide\
@@ -15049,51 +15047,41 @@
   userid: 132
   volume: 25
 - abstract: Non-targeted metabolomics holds great promise for advancing precision
-    medicine and facilitating the discovery of novel biomarkers. However, the identification
-    of compounds from tandem mass spectra remains a non-trivial task due to the incomplete
-    nature of spectral reference libraries. Augmenting these libraries with simulated
-    mass spectra can provide the necessary reference to resolve unmatched mass spectra,
-    but remains a difficult undertaking to this day. In this study, we introduce Fiora,
-    an innovative open-source algorithm using graph neural networks to simulate tandem
-    mass spectra in silico. Our objective is to improve fragment intensity prediction
-    with an intricate graph model architecture that facilitates edge prediction, thereby
-    modeling fragment ions as the result of singular bond breaks and their local molecular
-    neighborhood. We evaluate the performance on test data from NIST (2017) and the
-    curated MS-Dial spectral library, as well as compounds from the 2016 and 2022
-    CASMI challenges. Fiora not only surpasses state-of-the-art fragmentation algorithms,
-    ICEBERG and CFM-ID, in terms of prediction quality, but also predicts additional
-    features, such as retention time and collision cross section. In addition, Fiora
-    demonstrates significant speed improvements through the use of GPUs. This enables
-    rapid (re)scoring of putative compound identifications in non-targeted experiments
-    and facilitates large-scale expansion of spectral reference libraries with accurate
-    spectral predictions.
+    medicine and biomarker discovery. However, identifying compounds from tandem mass
+    spectra remains a challenging task due to the incomplete nature of spectral reference
+    libraries. Augmenting these libraries with simulated mass spectra can provide
+    the necessary references to resolve unmatched spectra, but generating high-quality
+    data is difficult. In this study, we present FIORA, an open-source graph neural
+    network designed to simulate tandem mass spectra. Our main contribution lies in
+    utilizing the molecular neighborhood of bonds to learn breaking patterns and derive
+    fragment ion probabilities. FIORA not only surpasses state-of-the-art fragmentation
+    algorithms, ICEBERG and CFM-ID, in prediction quality, but also facilitates the
+    prediction of additional features, such as retention time and collision cross
+    section. Utilizing GPU acceleration, FIORA enables rapid validation of putative
+    compound annotations and large-scale expansion of spectral reference libraries
+    with high-quality predictions.
   bibtex: "@article{fu_mi_publications3246,\n abstract = {Non-targeted metabolomics\
-    \ holds great promise for advancing precision medicine and facilitating the discovery\
-    \ of novel biomarkers. However, the identification of compounds from tandem mass\
-    \ spectra remains a non-trivial task due to the incomplete nature of spectral\
-    \ reference libraries. Augmenting these libraries with simulated mass spectra\
-    \ can provide the necessary reference to resolve unmatched mass spectra, but remains\
-    \ a difficult undertaking to this day. In this study, we introduce Fiora, an innovative\
-    \ open-source algorithm using graph neural networks to simulate tandem mass spectra\
-    \ in silico. Our objective is to improve fragment intensity prediction with an\
-    \ intricate graph model architecture that facilitates edge prediction, thereby\
-    \ modeling fragment ions as the result of singular bond breaks and their local\
-    \ molecular neighborhood. We evaluate the performance on test data from NIST (2017)\
-    \ and the curated MS-Dial spectral library, as well as compounds from the 2016\
-    \ and 2022 CASMI challenges. Fiora not only surpasses state-of-the-art fragmentation\
-    \ algorithms, ICEBERG and CFM-ID, in terms of prediction quality, but also predicts\
-    \ additional features, such as retention time and collision cross section. In\
-    \ addition, Fiora demonstrates significant speed improvements through the use\
-    \ of GPUs. This enables rapid (re)scoring of putative compound identifications\
-    \ in non-targeted experiments and facilitates large-scale expansion of spectral\
-    \ reference libraries with accurate spectral predictions.},\n author = {Yannek\
-    \ Nowatzky and Francesco Russo and Jan Lisec and Alexander Kister and Knut Reinert\
-    \ and Thilo Muth and Philipp Benner},\n booktitle = {Fiora: Local neighborhood-based\
-    \ prediction of compound mass spectra from single fragmentation events},\n journal\
-    \ = {bioRxiv (preprint)},\n month = {April},\n publisher = {Cold Spring Harbor\
-    \ Laboratory},\n title = {Fiora: Local neighborhood-based prediction of compound\
-    \ mass spectra from single fragmentation events},\n url = {http://publications.imp.fu-berlin.de/3246/},\n\
-    \ year = {2024}\n}\n"
+    \ holds great promise for advancing precision medicine and biomarker discovery.\
+    \ However, identifying compounds from tandem mass spectra remains a challenging\
+    \ task due to the incomplete nature of spectral reference libraries. Augmenting\
+    \ these libraries with simulated mass spectra can provide the necessary references\
+    \ to resolve unmatched spectra, but generating high-quality data is difficult.\
+    \ In this study, we present FIORA, an open-source graph neural network designed\
+    \ to simulate tandem mass spectra. Our main contribution lies in utilizing the\
+    \ molecular neighborhood of bonds to learn breaking patterns and derive fragment\
+    \ ion probabilities. FIORA not only surpasses state-of-the-art fragmentation algorithms,\
+    \ ICEBERG and CFM-ID, in prediction quality, but also facilitates the prediction\
+    \ of additional features, such as retention time and collision cross section.\
+    \ Utilizing GPU acceleration, FIORA enables rapid validation of putative compound\
+    \ annotations and large-scale expansion of spectral reference libraries with high-quality\
+    \ predictions.},\n author = {Yannek Nowatzky and Francesco Russo and Jan Lisec\
+    \ and Alexander Kister and Knut Reinert and Thilo Muth and Philipp Benner},\n\
+    \ booktitle = {Fiora: Local neighborhood-based prediction of compound mass spectra\
+    \ from single fragmentation events},\n journal = {Nature Communications},\n month\
+    \ = {March},\n number = {1},\n publisher = {Springer Nature, London},\n title\
+    \ = {FIORA: Local neighborhood-based prediction of compound mass spectra from\
+    \ single fragmentation events},\n url = {http://publications.imp.fu-berlin.de/3246/},\n\
+    \ volume = {16},\n year = {2025}\n}\n"
   book_title: 'Fiora: Local neighborhood-based prediction of compound mass spectra
     from single fragmentation events'
   creators:
@@ -15132,8 +15120,8 @@
       given: Philipp
       honourific: null
       lineage: null
-  date: '2024-04-26'
-  date_type: submitted
+  date: '2025-03-07'
+  date_type: published
   datestamp: '2025-01-29 15:47:55'
   dir: disk0/00/00/32/46
   divisions:
@@ -15141,24 +15129,26 @@
   eprint_status: archive
   eprintid: 3246
   full_text_status: none
-  id_number: doi:10.1101/2024.04.22.590551
+  id_number: doi:10.1038/s41467-025-57422-4
   ispublished: pub
   key: fu_mi_publications3246
-  lastmod: '2025-01-29 15:47:55'
+  lastmod: '2025-09-15 14:43:33'
   metadata_visibility: show
-  official_url: https://doi.org/10.1101/2024.04.22.590551
-  publication: bioRxiv (preprint)
-  publisher: Cold Spring Harbor Laboratory
-  refereed: 'FALSE'
-  rev_number: 5
-  status_changed: '2025-01-29 15:47:55'
+  number: 1
+  official_url: https://www.nature.com/articles/s41467-025-57422-4
+  publication: Nature Communications
+  publisher: Springer Nature, London
+  refereed: 'TRUE'
+  rev_number: 8
+  status_changed: '2025-09-15 14:43:33'
   subjects:
   - G400
-  title: 'Fiora: Local neighborhood-based prediction of compound mass spectra from
+  title: 'FIORA: Local neighborhood-based prediction of compound mass spectra from
     single fragmentation events'
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/3246
   userid: 132
+  volume: 16
 - abstract: Within the body, every cell contains the same genetic blueprint, the DNA,
     which is wrapped around histones and densely packed in the nucleus. Given the
     same genome, the identity of each cell is in part defined by modifications to
@@ -15843,6 +15833,243 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/328
   userid: 1
   volume: 297
+- abstract: Advances in sequencing technology have facilitated population-scale long-read
+    analysis, in which one of the main challenges is arguably developing high-performance
+    computational pipelines. Sequence alignment and assembly are two main long-read
+    analysis methods. Alignment-based pipelines are commonly more efficient and require
+    less read coverage than assembly-based ones, and thus are more applicable to population-scale
+    analysis. However, alignment-based pipelines are less effective in reconstructing
+    highly diverse structures in ultra-long reads such as intra-read SVs. Here, we
+    propose a new filter-based pipeline that is designed to capture rearrangement
+    signals at an earlier stage than conventional pipelines to improve long-read analysis
+    performance. To this end, we investigated the feasibility and essential methods
+    of the design and assessed the performance of the pipeline. Correspondingly, this
+    work comprises three parts starting with data structure optimizations then module
+    development and finally large-scale assessments. Assessments based on high-quality
+    datasets suggest that filter-based pipelines are comparable to or outperform conventional
+    pipelines in terms of detecting complex intra-read rearrangements and computational
+    efficiency. Therefore, the newly proposed pipeline may further benefit population-scale
+    long-read analysis.
+  bibtex: "@phdthesis{fu_mi_publications3283,\n abstract = {Advances in sequencing\
+    \ technology have facilitated population-scale long-read analysis, in which one\
+    \ of the main challenges is arguably developing high-performance computational\
+    \ pipelines. Sequence alignment and assembly are two main long-read analysis methods.\
+    \ Alignment-based pipelines are commonly more efficient and require less read\
+    \ coverage than assembly-based ones, and thus are more applicable to population-scale\
+    \ analysis. However, alignment-based pipelines are less effective in reconstructing\
+    \ highly diverse structures in ultra-long reads such as intra-read SVs. Here,\
+    \ we propose a new filter-based pipeline that is designed to capture rearrangement\
+    \ signals at an earlier stage than conventional pipelines to improve long-read\
+    \ analysis performance. To this end, we investigated the feasibility and essential\
+    \ methods of the design and assessed the performance of the pipeline. Correspondingly,\
+    \ this work comprises three parts starting with data structure optimizations then\
+    \ module development and finally large-scale assessments. Assessments based on\
+    \ high-quality datasets suggest that filter-based pipelines are comparable to\
+    \ or outperform conventional pipelines in terms of detecting complex intra-read\
+    \ rearrangements and computational efficiency. Therefore, the newly proposed pipeline\
+    \ may further benefit population-scale long-read analysis.},\n author = {Chenxu\
+    \ Pan},\n school = {Freie Universit{\\\"a}t Berlin},\n title = {High-performance\
+    \ algorithms and applications of long-read mapping and SV detection},\n url =\
+    \ {http://publications.imp.fu-berlin.de/3283/},\n year = {2024}\n}\n"
+  creators:
+  - name:
+      family: Pan
+      given: Chenxu
+      honourific: null
+      lineage: null
+  date: 2024
+  date_type: published
+  datestamp: '2025-09-15 15:22:59'
+  department: "Institut f\xFCr Informatik"
+  dir: disk0/00/00/32/83
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3283
+  full_text_status: none
+  institution: "Freie Universit\xE4t Berlin"
+  ispublished: pub
+  key: fu_mi_publications3283
+  lastmod: '2025-09-15 15:22:59'
+  metadata_visibility: show
+  official_url: https://refubium.fu-berlin.de/handle/fub188/46318
+  rev_number: 6
+  status_changed: '2025-09-15 15:22:59'
+  subjects:
+  - G400
+  thesis_type: phd
+  title: High-performance algorithms and applications of long-read mapping and SV
+    detection
+  type: thesis
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3283
+  userid: 132
+- abstract: The scale of modern datasets has necessitated innovations to solve even
+    the most traditional and fundamental of computational problems. Set membership
+    and set cardinality are both examples of simple queries that, for large enough
+    datasets, quickly become challenging using traditional approaches. Interestingly,
+    we find a need for these innovations within the field of biology. Despite the
+    vast differences among living organisms, there exist functions so critical to
+    life that they are conserved in the genomes and proteomes across seemingly unrelated
+    species. Regular expressions (regexes) can serve as a convenient way to represent
+    these conserved sequences compactly. However, despite the strong theoretical foundation
+    and maturity of tools available, the state-of-the-art regex search falls short
+    of what is necessary to quickly scan an enormous database of biological sequences.
+    In this work, we describe a novel algorithm for regex search that reduces the
+    search space by leveraging a recently developed compact data structure for set
+    membership, the hierarchical interleaved bloom filter. We show that the runtime
+    of our method combined with a traditional search outperforms state-of-the-art
+    tools.
+  bibtex: "@article{fu_mi_publications3284,\n abstract = {The scale of modern datasets\
+    \ has necessitated innovations to solve even the most traditional and fundamental\
+    \ of computational problems. Set membership and set cardinality are both examples\
+    \ of simple queries that, for large enough datasets, quickly become challenging\
+    \ using traditional approaches. Interestingly, we find a need for these innovations\
+    \ within the field of biology. Despite the vast differences among living organisms,\
+    \ there exist functions so critical to life that they are conserved in the genomes\
+    \ and proteomes across seemingly unrelated species. Regular expressions (regexes)\
+    \ can serve as a convenient way to represent these conserved sequences compactly.\
+    \ However, despite the strong theoretical foundation and maturity of tools available,\
+    \ the state-of-the-art regex search falls short of what is necessary to quickly\
+    \ scan an enormous database of biological sequences. In this work, we describe\
+    \ a novel algorithm for regex search that reduces the search space by leveraging\
+    \ a recently developed compact data structure for set membership, the hierarchical\
+    \ interleaved bloom filter. We show that the runtime of our method combined with\
+    \ a traditional search outperforms state-of-the-art tools.},\n author = {Remy\
+    \ Marcel Schwab and Simon G Gottlieb and Knut Reinert},\n journal = {NAR Genomics\
+    \ and Bioinformatics},\n month = {April},\n number = {2},\n publisher = {Oxford\
+    \ University Press},\n title = {TetRex: a novel algorithm for index-accelerated\
+    \ search of highly conserved motifs},\n url = {http://publications.imp.fu-berlin.de/3284/},\n\
+    \ volume = {7},\n year = {2025}\n}\n"
+  creators:
+  - name:
+      family: Schwab
+      given: Remy Marcel
+      honourific: null
+      lineage: null
+  - name:
+      family: Gottlieb
+      given: Simon G
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2025-04-17'
+  date_type: published
+  datestamp: '2025-09-15 15:39:51'
+  dir: disk0/00/00/32/84
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3284
+  full_text_status: none
+  id_number: doi:10.1093/nargab/lqaf039
+  ispublished: pub
+  key: fu_mi_publications3284
+  lastmod: '2025-09-15 15:39:51'
+  metadata_visibility: show
+  number: 2
+  official_url: https://academic.oup.com/nargab/article/7/2/lqaf039/8115380
+  publication: NAR Genomics and Bioinformatics
+  publisher: Oxford University Press
+  refereed: 'TRUE'
+  rev_number: 5
+  status_changed: '2025-09-15 15:39:51'
+  subjects:
+  - G400
+  title: 'TetRex: a novel algorithm for index-accelerated search of highly conserved
+    motifs'
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3284
+  userid: 132
+  volume: 7
+- abstract: "Finding approximate occurrences of a query in a text using a full-text\
+    \ index is a central problem in stringology with many applications, especially\
+    \ in bioinformatics. The recent work has shown significant speed-ups by combining\
+    \ bidirectional indices and employing variations of search schemes. Search schemes\
+    \ partition a query and describe how to search the resulting parts with a given\
+    \ error bound. The performance of search schemes can be approximated by the node\
+    \ count, which represents an upper bound of the number of search steps. Finding\
+    \ optimum search schemes is a difficult combinatorial optimization problem that\
+    \ becomes hard to solve for four and more errors. This paper improves on a few\
+    \ topics important to search scheme based searches: First, we show how search\
+    \ schemes can be used to model previously published approximate search strategies\
+    \ such as suffix filters, 01*0-seeds, or the pigeonhole principle. This unifies\
+    \ these strategies in the search scheme framework, makes them easily comparable\
+    \ and results in novel search schemes that allow for any number of errors. Second,\
+    \ we present a search scheme construction heuristic, which is on par with optimum\
+    \ search schemes and has a better node count than any known search scheme for\
+    \ equal or above four errors. Finally, using the different search schemes, we\
+    \ show that the node count measure is not an ideal performance metric and therefore\
+    \ propose an improved performance metric called the weighted node count, which\
+    \ approximates a search algorithm\u2019s run time much more accurately."
+  bibtex: "@article{fu_mi_publications3285,\n abstract = {Finding approximate occurrences\
+    \ of a query in a text using a full-text index is a central problem in stringology\
+    \ with many applications, especially in bioinformatics. The recent work has shown\
+    \ significant speed-ups by combining bidirectional indices and employing variations\
+    \ of search schemes. Search schemes partition a query and describe how to search\
+    \ the resulting parts with a given error bound. The performance of search schemes\
+    \ can be approximated by the node count, which represents an upper bound of the\
+    \ number of search steps. Finding optimum search schemes is a difficult combinatorial\
+    \ optimization problem that becomes hard to solve for four and more errors. This\
+    \ paper improves on a few topics important to search scheme based searches: First,\
+    \ we show how search schemes can be used to model previously published approximate\
+    \ search strategies such as suffix filters, 01*0-seeds, or the pigeonhole principle.\
+    \ This unifies these strategies in the search scheme framework, makes them easily\
+    \ comparable and results in novel search schemes that allow for any number of\
+    \ errors. Second, we present a search scheme construction heuristic, which is\
+    \ on par with optimum search schemes and has a better node count than any known\
+    \ search scheme for equal or above four errors. Finally, using the different search\
+    \ schemes, we show that the node count measure is not an ideal performance metric\
+    \ and therefore propose an improved performance metric called the weighted node\
+    \ count, which approximates a search algorithm?s run time much more accurately.},\n\
+    \ author = {Simon G Gottlieb and Knut Reinert},\n journal = {NAR Genomics and\
+    \ Bioinformatics},\n month = {March},\n number = {1},\n publisher = {Oxford University\
+    \ Press},\n title = {SeArcH schemes for Approximate stRing mAtching},\n url =\
+    \ {http://publications.imp.fu-berlin.de/3285/},\n volume = {7},\n year = {2025}\n\
+    }\n"
+  creators:
+  - name:
+      family: Gottlieb
+      given: Simon G
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2025-03-18'
+  date_type: published
+  datestamp: '2025-09-15 12:55:53'
+  dir: disk0/00/00/32/85
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3285
+  full_text_status: none
+  ispublished: pub
+  key: fu_mi_publications3285
+  lastmod: '2025-09-15 12:57:24'
+  metadata_visibility: show
+  number: 1
+  official_url: https://academic.oup.com/nargab/article/7/1/lqaf025/8084725
+  publication: NAR Genomics and Bioinformatics
+  publisher: Oxford University Press
+  refereed: 'TRUE'
+  related_url:
+  - url: 'URN: http://dx.doi.org/10.1093/nargab/lqaf025'
+  rev_number: 8
+  status_changed: '2025-09-15 12:57:24'
+  subjects:
+  - G400
+  title: SeArcH schemes for Approximate stRing mAtching
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3285
+  userid: 132
+  volume: 7
 - bibtex: "@techreport{fu_mi_publications329,\n author = {G. Baudis and C. Gr{\\\"\
     o}pl and S. Hougardy and T. Nierhoff and H.-J. Pr{\\\"o}mel},\n institution =\
     \ {Humboldt-University Berlin},\n keywords = {Hypergraphs, set systems, and designs,\
