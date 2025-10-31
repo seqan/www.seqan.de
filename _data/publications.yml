@@ -16136,6 +16136,84 @@
   type: monograph
   uri: http://publications.imp.fu-berlin.de/id/eprint/329
   userid: 1
+- abstract: We consider a prototypical parabolic SPDE with finite-dimensional multiplicative
+    noise, which, subject to a nonnegative initial datum, has a unique nonnegative
+    solution. Inspired by well-established techniques in the deterministic case, we
+    introduce a finite element discretization of this SPDE that is convergent and
+    which, subject to a nonnegative initial datum and unconditionally with respect
+    to the spatial discretization parameter, preserves nonnegativity of the numerical
+    solution throughout the course of evolution. We perform a mathematical analysis
+    of this method. In addition, in the associated linear setting, we develop a fully
+    discrete scheme that also preserves nonnegativity, and we present numerical experiments
+    that illustrate the advantages of the proposed method over alternative finite
+    element and finite difference methods that were previously considered in the literature,
+    which do not necessarily guarantee nonnegativity of the numerical solution.
+  bibtex: "@unpublished{fu_mi_publications3294,\n abstract = {We consider a prototypical\
+    \ parabolic SPDE with finite-dimensional multiplicative noise, which, subject\
+    \ to a nonnegative initial datum, has a unique nonnegative solution. Inspired\
+    \ by well-established techniques in the deterministic case, we introduce a finite\
+    \ element discretization of this SPDE that is convergent and which, subject to\
+    \ a nonnegative initial datum and unconditionally with respect to the spatial\
+    \ discretization parameter, preserves nonnegativity of the numerical solution\
+    \ throughout the course of evolution. We perform a mathematical analysis of this\
+    \ method. In addition, in the associated linear setting, we develop a fully discrete\
+    \ scheme that also preserves nonnegativity, and we present numerical experiments\
+    \ that illustrate the advantages of the proposed method over alternative finite\
+    \ element and finite difference methods that were previously considered in the\
+    \ literature, which do not necessarily guarantee nonnegativity of the numerical\
+    \ solution.},\n author = {Ana Djurdjevac and Claude Le Bris and Endre S{\\\"u}li},\n\
+    \ journal = {Preprint arXiv},\n month = {February},\n title = {A nonnegativity-preserving\
+    \ finite element method for a class of parabolic SPDEs with multiplicative noise},\n\
+    \ url = {http://publications.imp.fu-berlin.de/3294/},\n year = {2025}\n}\n"
+  creators:
+  - name:
+      family: Djurdjevac
+      given: Ana
+      honourific: null
+      lineage: null
+  - name:
+      family: Le Bris
+      given: Claude
+      honourific: null
+      lineage: null
+  - name:
+      family: "S\xFCli"
+      given: Endre
+      honourific: null
+      lineage: null
+  date: '2025-02-24'
+  datestamp: '2025-10-29 13:18:12'
+  dir: disk0/00/00/32/94
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3294
+  full_text_status: none
+  funders:
+  - SFB1114
+  - DFG
+  ispublished: unpub
+  key: fu_mi_publications3294
+  lastmod: '2025-10-29 13:18:12'
+  metadata_visibility: show
+  official_url: https://doi.org/10.48550/arXiv.2502.16854
+  projects:
+  - sfb1114
+  - sfb1114::c
+  - sfb1114::c::10
+  publication: Preprint arXiv
+  refereed: 'FALSE'
+  rev_number: 9
+  status_changed: '2025-10-29 13:18:12'
+  subjects:
+  - G
+  - G100
+  - G120
+  title: A nonnegativity-preserving finite element method for a class of parabolic
+    SPDEs with multiplicative noise
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3294
+  userid: 721
 - bibtex: "@inproceedings{fu_mi_publications330,\n author = {M. Bauer and G. W. Klau},\n\
     \ booktitle = {Proceedings of the 15th International Symposium, ISAAC 2004, Hong\
     \   Kong},\n pages = {113--125},\n publisher = {Springer Verlag},\n series = {LNCS\
