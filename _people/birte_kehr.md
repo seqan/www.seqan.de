@@ -3,9 +3,12 @@ name: Birte Kehr
 category: Contributor
 avatar: /assets/images/people/birte_kehr.jpg
 social_links:
-  email: birte.kehr@ukr.de
-  linkedin: birte-kehr-74813175
-  github: kehrlab
+  - icon: mail
+    url: "mailto:birte.kehr@ukr.de"
+  - icon: linkedin
+    url: "https://www.linkedin.com/in/birte-kehr-74813175"
+  - icon: github
+    url: "https://github.com/kehrlab"
 ---
 
 Prof. Dr. Birte Kehr works at the RCI Regensburg Center for Interventional Immunology leading the

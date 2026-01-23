@@ -3,10 +3,14 @@ name: Jörg Winkler
 category: Alumni
 avatar: /assets/images/people/joerg_winkler.png
 social_links:
-  email: j.winkler@fu-berlin.de
-  github: joergi-w
-  linkedin: winklerj
-  keybase: joergi
+  - icon: mail
+    url: "mailto:j.winkler@fu-berlin.de"
+  - icon: github
+    url: "https://github.com/joergi-w"
+  - icon: linkedin
+    url: "https://www.linkedin.com/in/winklerj"
+  - icon: keybase
+    url: "https://keybase.io/joergi"
 ---
 
 As a PhD candidate at Freie Universität Berlin and member of the graduate school IMPRS-BAC at the Max Planck Institute

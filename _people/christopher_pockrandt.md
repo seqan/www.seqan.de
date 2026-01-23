@@ -2,9 +2,12 @@
 name: Christopher Pockrandt
 category: Alumni
 social_links:
-  email: pockrandt@jhu.du
-  researchgate: Christopher-Pockrandt
-  linkedin: pockrandt
+  - icon: mail
+    url: "mailto:pockrandt@jhu.du"
+  - icon: researchgate
+    url: "https://www.researchgate.net/profile/Christopher-Pockrandt"
+  - icon: linkedin
+    url: "https://www.linkedin.com/in/pockrandt"
 ---
 Christopher Pockrandt holds B.Sc. and M.Sc. degrees in Computer Science from Freie Universität Berlin. He spent part of
 his studies at the National University of Singapore and the National Taiwan University. As an IMPRS student of the Max

@@ -3,7 +3,8 @@ name: Sven Bönigk
 category: Alumni
 avatar: /assets/images/people/sven_boenigk.jpg
 social_links:
-  email: sven.boenigk@fu-berlin.de
+  - icon: mail
+    url: "mailto:sven.boenigk@fu-berlin.de"
 ---
 
 Sven obtained his M.Sc. in Bioinformatics from Freie Universität Berlin.

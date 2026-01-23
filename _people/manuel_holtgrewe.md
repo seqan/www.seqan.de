@@ -2,5 +2,6 @@
 name: Manuel Holtgrewe
 category: Alumni
 social_links:
-  email: manuel.holtgrewe@fu-berlin.de
+  - icon: mail
+    url: "mailto:manuel.holtgrewe@fu-berlin.de"
 ---

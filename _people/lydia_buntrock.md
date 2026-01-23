@@ -3,8 +3,10 @@ name: Lydia Buntrock
 category: Alumni
 avatar: /assets/images/people/lydia_buntrock.jpg
 social_links:
-  email: lydia.buntrock@fu-berlin.de
-  github: irallia
+  - icon: mail
+    url: "mailto:lydia.buntrock@fu-berlin.de"
+  - icon: github
+    url: "https://github.com/irallia"
 ---
 I am working on algorithms to find and classify structural variations of DNA. Funded by the BMBF, I am persuing my PhD
 at Freie Universität Berlin.

@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-categories: [Team, Contributor, User, Alumni]
+categories: [Team, Contributor, Alumni] # User
 redirect_from:
   - /contributors/
   - /seqan-users/

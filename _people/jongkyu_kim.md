@@ -2,5 +2,6 @@
 name: Jongkyu Kim
 category: Alumni
 social_links:
-  email: vaquita@jongkyu.kim
+  - icon: mail
+    url: "mailto:vaquita@jongkyu.kim"
 ---
