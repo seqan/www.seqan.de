@@ -19,7 +19,7 @@ redirect_from:
 ---
 
 On the bottom you have access to the archive of SeqAn-related publications. Please see [Google
-Scholar](https://scholar.google.de/scholar?cites=6133524701503406018) for a complete list of applications that cite
+Scholar](https://scholar.google.de/citations?user=JWLBQHwAAAAJ) for a complete list of applications that cite
 SeqAn.
 
 If you use SeqAn in any of your academic works, please cite the latest SeqAn paper:

@@ -4,8 +4,10 @@ category: Alumni
 position: Senior Developer & PhD Student
 avatar: /assets/images/people/rene_rahn.jpg
 social_links:
-  email: rene.rahn@fu-berlin.de
-  researchgate: Rene-Rahn
+  - icon: mail
+    url: "mailto:rene.rahn@fu-berlin.de"
+  - icon: researchgate
+    url: "https://www.researchgate.net/profile/Rene-Rahn"
 ---
 
 René Rahn works on data parallel data structures in SeqAn. He holds an MSc and BSc degree from the Freie Universität

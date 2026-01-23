@@ -3,7 +3,8 @@ name: Mitra Darvish
 category: Alumni
 avatar: /assets/images/people/mitra_darvish.jpeg
 social_links:
-  email: mitra.darvish@fu-berlin.de
+  - icon: mail
+    url: "mailto:mitra.darvish@fu-berlin.de"
 ---
 
 Mitra Darvish is a PhD student at the Max Planck Institute of Molecular Genetics and works on finding cancer motifs in

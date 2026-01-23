@@ -3,9 +3,12 @@ name: Wiep van der Toorn
 category: Alumni
 avatar: /assets/images/people/wiep_vandertoorn.png
 social_links:
-  email: wiep.vandertoorn@fu-berlin.de
-  researchgate: Wiep-Van-Der-Toorn
-  linkedin: wiep-van-der-toorn-5b541082
+  - icon: mail
+    url: "mailto:wiep.vandertoorn@fu-berlin.de"
+  - icon: researchgate
+    url: "https://www.researchgate.net/profile/Wiep-Van-Der-Toorn"
+  - icon: linkedin
+    url: "https://www.linkedin.com/in/wiep-van-der-toorn-5b541082"
 ---
 
 Wiep van der Toorn worked as a student assistant at SeqAn. She holds a B.Sc. degree in Life Science and Technology from

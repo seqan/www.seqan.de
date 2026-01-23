@@ -3,8 +3,10 @@ name: Marcel Ehrhardt
 category: Alumni
 avatar: /assets/images/people/marcel_ehrhardt.png
 social_links:
-  email: marcel.ehrhardtXXXremoveMeXXX@fu-berlin.de
-  github: marehr
+  - icon: mail
+    url: "mailto:marcel.ehrhardtXXXremoveMeXXX@fu-berlin.de"
+  - icon: github
+    url: "https://github.com/marehr"
 ---
 
 Marcel is C++ senior developer, software architect, and PhD student of SeqAn since 2015. His main interests are high

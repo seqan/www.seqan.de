@@ -3,7 +3,8 @@ name: Temesgen Dadi
 category: Alumni
 avatar: /assets/images/people/temesgen_dadi.jpg
 social_links:
-  email: temesgen.dadi@fu-berlin.de
+  - icon: mail
+    url: "mailto:temesgen.dadi@fu-berlin.de"
 ---
 Temesgen H. Dadi works in Comparative metagenomics of microbial communities using machine learning methods. He graduated
 from Arba Minch University, Ethiopia in Computer Science and IT (B.Sc.) and received his Masters degree from University

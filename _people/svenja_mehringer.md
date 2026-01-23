@@ -4,7 +4,8 @@ category: Team
 position: Senior Developer & PhD Student
 avatar: /assets/images/people/svenja_mehringer.jpg
 social_links:
-  email: svenja.mehringer@fu-berlin.de
+  - icon: mail
+    url: "mailto:svenja.mehringer@fu-berlin.de"
 ---
 
 Svenja Mehringer holds an M.Sc. degree in Bioinformatics from Freie Universität Berlin and is now working as a PhD

@@ -3,9 +3,12 @@ name: Hannes Hauswedell
 category: Alumni
 avatar: /assets/images/people/hannes_hauswedell.jpg
 social_links:
-  email: hannes.hauswedell@fu-berlin.de
-  twitter: __h2__
-  researchgate: Hannes-Hauswedell
+  - icon: mail
+    url: "mailto:hannes.hauswedell@fu-berlin.de"
+  - icon: twitter
+    url: "https://twitter.com/__h2__"
+  - icon: researchgate
+    url: "https://www.researchgate.net/profile/Hannes-Hauswedell"
 ---
 
 Hannes Hauswedell obtained B.Sc. and M.Sc. degrees in Bioinformatics from Freie Universität Berlin, but he also spent

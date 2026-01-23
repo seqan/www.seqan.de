@@ -3,9 +3,12 @@ name: Gianvito Urgese
 category: Contributor
 avatar: /assets/images/people/gianvito_urgese.jpg
 social_links:
-  email: gianvito.urgese@polito.it
-  researchgate: Gianvito-Urgese
-  linkedin: gianvito-urgese-5bb2668a
+  - icon: mail
+    url: "mailto:gianvito.urgese@polito.it"
+  - icon: researchgate
+    url: "https://www.researchgate.net/profile/Gianvito-Urgese"
+  - icon: linkedin
+    url: "https://www.linkedin.com/in/gianvito-urgese-5bb2668a"
 ---
 
 Gianvito Urgese is Assistant Professor at the Interuniversity Department of Regional and Urban Studies and Planning of

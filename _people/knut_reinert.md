@@ -1,14 +1,21 @@
 ---
 name: Knut Reinert
 category: Team
-position: Head of the group
+position: Head of the Group
 avatar: /assets/images/people/knut_reinert.jpg
 social_links:
-  email: knut.reinert@fu-berlin.de
-  twitter: KnutReinert
-  scholar: XwG4wAcAAAAJ
-  linkedin: knut-reinert-8287774
-  researchgate: Reinert_Knut
+  - icon: mail
+    url: "mailto:knut.reinert@fu-berlin.de"
+  - icon: twitter
+    url: "https://twitter.com/KnutReinert"
+  - icon: scholar
+    url: "https://scholar.google.com/citations?user=XwG4wAcAAAAJ"
+  - icon: linkedin
+    url: "https://www.linkedin.com/in/knut-reinert-8287774"
+  - icon: orcid
+    url: "https://orcid.org/0000-0003-3078-8129"
+  - icon: researchgate
+    url: "https://www.researchgate.net/profile/Reinert_Knut"
 ---
 
 Head of the group. My research is influenced by the training I received as an algorithmicist at the Max-Planck-Institute
