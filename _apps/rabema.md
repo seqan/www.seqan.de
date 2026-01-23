@@ -7,8 +7,8 @@ cite: fu_mi_publications1072
 contact: Manuel Holtgrewe
 category: official
 links:
-  download: http://packages.seqan.de/rabema/
-  source: https://github.com/seqan/seqan/tree/master/apps/rabema
+  download: https://packages.seqan.de/rabema/
+  source: https://github.com/seqan/seqan/tree/main/apps/rabema
 redirect_from:
   - /projects/rabema/
 ---

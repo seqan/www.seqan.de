@@ -28,4 +28,4 @@ p.s. If you can’t make it to the GCB 2018, we will present the brand new SeqAn
 from September 19th – 21st in Berlin, together with a lot of show cases, programming and KNIME tutorials, and many
 great news for our users, regarding performance and efficiency. More information to our User Meeting will follow soon.
 
-Also notify your colleagues about the opportunity to meet us at the [EECB 2018](http://eccb18.org/tutorial-9/).
+Also notify your colleagues about the opportunity to meet us at the [EECB 2018](https://eccb18.org/tutorial-9/).

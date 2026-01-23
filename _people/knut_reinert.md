@@ -7,7 +7,7 @@ social_links:
   - icon: mail
     url: "mailto:knut.reinert@fu-berlin.de"
   - icon: twitter
-    url: "https://twitter.com/KnutReinert"
+    url: "https://x.com/KnutReinert"
   - icon: scholar
     url: "https://scholar.google.com/citations?user=XwG4wAcAAAAJ"
   - icon: linkedin

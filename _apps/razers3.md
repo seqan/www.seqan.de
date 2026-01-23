@@ -9,8 +9,8 @@ category: official
 header:
   app_image: /assets/images/apps/razers3.png
 links:
-  download: http://packages.seqan.de/razers3/
-  source: https://github.com/seqan/seqan/tree/master/apps/razers3
+  download: https://packages.seqan.de/razers3/
+  source: https://github.com/seqan/seqan/tree/main/apps/razers3
 redirect_from:
   - /projects/razers/
 ---

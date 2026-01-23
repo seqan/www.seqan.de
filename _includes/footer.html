@@ -7,31 +7,21 @@
       <div class="footer-col">
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
+            <svg class="svg-icon orange" style="width: 16px; height: 16px;">
               <use xlink:href="{{ 'assets/minima-icons.svg#rss' | relative_url }}"></use>
             </svg><span>Subscribe</span>
           </a>
         </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+      <h4 style="color: #ffffff;margin-top: 15px;margin-bottom: 5px;">Imprint</h4>
+      <a href="https://www.fu-berlin.de/redaktion/impressum/index.html">:de: Impressum</a><br>
+      <a href="https://www.fu-berlin.de/en/redaktion/impressum/index.html">:gb: Legal Notice</a>
       </div>
       <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-        <h4 style="color: #ffffff;">LEGAL NOTICE</h4>
-        <p><a href="https://www.fu-berlin.de/redaktion/impressum/index.html">Impressum</a></p>
+        <p style="margin-bottom: -5px;">{{ site.description | escape }}</p>
+        <div class="various-links" style="transform: scale(0.8);">
+          {%- include social.html social=site.minima.social_links -%}
+        </div>
       </div>
-    </div>
-
-    <div class="various-links">
-      {%- include social.html social=site.minima.social_links -%}
     </div>
 
   </div>

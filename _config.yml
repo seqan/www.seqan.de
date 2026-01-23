@@ -62,12 +62,12 @@ minima:
 #     and list the `path` property (as represented via Liquid) of the pages in
 #     the order they should be rendered.
   nav_pages:
-    - 01_news.md
-    - 02_getting_started.md
-    - 03_people.md
-    - 04_applications.md
-    - 05_publications.md
-    - 06_contact.md
+    - _pages/01_news.md
+    - _pages/02_getting_started.md
+    - _pages/03_people.md
+    - _pages/04_applications.md
+    - _pages/05_publications.md
+    - _pages/06_contact.md
 #
 #   Set to `true` to show excerpts on the homepage.
   show_excerpts: true
@@ -98,6 +98,11 @@ minima:
 #   hide_site_feed_link: false
 
 collections:
+  pages:
+    output: true
+    permalink: /:name
   people:
   apps:
+    output: true
+  news:
     output: true

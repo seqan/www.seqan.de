@@ -2,7 +2,7 @@
 {%- for entry in include.social -%}
   <li>
     <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
-      <svg class="svg-icon grey" width="32px" height="32px" viewBox="0 0 16 16"><use xlink:href="{{ '/assets/minima-icons.svg' | relative_url }}#{{ entry.icon }}"></use></svg>
+      <svg class="svg-icon grey" viewBox="0 0 16 16" style="width: {{ include.px | default: 32 }}px; height: {{ include.px | default: 32 }}px"><use xlink:href="{{ '/assets/minima-icons.svg' | relative_url }}#{{ entry.icon }}"></use></svg>
     </a>
   </li>
 {%- endfor -%}

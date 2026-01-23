@@ -12,7 +12,7 @@ We are excited to announce version 3 of the SeqAn library. It has been many year
 change in the development history of SeqAn.<!--more--> SeqAn3 is in fact an entirely new library!
 
 * [**Get it while it’s hot**](https://github.com/seqan/seqan3)
-* [**Read our new documentation**](http://docs.seqan.de/seqan/3-master-user/)
+* [**Read our new documentation**](https://docs.seqan.de/seqan/3-master-user/)
 
 ## WHAT’S NEW?
 
@@ -99,4 +99,4 @@ we try to avoid it).
 
 [**Follow the development (and star us!) on GitHub**](https://github.com/seqan/seqan3)
 
-[**Do the beginner tutorial**](http://docs.seqan.de/seqan/3-master-user/usergroup1.html)
+[**Do the beginner tutorial**](https://docs.seqan.de/seqan/3-master-user/usergroup1.html)

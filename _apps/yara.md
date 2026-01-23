@@ -7,8 +7,8 @@ cite: [fu_mi_publications1161, fu_mi_publications2507]
 contact: Enrico Siragusa
 category: official
 links:
-  download: http://packages.seqan.de/yara/
-  source: https://github.com/seqan/seqan/tree/master/apps/yara
+  download: https://packages.seqan.de/yara/
+  source: https://github.com/seqan/seqan/tree/main/apps/yara
 redirect_from:
   - /projects/yara/
 ---
@@ -41,4 +41,4 @@ Quality trimming is necessary for Ion Torrent reads and recommended for Illumina
 **Previous applications:**
 
 Yara is the follow-up of the Masai project. Use of Masai is discouraged. Nonetheless, old Masai binaries can still be
-downloaded [here](http://packages.seqan.de/masai/).
+downloaded [here](https://packages.seqan.de/masai/).

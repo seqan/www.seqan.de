@@ -9,8 +9,8 @@ category: official
 header:
   app_image: /assets/images/apps/gustaf.jpg
 links:
-  download: http://packages.seqan.de/gustaf/
-  source: https://github.com/seqan/seqan/tree/master/apps/gustaf
+  download: https://packages.seqan.de/gustaf/
+  source: https://github.com/seqan/seqan/tree/main/apps/gustaf
 redirect_from:
   - /projects/gustaf/
 ---

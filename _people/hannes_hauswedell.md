@@ -6,7 +6,7 @@ social_links:
   - icon: mail
     url: "mailto:hannes.hauswedell@fu-berlin.de"
   - icon: twitter
-    url: "https://twitter.com/__h2__"
+    url: "https://x.com/__h2__"
   - icon: researchgate
     url: "https://www.researchgate.net/profile/Hannes-Hauswedell"
 ---

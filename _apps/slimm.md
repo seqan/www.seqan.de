@@ -28,5 +28,5 @@ More details on how to use SLIMM can be found at the [SLIMM WIKI](https://github
 Pre-built executables for Linux and Mac are made available at the
 [RELEASE PAGE](https://github.com/seqan/slimm/releases/latest).
 
-You may download already [INDEXED REFERENCE GENOMES](http://ftp.mi.fu-berlin.de/pub/dadi/slimm/) for Bacteria and
+You may download already [INDEXED REFERENCE GENOMES](https://ftp.mi.fu-berlin.de/pub/dadi/slimm/) for Bacteria and
 Archaea groups (Indexed reference genomes of Bacteria and Archaea groups are provided for Yara and Bowtie2 read mappers)
