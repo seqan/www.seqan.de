@@ -5,7 +5,7 @@
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: home
+layout: page
 title: "What is SeqAn?"
 header:
   overlay_image: /assets/images/overlay/front_page.jpg
@@ -54,7 +54,7 @@ tools with a minimal loss of performance.
 
 {% include headings.html %}
 
-# Center for Integrative Bioinformatics
+## Center for Integrative Bioinformatics
 
 SeqAn is partner of the Center for Integrative Bioinformatics (CIBI) in the de.NBI network and offers services for
 analysing sequencing data. Our services include the development and maintenance of the SeqAn library, its associated

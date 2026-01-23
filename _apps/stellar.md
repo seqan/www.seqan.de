@@ -9,8 +9,8 @@ category: official
 header:
   app_image: /assets/images/apps/stellar.jpg
 links:
-  download: http://packages.seqan.de/stellar/
-  source: https://github.com/seqan/seqan/tree/master/apps/stellar
+  download: https://packages.seqan.de/stellar/
+  source: https://github.com/seqan/seqan/tree/main/apps/stellar
 redirect_from:
   - /projects/stellar/
 ---

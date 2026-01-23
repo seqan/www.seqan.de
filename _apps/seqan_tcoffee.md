@@ -9,8 +9,8 @@ category: official
 header:
   app_image: /assets/images/apps/seqan_tcoffee.jpg
 links:
-  download: http://packages.seqan.de/seqan_tcoffee/
-  source: https://github.com/seqan/seqan/tree/master/apps/seqan_tcoffee
+  download: https://packages.seqan.de/seqan_tcoffee/
+  source: https://github.com/seqan/seqan/tree/main/apps/seqan_tcoffee
 redirect_from:
   - /projects/seqant-coffee/
 ---

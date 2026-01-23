@@ -7,8 +7,8 @@ cite: [fu_mi_publications392,fu_mi_publications390]
 contact: Tobias Rausch
 category: official
 links:
-  download: http://packages.seqan.de/seqcons2/
-  source: https://github.com/seqan/seqan/tree/master/apps/seqcons2
+  download: https://packages.seqan.de/seqcons2/
+  source: https://github.com/seqan/seqan/tree/main/apps/seqcons2
 redirect_from:
   - /projects/seqcons/
 ---

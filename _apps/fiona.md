@@ -7,8 +7,8 @@ cite: fu_mi_publications1451
 contact: Marcel Schulz
 category: official
 links:
-  download: http://packages.seqan.de/fiona/
-  source: https://github.com/seqan/seqan/tree/master/apps/fiona
+  download: https://packages.seqan.de/fiona/
+  source: https://github.com/seqan/seqan/tree/main/apps/fiona
 redirect_from:
   - /projects/fiona/
 ---

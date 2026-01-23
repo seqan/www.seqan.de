@@ -9,8 +9,8 @@ category: official
 header:
   app_image: /assets/images/apps/searchjoin.png
 links:
-  download: http://packages.seqan.de/searchjoin/
-  source: https://github.com/seqan/seqan/tree/master/apps/searchjoin
+  download: https://packages.seqan.de/searchjoin/
+  source: https://github.com/seqan/seqan/tree/main/apps/searchjoin
 redirect_from:
   - /projects/edbt2013/
 ---
