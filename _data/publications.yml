@@ -16304,6 +16304,179 @@
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/331
   userid: 1
+- abstract: "Background: \r\nSearching large genomic data sets for local alignments\
+    \ poses a computational challenge. A particular obstacle is the handling of repetitive\
+    \ sequences that appear in various contexts and incur a high runtime cost. For\
+    \ practical homology search, it is important to develop a specific but sensitive\
+    \ filter. Good filters reduce the search space before alignment without missing\
+    \ significant matches.\r\n\r\nResults: \r\nWe introduce DREAM-Stellar, a parallelized,\
+    \ updated version of the pairwise local aligner Stellar. The new aligner, DREAM-Stellar,\
+    \ is composed of four steps: preprocessing the queries and references, building\
+    \ a data structure for distributing the queries, computing in parallel the results\
+    \ and finally combining them. For distributing the queries we use the IBF data\
+    \ structure and a new prefilter for local alignments. We present our comparison\
+    \ of five local aligners on simulated and real genomic data and conclude that\
+    \ heuristic tools like BLAST miss a large percentage of significant local alignments\
+    \ or \"drown\" them in millions of less significant matches. This new version\
+    \ of Stellar is up to 900 times faster on 32 parallel threads than its single-threaded\
+    \ predecessor and can find all alignments between a pair of genomes in minutes.\
+    \ With that, the runtime of DREAM-Stellar is on par with tools like BLAST etc.\r\
+    \n\r\nConclusions: \r\nDREAM-Stellar is very practical and fast on very long sequences\
+    \ which makes it a suitable new tool for finding local alignments between genomic\
+    \ sequences under the edit distance model. The software is freely available for\
+    \ Linux and Mac OS X at https://github.com/seqan/dream-stellar"
+  bibtex: "@article{fu_mi_publications3311,\n abstract = {Background: \nSearching\
+    \ large genomic data sets for local alignments poses a computational challenge.\
+    \ A particular obstacle is the handling of repetitive sequences that appear in\
+    \ various contexts and incur a high runtime cost. For practical homology search,\
+    \ it is important to develop a specific but sensitive filter. Good filters reduce\
+    \ the search space before alignment without missing significant matches.\n\nResults:\
+    \ \nWe introduce DREAM-Stellar, a parallelized, updated version of the pairwise\
+    \ local aligner Stellar. The new aligner, DREAM-Stellar, is composed of four steps:\
+    \ preprocessing the queries and references, building a data structure for distributing\
+    \ the queries, computing in parallel the results and finally combining them. For\
+    \ distributing the queries we use the IBF data structure and a new prefilter for\
+    \ local alignments. We present our comparison of five local aligners on simulated\
+    \ and real genomic data and conclude that heuristic tools like BLAST miss a large\
+    \ percentage of significant local alignments or \"drown\" them in millions of\
+    \ less significant matches. This new version of Stellar is up to 900 times faster\
+    \ on 32 parallel threads than its single-threaded predecessor and can find all\
+    \ alignments between a pair of genomes in minutes. With that, the runtime of DREAM-Stellar\
+    \ is on par with tools like BLAST etc.\n\nConclusions: \nDREAM-Stellar is very\
+    \ practical and fast on very long sequences which makes it a suitable new tool\
+    \ for finding local alignments between genomic sequences under the edit distance\
+    \ model. The software is freely available for Linux and Mac OS X at https://github.com/seqan/dream-stellar},\n\
+    \ author = {Evelin Aasna and Simon G Gottlieb and Marcel Ehrhardt and Knut Reinert},\n\
+    \ journal = {BMC Bioinformatics},\n month = {February},\n publisher = {Springer\
+    \ Nature},\n title = {Dream-stellar: parallel and space efficient exact local\
+    \ alignment},\n url = {http://publications.imp.fu-berlin.de/3311/},\n year = {2026}\n\
+    }\n"
+  creators:
+  - name:
+      family: Aasna
+      given: Evelin
+      honourific: null
+      lineage: null
+  - name:
+      family: Gottlieb
+      given: Simon G
+      honourific: null
+      lineage: null
+  - name:
+      family: Ehrhardt
+      given: Marcel
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2026-02-18'
+  date_type: published
+  datestamp: '2026-03-05 16:02:54'
+  dir: disk0/00/00/33/11
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3311
+  full_text_status: none
+  id_number: https://doi.org/10.1186/s12859-026-06389-0
+  ispublished: pub
+  issn: 1471-2105
+  key: fu_mi_publications3311
+  lastmod: '2026-03-05 16:02:54'
+  metadata_visibility: show
+  official_url: https://link.springer.com/article/10.1186/s12859-026-06389-0
+  publication: BMC Bioinformatics
+  publisher: Springer Nature
+  refereed: 'TRUE'
+  rev_number: 6
+  status_changed: '2026-03-05 16:02:54'
+  subjects:
+  - G400
+  title: 'Dream-stellar: parallel and space efficient exact local alignment'
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3311
+  userid: 132
+- abstract: Adding rank support to strings over a fixed-sized alphabet has numerous
+    applications. Prominent among those is the (bidirectional) FM-Index which is commonly
+    utilized to index and analyze genomic data. At its core lies the rank operation
+    on the Burrows-Wheeler-Transform (BWT) which, given a position in the BWT and
+    a character, answers how often the specified character appears from the start
+    to that position. Implementing those rank queries is usually based on bit vectors
+    with rank support. In this work, we discuss three implementation improvements.
+    First, a novel approach named paired-blocks that reduces the space overhead of
+    the support structure by half to a total of only . Second, a method for masking
+    bits for the population count (also known as popcount) which greatly improves
+    the runtime of 512-bit wide blocks in conjunction with AVX512 SIMD extensions.
+    Third, a revised method for EPR-dictionaries (Pockrandt et al. in International
+    conference on research in computational molecular biology. Springer, New York,
+    2017) called flattened bit vectors (fBV) with less space consumption and faster
+    rank operations on strings, which is competitive in size and depending on the
+    parameters between and faster than Wavelet Trees (Gog et al. in 13th International
+    Symposium on Experimental Algorithms. Springer, New York, 2014).
+  bibtex: "@article{fu_mi_publications3312,\n abstract = {Adding rank support to strings\
+    \ over a fixed-sized alphabet has numerous applications. Prominent among those\
+    \ is the (bidirectional) FM-Index which is commonly utilized to index and analyze\
+    \ genomic data. At its core lies the rank operation on the Burrows-Wheeler-Transform\
+    \ (BWT) which, given a position in the BWT and a character, answers how often\
+    \ the specified character appears from the start to that position. Implementing\
+    \ those rank queries is usually based on bit vectors with rank support. In this\
+    \ work, we discuss three implementation improvements. First, a novel approach\
+    \ named paired-blocks that reduces the space overhead of the support structure\
+    \ by half to a total of only . Second, a method for masking bits for the population\
+    \ count (also known as popcount) which greatly improves the runtime of 512-bit\
+    \ wide blocks in conjunction with AVX512 SIMD extensions. Third, a revised method\
+    \ for EPR-dictionaries (Pockrandt et al. in International conference on research\
+    \ in computational molecular biology. Springer, New York, 2017) called flattened\
+    \ bit vectors (fBV) with less space consumption and faster rank operations on\
+    \ strings, which is competitive in size and depending on the parameters between\
+    \ and faster than Wavelet Trees (Gog et al. in 13th International Symposium on\
+    \ Experimental Algorithms. Springer, New York, 2014).},\n author = {Simon G Gottlieb\
+    \ and Knut Reinert},\n journal = {Algorithms for Molecular Biology},\n month =\
+    \ {December},\n number = {21},\n title = {Engineering rank queries on bit vectors\
+    \ and strings},\n url = {http://publications.imp.fu-berlin.de/3312/},\n volume\
+    \ = {20 / 1},\n year = {2025}\n}\n"
+  creators:
+  - name:
+      family: Gottlieb
+      given: Simon G
+      honourific: null
+      lineage: null
+  - name:
+      family: Reinert
+      given: Knut
+      honourific: null
+      lineage: null
+  date: '2025-12-11'
+  date_type: published
+  datestamp: '2026-03-05 15:39:41'
+  dir: disk0/00/00/33/12
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3312
+  full_text_status: none
+  id_number: doi:10.1186/s13015-025-00291-9
+  ispublished: pub
+  issn: 1748-7188
+  key: fu_mi_publications3312
+  lastmod: '2026-03-05 15:39:41'
+  metadata_visibility: show
+  number: 21
+  official_url: https://link.springer.com/article/10.1186/s13015-025-00291-9
+  publication: Algorithms for Molecular Biology
+  refereed: 'TRUE'
+  rev_number: 6
+  status_changed: '2026-03-05 15:39:41'
+  subjects:
+  - G400
+  title: Engineering rank queries on bit vectors and strings
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3312
+  userid: 132
+  volume: 20 / 1
 - bibtex: "@article{fu_mi_publications332,\n author = {M. Bauer and G. W. Klau and\
     \ K. Reinert},\n journal = {BMC Bioinformatics},\n month = {July},\n number =\
     \ {1},\n pages = {271},\n title = {Accurate multiple sequence-structure alignment\
