@@ -11,6 +11,16 @@ $news-entry-sep: 1.5em !default;
 .site-logo {
     max-height: 44px;
     padding: 5px;
+
+    [data-theme="dark"] & {
+      filter: drop-shadow(0 0 2px var(--minima-link-hover-color));
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme]) & {
+        filter: drop-shadow(0 0 2px var(--minima-link-hover-color));
+      }
+    }
 }
 
 .site-header {
@@ -23,6 +33,38 @@ $news-entry-sep: 1.5em !default;
 
   @include media-query($on-palm) {
     position: static;
+  }
+}
+
+// ====== Theme Toggle Button ======
+.theme-toggle {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 8px 12px;
+  margin-left: 10px;
+  vertical-align: middle;
+  line-height: 1;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &:focus {
+    outline: 2px solid $seqan-color;
+    outline-offset: 2px;
+  }
+
+  .theme-toggle-icon {
+    display: inline-block;
+  }
+
+  @include media-query($on-palm) {
+    padding: 5px 8px;
+    margin-left: 5px;
   }
 }
 
@@ -130,11 +172,12 @@ main {
   top: calc(100vh - #{$back-to-top-height});
   opacity: 0.9;
 
-  color: white !important;
+  color: $site-footer-color !important;
   text-decoration: none !important;
   &:hover, &:focus
   {
     background-color: $seqan-color;
+    color: $text-color !important;
   }
 }
 
@@ -144,20 +187,22 @@ main {
   text-align: center;
 }
 .button, .button:visited, .button:hover {
-  color: black;
+  color: $text-color;
   text-decoration: none;
 }
 .button-lightgray {
-  border: 1px solid #eaeaea;
-  background: #eaeaea;
+  border: 1px solid $border-color-01;
+  background: $border-color-01;
 }
 .button-lightgray:hover {
   border: 1px solid $seqan-color;
   background: $seqan-color;
+  color: $text-color;
 }
 .button-lightgray:active, .button-lightgray:focus {
-  border: 1px solid #eaeaea;
+  border: 1px solid $border-color-01;
   background: $seqan-color;
+  color: $text-color;
 }
 
 
@@ -219,7 +264,6 @@ main {
     }
 }
 .heading-icon {
-  display: block;
   box-sizing: border-box;
 
   width: 100px;
@@ -230,15 +274,30 @@ main {
   border-radius: 50%;
   background: $seqan-color;
   transition: background-color .3s, color .3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .heading-icon img {
-  width: 50px;
-  // height: 100px;
-  // object-fit: contain;
-  // border-radius: 100px;
-  // padding: 5px;
-  box-sizing: border-box;
-  filter: invert(1);
+  object-fit: contain;
+  height: 70px;
+  width: 75px;
+
+  // Default and light mode
+  filter: invert(1) drop-shadow(1px 1px darken($lm-seqan-color, 10%) );
+
+  // Manual dark theme
+  [data-theme="dark"] & {
+    filter: invert(0) drop-shadow(1px 1px lighten($dm-seqan-color, 5%) );
+  }
+
+  // Auto dark theme (system preference)
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) & {
+      filter: invert(0) drop-shadow(1px 1px lighten($dm-seqan-color, 5%) );
+    }
+  }
 }
 .heading-body {
   padding: #{$spacing-unit * .5} #{$spacing-unit * .5} #{$spacing-unit * .5};
@@ -282,7 +341,7 @@ main {
 
 .news-header {
   font-size: 1.25em;
-  color: white;
+  color: $text-color;
 }
 .news-date-month-year {
   background: $seqan-color;
@@ -292,7 +351,7 @@ main {
   text-align: center;
 }
 .news-date-day {
-  color: white;
+  color: $text-color;
   font-size: 2.25em;
   font-weight: bold;
 
@@ -311,7 +370,7 @@ main {
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  background: rgb(254, 222, 9);
+  background: $seqan-color;
   position: absolute;
   z-index: -1;
   left: 0px;
@@ -384,13 +443,13 @@ details.person[open] {
 // ====== Publications Style ======
 
 .citation {
-    color: grey;
+    color: $brand-color;
 }
 
 // ====== Subpages Style ======
 
 .fig-caption{
-  color: grey;
+  color: $brand-color;
 }
 
 .figures {
@@ -402,16 +461,17 @@ details.person[open] {
 // ====== App-page Style ======
 
 .seqan-version-badge-2, .seqan-version-badge-3{
-  color: black;
   border-radius: 2px;
   font-size: 80%;
   padding: 2px;
 }
 .seqan-version-badge-2 {
+  color: #000;
   background-color: #FDFD96; // pastel yellow
   border: 1px solid darken(#FDFD96, 20%); // 20% darker color
 }
 .seqan-version-badge-3 {
+  color: #000;
   background-color: greenyellow;
   border: 1px solid darken(#C1E1C1, 20%); // 20% darker color
 }
