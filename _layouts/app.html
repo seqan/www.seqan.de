@@ -44,6 +44,7 @@ layout: base
     <p>For questions, comments, or suggestions please contact:</p>
     {% assign author = site.people | where:"name", page.contact | first %}
     {% if author %}
+      <a href="{{ '/people/#' | append: author.slug | relative_url }}" class="person-link">
       {% if author.avatar %}
         <img class="person-avatar" src="{{author.avatar | relative_url}}">
       {% else %}
@@ -51,8 +52,8 @@ layout: base
       {% endif %}
       <span class="person-name-position">
           <span class="person-name">{{ author.name }}</span>
-          <small class="person-position"><a href="mailto:{{author.social_links.email}}">{{author.social_links.email}}</a></small>
       </span>
+      </a>
     {% else %} <!-- if author is not present, just print the name and the dummy avatar. -->
       <img class="person-avatar" src="{{'assets/images/people/avatar_dummy.svg' | relative_url}}">
       <span class="person-name-position">

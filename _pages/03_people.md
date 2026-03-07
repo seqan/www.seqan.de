@@ -12,7 +12,7 @@ redirect_from:
 ## {{category}}
 {% for person in site.people %}
 {% if person.category == category %}
-<details class="person">
+<details class="person" id="{{ person.slug }}">
     <summary class="person-summary">
         {% if person.avatar %}
         <img class="person-avatar" src="{{person.avatar | relative_url}}">
@@ -58,3 +58,23 @@ redirect_from:
 We welcome contributions to SeqAn!
 Just write an email to one of our developers above or send an email to our
 [Mailing List](https://lists.fu-berlin.de/listinfo/seqan-dev#subscribe)
+
+<script>
+// Open the details element if navigating to a person via hash
+if (window.location.hash) {
+  const personDetails = document.querySelector(window.location.hash);
+  if (personDetails && personDetails.tagName === 'DETAILS') {
+    personDetails.open = true;
+    // Scroll with offset to account for fixed header (desktop only)
+    const isDesktop = window.matchMedia('(min-width: 768px)').matches;
+    const headerOffset = isDesktop ? 58 : 0;
+    const elementPosition = personDetails.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  }
+}
+</script>
