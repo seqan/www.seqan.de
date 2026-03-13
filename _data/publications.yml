@@ -16136,84 +16136,6 @@
   type: monograph
   uri: http://publications.imp.fu-berlin.de/id/eprint/329
   userid: 1
-- abstract: We consider a prototypical parabolic SPDE with finite-dimensional multiplicative
-    noise, which, subject to a nonnegative initial datum, has a unique nonnegative
-    solution. Inspired by well-established techniques in the deterministic case, we
-    introduce a finite element discretization of this SPDE that is convergent and
-    which, subject to a nonnegative initial datum and unconditionally with respect
-    to the spatial discretization parameter, preserves nonnegativity of the numerical
-    solution throughout the course of evolution. We perform a mathematical analysis
-    of this method. In addition, in the associated linear setting, we develop a fully
-    discrete scheme that also preserves nonnegativity, and we present numerical experiments
-    that illustrate the advantages of the proposed method over alternative finite
-    element and finite difference methods that were previously considered in the literature,
-    which do not necessarily guarantee nonnegativity of the numerical solution.
-  bibtex: "@unpublished{fu_mi_publications3294,\n abstract = {We consider a prototypical\
-    \ parabolic SPDE with finite-dimensional multiplicative noise, which, subject\
-    \ to a nonnegative initial datum, has a unique nonnegative solution. Inspired\
-    \ by well-established techniques in the deterministic case, we introduce a finite\
-    \ element discretization of this SPDE that is convergent and which, subject to\
-    \ a nonnegative initial datum and unconditionally with respect to the spatial\
-    \ discretization parameter, preserves nonnegativity of the numerical solution\
-    \ throughout the course of evolution. We perform a mathematical analysis of this\
-    \ method. In addition, in the associated linear setting, we develop a fully discrete\
-    \ scheme that also preserves nonnegativity, and we present numerical experiments\
-    \ that illustrate the advantages of the proposed method over alternative finite\
-    \ element and finite difference methods that were previously considered in the\
-    \ literature, which do not necessarily guarantee nonnegativity of the numerical\
-    \ solution.},\n author = {Ana Djurdjevac and Claude Le Bris and Endre S{\\\"u}li},\n\
-    \ journal = {Preprint arXiv},\n month = {February},\n title = {A nonnegativity-preserving\
-    \ finite element method for a class of parabolic SPDEs with multiplicative noise},\n\
-    \ url = {http://publications.imp.fu-berlin.de/3294/},\n year = {2025}\n}\n"
-  creators:
-  - name:
-      family: Djurdjevac
-      given: Ana
-      honourific: null
-      lineage: null
-  - name:
-      family: Le Bris
-      given: Claude
-      honourific: null
-      lineage: null
-  - name:
-      family: "S\xFCli"
-      given: Endre
-      honourific: null
-      lineage: null
-  date: '2025-02-24'
-  datestamp: '2025-10-29 13:18:12'
-  dir: disk0/00/00/32/94
-  divisions:
-  - group_algbioinf
-  eprint_status: archive
-  eprintid: 3294
-  full_text_status: none
-  funders:
-  - SFB1114
-  - DFG
-  ispublished: unpub
-  key: fu_mi_publications3294
-  lastmod: '2025-10-29 13:18:12'
-  metadata_visibility: show
-  official_url: https://doi.org/10.48550/arXiv.2502.16854
-  projects:
-  - sfb1114
-  - sfb1114::c
-  - sfb1114::c::10
-  publication: Preprint arXiv
-  refereed: 'FALSE'
-  rev_number: 9
-  status_changed: '2025-10-29 13:18:12'
-  subjects:
-  - G
-  - G100
-  - G120
-  title: A nonnegativity-preserving finite element method for a class of parabolic
-    SPDEs with multiplicative noise
-  type: article
-  uri: http://publications.imp.fu-berlin.de/id/eprint/3294
-  userid: 721
 - bibtex: "@inproceedings{fu_mi_publications330,\n author = {M. Bauer and G. W. Klau},\n\
     \ booktitle = {Proceedings of the 15th International Symposium, ISAAC 2004, Hong\
     \   Kong},\n pages = {113--125},\n publisher = {Springer Verlag},\n series = {LNCS\
@@ -16477,6 +16399,85 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/3312
   userid: 132
   volume: 20 / 1
+- abstract: Determining the optimal block size is crucial for achieving high throughput
+    in blockchain systems. Many studies have focused on tuning various components,
+    such as databases, network bandwidth, and consensus mechanisms. However, the impact
+    of block size on system performance remains a topic of debate, often resulting
+    in divergent views and even leading to new forks in blockchain networks. This
+    research proposes a mathematical model to maximize performance by determining
+    the ideal block size for Hyperledger Fabric, a prominent consortium blockchain.
+    By leveraging machine learning and solving the model with a genetic algorithm,
+    the proposed approach assesses how factors such as block size, transaction size,
+    and network capacity influence the block processing time. The integration of an
+    optimization solver enables precise adjustments to block size configuration before
+    deployment, ensuring improved performance from the outset. This systematic approach
+    aims to balance block processing efficiency, network latency, and system throughput,
+    offering a robust solution to improve blockchain performance across diverse business
+    contexts.
+  bibtex: "@article{fu_mi_publications3313,\n abstract = {Determining the optimal\
+    \ block size is crucial for achieving high throughput in blockchain systems. Many\
+    \ studies have focused on tuning various components, such as databases, network\
+    \ bandwidth, and consensus mechanisms. However, the impact of block size on system\
+    \ performance remains a topic of debate, often resulting in divergent views and\
+    \ even leading to new forks in blockchain networks. This research proposes a mathematical\
+    \ model to maximize performance by determining the ideal block size for Hyperledger\
+    \ Fabric, a prominent consortium blockchain. By leveraging machine learning and\
+    \ solving the model with a genetic algorithm, the proposed approach assesses how\
+    \ factors such as block size, transaction size, and network capacity influence\
+    \ the block processing time. The integration of an optimization solver enables\
+    \ precise adjustments to block size configuration before deployment, ensuring\
+    \ improved performance from the outset. This systematic approach aims to balance\
+    \ block processing efficiency, network latency, and system throughput, offering\
+    \ a robust solution to improve blockchain performance across diverse business\
+    \ contexts.},\n author = {Narges Dadkhah and Somayeh Mohammadi and Gerhard Wunder},\n\
+    \ journal = {2025 IEEE International Conference on Blockchain and Cryptocurrency\
+    \ (ICBC)},\n month = {August},\n pages = {1--3},\n publisher = {IEEE},\n title\
+    \ = {Tuning Block Size for Workload Optimization in Consortium Blockchain Networks},\n\
+    \ url = {http://publications.imp.fu-berlin.de/3313/},\n year = {2025}\n}\n"
+  creators:
+  - name:
+      family: Dadkhah
+      given: Narges
+      honourific: null
+      lineage: null
+  - name:
+      family: Mohammadi
+      given: Somayeh
+      honourific: null
+      lineage: null
+  - name:
+      family: Wunder
+      given: Gerhard
+      honourific: null
+      lineage: null
+  date: '2025-08-14'
+  date_type: published
+  datestamp: '2026-03-09 14:47:45'
+  dir: disk0/00/00/33/13
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3313
+  full_text_status: none
+  id_number: 'DOI: 10.1109/ICBC64466.2025.11114510'
+  ispublished: pub
+  key: fu_mi_publications3313
+  lastmod: '2026-03-09 14:47:45'
+  metadata_visibility: show
+  official_url: https://ieeexplore.ieee.org/document/11114510/
+  pagerange: 1-3
+  publication: 2025 IEEE International Conference on Blockchain and Cryptocurrency
+    (ICBC)
+  publisher: IEEE
+  refereed: 'FALSE'
+  rev_number: 5
+  status_changed: '2026-03-09 14:47:45'
+  subjects:
+  - G400
+  title: Tuning Block Size for Workload Optimization in Consortium Blockchain Networks
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3313
+  userid: 132
 - bibtex: "@article{fu_mi_publications332,\n author = {M. Bauer and G. W. Klau and\
     \ K. Reinert},\n journal = {BMC Bioinformatics},\n month = {July},\n number =\
     \ {1},\n pages = {271},\n title = {Accurate multiple sequence-structure alignment\
