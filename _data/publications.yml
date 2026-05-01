@@ -16478,6 +16478,179 @@
   type: article
   uri: http://publications.imp.fu-berlin.de/id/eprint/3313
   userid: 132
+- abstract: "Recent trends within computational and data sciences show an increasing\
+    \ recognition and adoption of computational workflows as tools for productivity\
+    \ and reproducibility that also democratize access to platforms and processing\
+    \ know-how. As digital objects to be shared, discovered, and reused, computational\
+    \ workflows benefit from the FAIR principles, which stand for Findable, Accessible,\
+    \ Interoperable, and Reusable. The Workflows Community Initiative\u2019s FAIR\
+    \ Workflows Working Group (WCI-FW), a global and open community of researchers\
+    \ and developers working with computational workflows across disciplines and domains,\
+    \ has systematically addressed the application of both FAIR data and software\
+    \ principles to computational workflows. We present recommendations with commentary\
+    \ that reflects our discussions and justifies our choices and adaptations. These\
+    \ are offered to workflow users and authors, workflow management system developers,\
+    \ and providers of workflow services as guidelines for adoption and fodder for\
+    \ discussion. The FAIR recommendations for workflows that we propose in this paper\
+    \ will maximize their value as research assets and facilitate their adoption by\
+    \ the wider community."
+  bibtex: "@article{fu_mi_publications3314,\n abstract = {Recent trends within computational\
+    \ and data sciences show an increasing recognition and adoption of computational\
+    \ workflows as tools for productivity and reproducibility that also democratize\
+    \ access to platforms and processing know-how. As digital objects to be shared,\
+    \ discovered, and reused, computational workflows benefit from the FAIR principles,\
+    \ which stand for Findable, Accessible, Interoperable, and Reusable. The Workflows\
+    \ Community Initiative?s FAIR Workflows Working Group (WCI-FW), a global and open\
+    \ community of researchers and developers working with computational workflows\
+    \ across disciplines and domains, has systematically addressed the application\
+    \ of both FAIR data and software principles to computational workflows. We present\
+    \ recommendations with commentary that reflects our discussions and justifies\
+    \ our choices and adaptations. These are offered to workflow users and authors,\
+    \ workflow management system developers, and providers of workflow services as\
+    \ guidelines for adoption and fodder for discussion. The FAIR recommendations\
+    \ for workflows that we propose in this paper will maximize their value as research\
+    \ assets and facilitate their adoption by the wider community.},\n author = {Sean\
+    \ R. Wilkinson and Meznah Aloqalaa and Khalid Belhajjame and Michael R. Crusoe\
+    \ and ... et al.},\n journal = {Scientific Data},\n month = {February},\n publisher\
+    \ = {Nature Publ. Group, London},\n title = {Applying the FAIR Principles to computational\
+    \ workflows},\n url = {http://publications.imp.fu-berlin.de/3314/},\n volume =\
+    \ {12},\n year = {2025}\n}\n"
+  creators:
+  - name:
+      family: Wilkinson
+      given: Sean R.
+      honourific: null
+      lineage: null
+  - name:
+      family: Aloqalaa
+      given: Meznah
+      honourific: null
+      lineage: null
+  - name:
+      family: Belhajjame
+      given: Khalid
+      honourific: null
+      lineage: null
+  - name:
+      family: Crusoe
+      given: Michael R.
+      honourific: null
+      lineage: null
+  - name:
+      family: et al.
+      given: '...'
+      honourific: null
+      lineage: null
+  date: '2025-02-24'
+  date_type: published
+  datestamp: '2026-04-27 13:53:32'
+  dir: disk0/00/00/33/14
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3314
+  full_text_status: none
+  id_number: 'doi: 10.1038/s41597-025-04451-9'
+  ispublished: pub
+  issn: 2052-4463
+  key: fu_mi_publications3314
+  lastmod: '2026-04-27 13:56:01'
+  metadata_visibility: show
+  official_url: https://www.nature.com/articles/s41597-025-04451-9
+  publication: Scientific Data
+  publisher: Nature Publ. Group, London
+  refereed: 'TRUE'
+  rev_number: 11
+  status_changed: '2026-04-27 13:56:01'
+  subjects:
+  - G400
+  title: Applying the FAIR Principles to computational workflows
+  type: article
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3314
+  userid: 132
+  volume: 12
+- bibtex: "@inproceedings{fu_mi_publications3315,\n author = {Daniel Arend and Daniel\
+    \ Bauer and Sebastian Beier and Marco Brandizi and Dominik Brilhaus and Eli Chadwick\
+    \ and Vera Clemens and Michael R. Crusoe and ... et al.},\n booktitle = {BioHackrXiv;\
+    \ BioHackathon Europe},\n month = {January},\n title = {BioHackEU24 report: Creating\
+    \ user benefit from ARC-ISA RO-Crate machine-actionability \\& Increasing FAIRness\
+    \ of digital agrosystem resources by extending Bioschemas},\n url = {http://publications.imp.fu-berlin.de/3315/},\n\
+    \ year = {2025}\n}\n"
+  creators:
+  - name:
+      family: Arend
+      given: Daniel
+      honourific: null
+      lineage: null
+  - name:
+      family: Bauer
+      given: Daniel
+      honourific: null
+      lineage: null
+  - name:
+      family: Beier
+      given: Sebastian
+      honourific: null
+      lineage: null
+  - name:
+      family: Brandizi
+      given: Marco
+      honourific: null
+      lineage: null
+  - name:
+      family: Brilhaus
+      given: Dominik
+      honourific: null
+      lineage: null
+  - name:
+      family: Chadwick
+      given: Eli
+      honourific: null
+      lineage: null
+  - name:
+      family: Clemens
+      given: Vera
+      honourific: null
+      lineage: null
+  - name:
+      family: Crusoe
+      given: Michael R.
+      honourific: null
+      lineage: null
+  - name:
+      family: et al.
+      given: '...'
+      honourific: null
+      lineage: null
+  date: '2025-01-31'
+  date_type: published
+  datestamp: '2026-04-27 14:29:30'
+  dir: disk0/00/00/33/15
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 3315
+  event_dates: annual event
+  event_location: in various places
+  event_title: BioHackrXiv; BioHackathon Europe
+  event_type: other
+  full_text_status: none
+  ispublished: pub
+  key: fu_mi_publications3315
+  lastmod: '2026-04-27 14:36:50'
+  metadata_visibility: show
+  official_url: http://doi.org/10.37044/osf.io/x9d6b_v1
+  pres_type: other
+  refereed: 'FALSE'
+  rev_number: 15
+  status_changed: '2026-04-27 14:33:56'
+  subjects:
+  - G400
+  title: 'BioHackEU24 report: Creating user benefit from ARC-ISA RO-Crate machine-actionability
+    & Increasing FAIRness of digital agrosystem resources by extending Bioschemas'
+  type: conference_item
+  uri: http://publications.imp.fu-berlin.de/id/eprint/3315
+  userid: 132
 - bibtex: "@article{fu_mi_publications332,\n author = {M. Bauer and G. W. Klau and\
     \ K. Reinert},\n journal = {BMC Bioinformatics},\n month = {July},\n number =\
     \ {1},\n pages = {271},\n title = {Accurate multiple sequence-structure alignment\
