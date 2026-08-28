@@ -22,3 +22,5 @@ Algorithmische Bioinformatik
 * Phone: +49 (0)30 838-75237
 * Email: [support@seqan.de](mailto:support@seqan.de)
 * Web: [www.seqan.de](https://www.seqan.de)
+
+{% include denbi_survey.html %}

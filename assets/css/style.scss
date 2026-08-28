@@ -216,6 +216,36 @@ main {
   display: block;
 }
 
+// ====== de.NBI Survey ======
+.denbi-survey {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: #{$spacing-unit * .5};
+
+  box-sizing: border-box;
+  margin-bottom: $spacing-unit;
+  padding: #{$spacing-unit * .5};
+  border: 1px solid $border-color-01;
+  border-left: 4px solid $seqan-color;
+}
+.denbi-survey-text {
+  flex: 1 1 260px;
+  margin-bottom: 0;
+}
+.denbi-survey-button {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+@include media-query($on-palm) {
+  .denbi-survey-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
 // ====== Heading ======
 .heading-entries {
   display: flex;
