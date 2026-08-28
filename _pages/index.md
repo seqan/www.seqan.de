@@ -64,3 +64,5 @@ developer and user meetings and providing online training materials.
 Learn more about the [CIBI](https://www.denbi.de/network/center-for-integrative-bioinformatics-cibi) center and its
 [portfolio](https://www.denbi.de/network/center-for-integrative-bioinformatics-cibi/21-about/508-portfolio-of-center-for-integrative-bioinformatics-cibi)
 to find the best solution for your data and your type of project.
+
+{% include denbi_survey.html %}
