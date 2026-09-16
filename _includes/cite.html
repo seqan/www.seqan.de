@@ -35,9 +35,12 @@
     .
     <details>
         <summary class="citation">cite this publication</summary>
-        {% highlight bibtex -%}
-        {{ cite.bibtex | strip }}
-        {%- endhighlight %}
+        <div class="bibtex">
+            <button type="button" class="copy-bibtex" title="Copy BibTeX to clipboard" aria-live="polite">Copy</button>
+            {% highlight bibtex -%}
+            {{ cite.bibtex | strip }}
+            {%- endhighlight %}
+        </div>
     </details>
 {%- else -%}
 ERROR: no citation found
