@@ -1,17 +1,23 @@
-# SPDX-FileCopyrightText: 2006-2024 Knut Reinert & Freie Universität Berlin
-# SPDX-FileCopyrightText: 2016-2024 Knut Reinert & MPI für molekulare Genetik
+# SPDX-FileCopyrightText: 2006-2026 Knut Reinert & Freie Universität Berlin
+# SPDX-FileCopyrightText: 2016-2026 Knut Reinert & MPI für molekulare Genetik
 # SPDX-License-Identifier: CC0-1.0
+
+# Builds the website of a PR as a preview. Runs PR code, therefore only `pull_request`: read-only GITHUB_TOKEN, no
+# secrets. docs_preview.yml (from the default branch) publishes the result at
+# https://seqan.github.io/docs-preview/seqan/www.seqan.de/<pr>/ and deletes it when the PR is closed.
 
 name: Preview
 
 on:
-  pull_request_target:
-    types: [opened, synchronize, reopened, closed]
+  pull_request:
   workflow_dispatch:
 
 concurrency:
-  group: documentation-${{ github.event.pull_request.number }}
+  group: preview-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
+
+permissions:
+  contents: read
 
 env:
   TZ: Europe/Berlin
@@ -22,9 +28,9 @@ defaults:
 
 jobs:
   build:
-    name: Deploy
+    name: Build
     runs-on: ubuntu-latest
-    if: ( github.repository_owner == 'seqan' || github.event_name == 'workflow_dispatch' ) && github.event.action != 'closed'
+    if: github.repository_owner == 'seqan' || github.event_name == 'workflow_dispatch'
     container:
       image: docker.io/debian:bookworm
       volumes:
@@ -36,37 +42,24 @@ jobs:
           apt-get install --yes git gh wget curl ruby-full build-essential zlib1g-dev
           gem install bundler
 
-      # pull_request_target does not checkout the merge commit by default
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          ref: "refs/pull/${{ github.event.number }}/merge"
-          allow-unsafe-pr-checkout: true
+          persist-credentials: false
 
+      # The site is served below the preview's path on seqan.github.io.
       - name: Build
+        env:
+          BASEURL: docs-preview/${{ github.repository }}/${{ github.event.pull_request.number }}
         run: |
           bundle install --retry=20
-          bundle exec jekyll build --baseurl preview/${{ github.event.pull_request.base.repo.full_name }}/${{ github.event.pull_request.number }}
+          bundle exec jekyll build --baseurl "${BASEURL}"
 
-      - name: Deploy Preview
-        uses: seqan/actions/documentation_deploy_preview@main
+      # For docs_preview.yml, which expects this artifact name.
+      - name: Upload preview
+        uses: actions/upload-artifact@v7
         with:
-          deploy_host: ${{ secrets.DEPLOY_HOST }}
-          deploy_user: ${{ secrets.DEPLOY_USER }}
-          deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
-          deploy_base_path: ${{ secrets.DEPLOY_PREVIEW_BASE_PATH }}
-          source_path_user_doc: _site
-          token: ${{ secrets.SEQAN_ACTIONS_PAT }}
-
-  delete:
-      name: Delete Preview
-      runs-on: ubuntu-latest
-      if: github.repository_owner == 'seqan' && github.event.action == 'closed'
-      steps:
-      - name: Delete Preview
-        uses: seqan/actions/documentation_delete_preview@main
-        with:
-          deploy_host: ${{ secrets.DEPLOY_HOST }}
-          deploy_user: ${{ secrets.DEPLOY_USER }}
-          deploy_ssh_key: ${{ secrets.DEPLOY_SSH_KEY }}
-          deploy_base_path: ${{ secrets.DEPLOY_PREVIEW_BASE_PATH }}
+          name: documentation
+          path: _site/
+          retention-days: 7
+          if-no-files-found: error
